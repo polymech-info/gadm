@@ -5,6 +5,9 @@
 #include "logger/logger.h"
 #include "names_search.h"
 #include "neighbors.h"
+#include "safety/http_input.hpp"
+#include "safety/path_sanitizer.hpp"
+#include "safety/string_utils.hpp"
 
 #include <httplib.h>
 #include <nlohmann/json.hpp>
@@ -72,9 +75,11 @@ int run_serve(const ServeOptions& opts) {
     svr.Get("/v1/regions/hierarchy", [&](const httplib::Request& req, httplib::Response& res) {
         const double lat = parse_double_query(req, "lat", NAN);
         const double lon = parse_double_query(req, "lon", NAN);
-        if (!std::isfinite(lat) || !std::isfinite(lon)) {
+        if (!std::isfinite(lat) || !std::isfinite(lon) || lat < -90 || lat > 90 || lon < -180 ||
+            lon > 180) {
             res.status = 400;
-            res.set_content(json({{"error", "lat and lon are required"}}).dump(), "application/json");
+            res.set_content(json({{"error", "lat and lon are required (finite, in range)"}}).dump(),
+                            "application/json");
             return;
         }
         try {
@@ -101,8 +106,23 @@ int run_serve(const ServeOptions& opts) {
             return;
         }
         const std::string query = req.get_param_value("query");
+        if (!gadm::http_input::is_safe_search_query(query)) {
+            res.status = 400;
+            res.set_content(json({{"error", "invalid query"}}).dump(), "application/json");
+            return;
+        }
         const int content_level = parse_int_query(req, "content_level", -1);
+        if (content_level < -1 || content_level > 5) {
+            res.status = 400;
+            res.set_content(json({{"error", "content_level out of range"}}).dump(), "application/json");
+            return;
+        }
         const std::string country = req.has_param("country") ? req.get_param_value("country") : "";
+        if (!gadm::http_input::is_country_code(country)) {
+            res.status = 400;
+            res.set_content(json({{"error", "invalid country"}}).dump(), "application/json");
+            return;
+        }
         try {
             json out = gadm_names::search_regions(gpkg, query, content_level, country);
             if (out.contains("error")) {
@@ -125,7 +145,17 @@ int run_serve(const ServeOptions& opts) {
             return;
         }
         const std::string admin = req.get_param_value("admin");
+        if (!gadm::http_input::is_gadm_gid(admin)) {
+            res.status = 400;
+            res.set_content(json({{"error", "invalid admin gid"}}).dump(), "application/json");
+            return;
+        }
         const int content_level = parse_int_query(req, "content_level", -1);
+        if (content_level < -1 || content_level > 5) {
+            res.status = 400;
+            res.set_content(json({{"error", "content_level out of range"}}).dump(), "application/json");
+            return;
+        }
         int depth = 1;
         if (req.has_param("depth")) {
             const std::string d = req.get_param_value("depth");
@@ -134,6 +164,8 @@ int run_serve(const ServeOptions& opts) {
                 try { depth = std::stoi(d); } catch (...) { depth = 1; }
             }
         }
+        if (depth < 1) depth = 1;
+        if (depth > 5) depth = 5;
         try {
             json out = gadm_names::region_names(gpkg, admin, content_level, depth);
             if (out.contains("error")) {
@@ -151,10 +183,20 @@ int run_serve(const ServeOptions& opts) {
 
     svr.Get(R"(/v1/regions/boundary/([^/]+))", [&](const httplib::Request& req, httplib::Response& res) {
         const std::string gid = req.matches[1];
+        if (!gadm::http_input::is_gadm_gid(gid)) {
+            res.status = 400;
+            res.set_content(json({{"error", "invalid gid"}}).dump(), "application/json");
+            return;
+        }
         int level = parse_int_query(req, "level", -1);
         if (level < 0) {
             // Infer from GID dots: ESP → 0, ESP.6_1 → 1
             level = static_cast<int>(std::count(gid.begin(), gid.end(), '.'));
+        }
+        if (level < 0 || level > 5) {
+            res.status = 400;
+            res.set_content(json({{"error", "level out of range"}}).dump(), "application/json");
+            return;
         }
         const bool want_map =
             !req.has_param("map") || req.get_param_value("map") == "1" ||
@@ -178,6 +220,7 @@ int run_serve(const ServeOptions& opts) {
         }
 
         res.set_header("Cache-Control", "public, max-age=86400");
+        // Filename only — never echo full paths to clients.
         res.set_header("X-Gadm-Cache-File", path->filename().string());
         res.set_content(std::move(body), "application/json");
     });
@@ -188,10 +231,16 @@ int run_serve(const ServeOptions& opts) {
             res.set_content(json({{"error", "gid is required"}}).dump(), "application/json");
             return;
         }
+        const std::string gid = req.get_param_value("gid");
+        if (!gadm::http_input::is_gadm_gid(gid)) {
+            res.status = 400;
+            res.set_content(json({{"error", "invalid gid"}}).dump(), "application/json");
+            return;
+        }
         gadm_neighbors::Options nopts;
         nopts.gpkg_path = gpkg;
         nopts.cache_dir = cache_dir.string();
-        nopts.gid = req.get_param_value("gid");
+        nopts.gid = gid;
         nopts.level = parse_int_query(req, "level", -1);
         try {
             json out = gadm_neighbors::get_neighbors(nopts);
@@ -223,6 +272,12 @@ int run_serve(const ServeOptions& opts) {
                             "application/json");
             return;
         }
+        if (minLng < -180 || maxLng > 180 || minLat < -90 || maxLat > 90 || minLng > maxLng ||
+            minLat > maxLat) {
+            res.status = 400;
+            res.set_content(json({{"error", "bbox out of range"}}).dump(), "application/json");
+            return;
+        }
 
         try {
             auto hits = gpkg_reader::query_unique_gids_in_bbox(
@@ -239,11 +294,46 @@ int run_serve(const ServeOptions& opts) {
         }
     });
 
-    // Optional static mount of cache tree (dev / direct MapLibre)
-    const std::string mount = cache_dir.string();
-    if (!svr.set_mount_point("/cache", mount)) {
-        logger::warn("http serve: could not mount /cache at " + mount);
-    }
+    // Safe cache file serve — never use raw set_mount_point (path traversal risk).
+    svr.Get(R"(/cache/(.*))", [&](const httplib::Request& req, httplib::Response& res) {
+        const std::string rel = req.matches.size() > 1 ? std::string(req.matches[1]) : std::string();
+        if (rel.size() > gadm::http_input::kMaxCacheRelPathBytes) {
+            res.status = 400;
+            res.set_content(json({{"error", "path too long"}}).dump(), "application/json");
+            return;
+        }
+        std::string err;
+        fs::path resolved = gadm::path::resolve_under_root(cache_dir, rel, err);
+        if (resolved.empty() || !err.empty()) {
+            res.status = 403;
+            res.set_content(json({{"error", err.empty() ? "forbidden" : err}}).dump(),
+                            "application/json");
+            return;
+        }
+        std::error_code ec;
+        if (!fs::is_regular_file(resolved, ec) || ec) {
+            res.status = 404;
+            res.set_content(json({{"error", "not found"}}).dump(), "application/json");
+            return;
+        }
+        // Cap file size to avoid DoS via huge accidental dumps.
+        const auto sz = fs::file_size(resolved, ec);
+        if (ec || sz == 0 || sz > 64ull * 1024ull * 1024ull) {
+            res.status = 413;
+            res.set_content(json({{"error", "file too large or empty"}}).dump(), "application/json");
+            return;
+        }
+        std::string body = read_file_bytes(resolved);
+        if (body.empty()) {
+            res.status = 500;
+            res.set_content(json({{"error", "read failed"}}).dump(), "application/json");
+            return;
+        }
+        const auto ext = gadm::strutil::lower_ascii(resolved.extension().string());
+        const char* ctype = (ext == ".json") ? "application/json" : "application/octet-stream";
+        res.set_header("Cache-Control", "public, max-age=3600");
+        res.set_content(std::move(body), ctype);
+    });
 
     logger::info("gadm-http listening on http://" + opts.host + ":" + std::to_string(opts.port) +
                  " cache=" + cache_dir.string());

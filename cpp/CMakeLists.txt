@@ -51,6 +51,8 @@ set(GADM_LIB_SOURCES
     src/cache_paths.cpp
     src/neighbors.cpp
     src/names_search.cpp
+    src/safety/path_sanitizer.cpp
+    src/safety/http_input.cpp
 )
 
 set(GADM_PUBLIC_HEADERS
@@ -63,6 +65,9 @@ set(GADM_PUBLIC_HEADERS
     src/names_search.h
     src/pip.h
     src/types.h
+    src/safety/string_utils.hpp
+    src/safety/path_sanitizer.hpp
+    src/safety/http_input.hpp
 )
 
 set(GADM_LIB_DEPS

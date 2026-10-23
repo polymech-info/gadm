@@ -1,5 +1,8 @@
 #include "cache_paths.h"
 
+#include "safety/http_input.hpp"
+#include "safety/path_sanitizer.hpp"
+
 #include <algorithm>
 
 namespace gadm_cache {
@@ -22,12 +25,17 @@ std::optional<fs::path> resolve_boundary_cache_file(
     bool want_map
 ) {
     if (gid.empty() || level < 0 || level > 5) return std::nullopt;
+    // GID is concatenated into filenames — reject traversal / separators first.
+    if (!gadm::http_input::is_gadm_gid(gid)) return std::nullopt;
 
     const std::string cc = country_code_from_gid(gid);
+    if (!gadm::path::is_safe_path_component(cc)) return std::nullopt;
+
     const std::string lvl = std::to_string(level);
     const fs::path country_dir = cache_dir / cc;
 
     auto try_path = [&](const fs::path& p) -> std::optional<fs::path> {
+        if (!gadm::path::is_path_inside_root(cache_dir, p)) return std::nullopt;
         if (usable(p)) return p;
         return std::nullopt;
     };

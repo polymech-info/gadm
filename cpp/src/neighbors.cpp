@@ -2,6 +2,8 @@
 
 #include "cache_paths.h"
 #include "gpkg_reader.h"
+#include "safety/http_input.hpp"
+#include "safety/path_sanitizer.hpp"
 
 #include <ogr_api.h>
 #include <cpl_conv.h>
@@ -92,12 +94,16 @@ json get_neighbors(const Options& opts) {
     while (!gid.empty() && (gid.front() == ' ' || gid.front() == '\t')) gid.erase(gid.begin());
     while (!gid.empty() && (gid.back() == ' ' || gid.back() == '\t')) gid.pop_back();
     if (gid.empty()) return json{{"error", "gid is required"}};
+    if (!gadm::http_input::is_gadm_gid(gid)) return json{{"error", "invalid gid"}};
 
     int level = opts.level >= 0 ? opts.level : level_from_gid(gid);
     if (level < 0 || level > 5) return json{{"error", "level must be 0–5"}};
 
     const fs::path cache_dir = fs::absolute(opts.cache_dir);
     const fs::path npath = neighbors_cache_path(cache_dir, gid, level);
+    if (!gadm::path::is_path_inside_root(cache_dir, npath)) {
+        return json{{"error", "invalid cache path"}};
+    }
     {
         std::string cached = read_text(npath);
         if (!cached.empty()) {

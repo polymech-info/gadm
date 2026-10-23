@@ -31,7 +31,7 @@
         "configure:cpp": "node cpp/scripts/cmake.mjs --preset release",
         "build:cpp": "node cpp/scripts/cmake.mjs --preset release && node cpp/scripts/ninja.mjs --preset release --target boundaries",
         "build:cpp:fast": "node cpp/scripts/ninja.mjs --preset release --target boundaries",
-        "build:cpp:tests": "node cpp/scripts/ninja.mjs --preset release --target test_geo_display",
+        "build:cpp:tests": "node cpp/scripts/ninja.mjs --preset release --target test_geo_display test_safety",
         "dev": "tsc -w",
         "tests": "vitest run",
         "test:boundaries": "vitest run src/__tests__/boundary.test.ts",

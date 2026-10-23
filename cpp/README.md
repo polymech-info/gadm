@@ -72,7 +72,11 @@ npm run stress:gadm-http -- --base http://127.0.0.1:3340 --levels 1,5,10,25
 | `GET /v1/regions/hierarchy?lat=&lon=` | PIP stack L0…Ln `{data:[{level,gid,gadmName}]}` |
 | `GET /v1/regions/search?query=&content_level=&country=` | name/GID metadata rows from gpkg |
 | `GET /v1/regions/names?admin=&content_level=&depth=` | child NAME/GID rows under admin |
-| `GET /cache/...` | static mount of `--cache-dir` |
+| `GET /cache/...` | sanitized file serve under `--cache-dir` (no raw mount; traversal rejected) |
+
+### HTTP safety
+
+Ported from pixlwiz (`string_utils.hpp` + `path_sanitizer`): GID/UUID/query validators, `sanitize_subpath` / `resolve_under_root`, root confinement on boundary + `/cache` reads. Unit tests: `test_safety` (`[safety][security]`).
 
 Gridsearch list/summary REST lives on the **polymech-cli worker** (`--uds` + `--http`), not here:
 `GET /v1/places/gridsearch/summary?userId=` (slim PG list). Node uses `GRIDSEARCH_HTTP_URL` or the co-hosted port (`udsPort+10000`).

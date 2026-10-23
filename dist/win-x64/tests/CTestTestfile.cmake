@@ -6,4 +6,5 @@
 # testing this directory and lists subdirectories to be tested as well.
 include("C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/tests/test_pip-b12d07c_include.cmake")
 include("C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/tests/test_geo_display-b12d07c_include.cmake")
+include("C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/tests/test_safety-b12d07c_include.cmake")
 subdirs("../_deps/catch2-build")

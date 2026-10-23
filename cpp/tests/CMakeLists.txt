@@ -26,3 +26,12 @@ target_link_libraries(test_geo_display PRIVATE
     Catch2::Catch2WithMain
 )
 catch_discover_tests(test_geo_display)
+
+# Unit: path / GID / UUID safety (proxy hardening)
+add_executable(test_safety unit/test_safety.cpp)
+target_include_directories(test_safety PRIVATE ${CMAKE_SOURCE_DIR}/src)
+target_link_libraries(test_safety PRIVATE
+    gadm_boundaries_static
+    Catch2::Catch2WithMain
+)
+catch_discover_tests(test_safety)
