@@ -46,4 +46,19 @@ describe('simplify-map display clean', () => {
         expect((fc as any)._mapPaint).toBe(true);
         expect(fc.features).toHaveLength(1);
     });
+
+    it('prepareBoundaryForMap is a no-op when _mapPaint is set', () => {
+        const geom = {
+            type: 'Polygon' as const,
+            coordinates: [[[0, 0], [1, 0], [1, 1], [0, 1], [0, 0]]],
+        };
+        const input = {
+            type: 'FeatureCollection' as const,
+            features: [{ type: 'Feature' as const, properties: { keep: 1 }, geometry: geom }],
+            _mapPaint: true,
+        };
+        const out = prepareBoundaryForMap(input);
+        expect(out.features[0].geometry).toBe(geom);
+        expect((out as any)._mapPaint).toBe(true);
+    });
 });

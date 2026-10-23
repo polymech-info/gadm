@@ -47,10 +47,16 @@ export declare function dropSmallOuterIslands(geometry: GeoJSON.Geometry | null 
 export declare function smoothCoastRing(ring: Ring, opts?: CoastSmoothOpts): Ring;
 export declare function smoothCoastGeometry(geometry: GeoJSON.Geometry, opts?: CoastSmoothOpts): GeoJSON.Geometry;
 export declare function stripInteriorRings(geometry: GeoJSON.Geometry | null | undefined): GeoJSON.Geometry | null;
+/** True when FC was already display-cleaned (server or client). */
+export declare function isMapPaintReady(input: GeoJSON.FeatureCollection | {
+    features?: GeoJSON.Feature[];
+    _mapPaint?: boolean;
+} | null | undefined): boolean;
 /** Map / cache FeatureCollection: hole strip + small-island drop + coast smooth. */
 export declare function prepareBoundaryForMap(input: GeoJSON.FeatureCollection | {
     type?: string;
     features?: GeoJSON.Feature[];
+    _mapPaint?: boolean;
 }, opts?: MapSimplifyOpts): GeoJSON.FeatureCollection;
 /** @deprecated Prefer prepareBoundaryForMap */
 export declare function simplifyBoundaryForMap(input: GeoJSON.FeatureCollection | {

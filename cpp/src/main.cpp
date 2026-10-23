@@ -14,6 +14,7 @@
 #include "geo_merge.h"
 #include "ghs_enrich.h"
 #include "gpkg_reader.h"
+#include "http_serve.h"
 #include "logger/logger.h"
 #include "types.h"
 
@@ -84,7 +85,49 @@ int main(int argc, char *argv[]) {
       ->default_val(std::vector<int>{0})
       ->delimiter(',');
 
+  // ── serve (HTTP geom + file) — thin shell over gadm_boundaries lib ───────
+  auto *serve_cmd =
+      app.add_subcommand("serve", "HTTP server: boundary files + in-viewport (loopback)");
+  std::string serve_host = "127.0.0.1";
+  int serve_port = 3340;
+  // Bind paths on the subcommand (fallthrough is unreliable for required file opts).
+  serve_cmd->add_option("--host", serve_host, "Bind address")->default_val("127.0.0.1");
+  serve_cmd->add_option("--port", serve_port, "Bind port")->default_val(3340);
+  serve_cmd->add_option("--cache-dir", cache_dir, "Boundary JSON cache root")
+      ->default_val("cache/gadm");
+  serve_cmd->add_option("--gpkg", gpkg_path, "Path to GADM GeoPackage")
+      ->default_val("data/gadm_410.gpkg");
+
   CLI11_PARSE(app, argc, argv);
+
+  if (serve_cmd->parsed()) {
+    // Set PROJ_DATA next to exe (same as generate path)
+    {
+      auto exe_dir = fs::path(argv[0]).parent_path();
+      auto proj_db_local = exe_dir / "proj.db";
+      auto proj_share = exe_dir / "share" / "proj";
+      if (fs::exists(proj_db_local)) {
+#ifdef _WIN32
+        _putenv_s("PROJ_DATA", exe_dir.string().c_str());
+#else
+        setenv("PROJ_DATA", exe_dir.string().c_str(), 1);
+#endif
+      } else if (fs::exists(proj_share / "proj.db")) {
+#ifdef _WIN32
+        _putenv_s("PROJ_DATA", proj_share.string().c_str());
+#else
+        setenv("PROJ_DATA", proj_share.string().c_str(), 1);
+#endif
+      }
+    }
+    logger::init("gadm-http");
+    gadm_http::ServeOptions sopts;
+    sopts.host = serve_host;
+    sopts.port = serve_port;
+    sopts.cache_dir = cache_dir;
+    sopts.gpkg_path = gpkg_path;
+    return gadm_http::run_serve(sopts);
+  }
 
   // Always ensure split_levels includes 0 (country-wide output file).
   // User-provided --split-levels=1,2,3 means "also split into sub-regions",

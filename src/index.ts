@@ -21,7 +21,14 @@ export type {
 export { buildTree, walkDFS, walkBFS, walkLevel, leaves, findNode } from './tree.js';
 export type { GADMNode, GADMTree, BuildTreeOptions } from './tree.js';
 
-export { setGpkgPath, getBoundaryFromGpkg, getHierarchyByPoint, getHierarchyByPointFromCache, queryUniqueGidsInBbox } from './gpkg-reader.js';
+export {
+    setGpkgPath,
+    getBoundaryFromGpkg,
+    getHierarchyByPoint,
+    getHierarchyByPointFromCache,
+    queryUniqueGidsInBbox,
+    queryUniqueGidsInBboxAsync,
+} from './gpkg-reader.js';
 export type { BoundaryFeature, BoundaryResult, GadmPointResult } from './gpkg-reader.js';
 
 export { getNeighbors, levelFromGid, parentAdminGid } from './neighbors.js';
@@ -30,6 +37,7 @@ export type { NeighborsOptions, NeighborsResult, NeighborRegion } from './neighb
 export {
     simplifyBoundaryForMap,
     prepareBoundaryForMap,
+    isMapPaintReady,
     smoothCoastRing,
     smoothCoastGeometry,
     stripInteriorRings,

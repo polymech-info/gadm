@@ -12,6 +12,7 @@
     "types": "dist/index.d.ts",
     "files": [
         "dist/*.js",
+        "dist/*.mjs",
         "dist/*.d.ts",
         "package.json",
         "README.md"
@@ -44,8 +45,11 @@
         "boundaries:cpp:all": ".\\dist\\win-x64\\boundaries.exe --country=all",
         "boundaries:cpp:all:split": ".\\dist\\win-x64\\boundaries.exe --country=all --split-levels=0,1,2,3,4,5 --resolution=2",
         "boundaries:cpp:all:display": ".\\dist\\win-x64\\boundaries.exe --country=all --display-clean --min-outer-km=5 --resolution=3",
+        "boundaries:cpp:serve": ".\\dist\\win-x64\\boundaries.exe serve --host 127.0.0.1 --port 3340 --cache-dir cache/gadm --gpkg data/gadm_410.gpkg",
         "boundaries:cpp:linux": "./dist/linux-x64/boundaries",
         "boundaries:cpp:linux:all": "./dist/linux-x64/boundaries --country=all",
+        "boundaries:cpp:linux:serve": "./dist/linux-x64/boundaries serve --host 127.0.0.1 --port 3340 --cache-dir cache/gadm --gpkg data/gadm_410.gpkg",
+        "stress:gadm-http": "node scripts/stress-gadm-http.mjs --viewport",
         "refresh": "npx tsx scripts/refresh-database.ts",
         "migrate-cache": "npx tsx scripts/migrate-cache.ts",
         "smooth-coast-cache": "npx tsx scripts/smooth-coast-cache.ts",

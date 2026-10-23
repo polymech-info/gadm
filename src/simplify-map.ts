@@ -281,16 +281,33 @@ export function stripInteriorRings(geometry: GeoJSON.Geometry | null | undefined
     return geometry;
 }
 
+/** True when FC was already display-cleaned (server or client). */
+export function isMapPaintReady(
+    input: GeoJSON.FeatureCollection | { features?: GeoJSON.Feature[]; _mapPaint?: boolean } | null | undefined,
+): boolean {
+    return !!(input && (input as { _mapPaint?: boolean })._mapPaint === true);
+}
+
 /** Map / cache FeatureCollection: hole strip + small-island drop + coast smooth. */
 export function prepareBoundaryForMap(
-    input: GeoJSON.FeatureCollection | { type?: string; features?: GeoJSON.Feature[] },
+    input: GeoJSON.FeatureCollection | { type?: string; features?: GeoJSON.Feature[]; _mapPaint?: boolean },
     opts: MapSimplifyOpts = {},
 ): GeoJSON.FeatureCollection {
+    const featuresIn = Array.isArray(input?.features) ? input.features! : [];
+    // Critical: zoom/prefetch storms call simplify=map on already-baked caches.
+    // Re-running coast smooth on the main thread freezes Node (gridsearch/health hang).
+    if (isMapPaintReady(input)) {
+        return {
+            type: 'FeatureCollection',
+            features: featuresIn,
+            _mapPaint: true,
+        } as GeoJSON.FeatureCollection;
+    }
+
     const keepHoles = opts.keepHoles === true;
     const skipCoast = opts.skipCoastSmooth === true;
     const minOuterKm =
         typeof opts.minOuterWidthKm === 'number' ? opts.minOuterWidthKm : MIN_OUTER_ISLAND_WIDTH_KM;
-    const featuresIn = Array.isArray(input?.features) ? input.features! : [];
     const features: GeoJSON.Feature[] = [];
 
     for (const f of featuresIn) {

@@ -28,12 +28,20 @@ export interface GadmPointResult {
 }
 /**
  * Distinct GID/NAME at `level` whose leaf geometries overlap the given bbox (rtree).
- * Used as a fast candidate set for neighbor detection (esp. L0).
+ * Sync — blocks the event loop (prefer {@link queryUniqueGidsInBboxAsync} on HTTP paths).
  */
 export declare function queryUniqueGidsInBbox(bbox: [number, number, number, number], level: number): Array<{
     gid: string;
     name: string;
 }>;
+/**
+ * Same as {@link queryUniqueGidsInBbox} but runs in a worker thread so the
+ * HTTP event loop (gridsearch, health, pg) stays responsive while sqlite works.
+ */
+export declare function queryUniqueGidsInBboxAsync(bbox: [number, number, number, number], level: number): Promise<Array<{
+    gid: string;
+    name: string;
+}>>;
 /**
  * Perform a spatial query to find the exact GADM hierarchy containing a point.
  */

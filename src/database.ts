@@ -47,6 +47,8 @@ function readFile(): ArrayBuffer {
 // ---------- lazy cache ----------
 
 let _rows: GadmRow[] | null = null;
+/** In-flight load — prevents stampede when many callers hit getNames at once (e.g. gridsearch list). */
+let _loadPromise: Promise<GadmRow[]> | null = null;
 
 /** The data columns we care about (exclude pandas index) */
 const DATA_COLUMNS = [
@@ -60,26 +62,33 @@ const DATA_COLUMNS = [
  */
 export async function loadDatabase(): Promise<GadmRow[]> {
     if (_rows) return _rows;
+    if (_loadPromise) return _loadPromise;
 
-    const file = readFile();
+    _loadPromise = (async () => {
+        const file = readFile();
 
-    // parquetReadObjects returns proper keyed objects with decoded strings
-    const rawObjects = await parquetReadObjects({
-        file,
-        columns: DATA_COLUMNS,
-    }) as Record<string, any>[];
+        // parquetReadObjects returns proper keyed objects with decoded strings
+        const rawObjects = await parquetReadObjects({
+            file,
+            columns: DATA_COLUMNS,
+        }) as Record<string, any>[];
 
-    // Normalize all values to strings (empty string for null/undefined)
-    _rows = rawObjects.map(obj => {
-        const row: GadmRow = {};
-        for (const col of DATA_COLUMNS) {
-            const v = obj[col];
-            row[col] = v != null ? String(v) : '';
-        }
-        return row;
+        // Normalize all values to strings (empty string for null/undefined)
+        _rows = rawObjects.map(obj => {
+            const row: GadmRow = {};
+            for (const col of DATA_COLUMNS) {
+                const v = obj[col];
+                row[col] = v != null ? String(v) : '';
+            }
+            return row;
+        });
+
+        return _rows;
+    })().finally(() => {
+        _loadPromise = null;
     });
 
-    return _rows;
+    return _loadPromise;
 }
 
 /**
@@ -94,4 +103,5 @@ export function getColumns(): string[] {
  */
 export function resetCache(): void {
     _rows = null;
+    _loadPromise = null;
 }

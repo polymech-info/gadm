@@ -17,7 +17,7 @@ find_package(GEOS CONFIG REQUIRED)           # target: GEOS::geos_c
 find_package(PROJ CONFIG REQUIRED)           # target: PROJ::proj
 find_package(nlohmann_json CONFIG REQUIRED)  # target: nlohmann_json::nlohmann_json
 
-# CLI11 via FetchContent (lightweight, no vcpkg needed)
+# CLI11 + cpp-httplib via FetchContent (lightweight, no vcpkg needed)
 include(FetchContent)
 FetchContent_Declare(
     cli11
@@ -26,6 +26,14 @@ FetchContent_Declare(
     GIT_SHALLOW    TRUE
 )
 FetchContent_MakeAvailable(cli11)
+
+FetchContent_Declare(
+    httplib
+    GIT_REPOSITORY https://github.com/yhirose/cpp-httplib.git
+    GIT_TAG        v0.18.3
+    GIT_SHALLOW    TRUE
+)
+FetchContent_MakeAvailable(httplib)
 
 # ── OpenMP (optional, for country-level parallelism) ─────────────────────────
 find_package(OpenMP)
@@ -40,6 +48,9 @@ set(GADM_LIB_SOURCES
     src/geo_merge.cpp
     src/ghs_enrich.cpp
     src/geo_display.cpp
+    src/cache_paths.cpp
+    src/neighbors.cpp
+    src/names_search.cpp
 )
 
 set(GADM_PUBLIC_HEADERS
@@ -47,6 +58,9 @@ set(GADM_PUBLIC_HEADERS
     src/geo_merge.h
     src/ghs_enrich.h
     src/geo_display.h
+    src/cache_paths.h
+    src/neighbors.h
+    src/names_search.h
     src/pip.h
     src/types.h
 )
@@ -80,12 +94,19 @@ endif()
 # Export all symbols on Windows (no __declspec needed)
 set_target_properties(gadm_boundaries PROPERTIES WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
-# ── Executable (links against static lib) ────────────────────────────────────
-add_executable(boundaries src/main.cpp)
+# ── Executable (links against static lib + httplib for `serve`) ─────────────
+add_executable(boundaries
+    src/main.cpp
+    src/http_serve.cpp
+)
 target_link_libraries(boundaries PRIVATE
     gadm_boundaries_static
     CLI11::CLI11
+    httplib::httplib
 )
+if(WIN32)
+    target_link_libraries(boundaries PRIVATE ws2_32)
+endif()
 
 # ── Compiler warnings (all targets) ─────────────────────────────────────────
 set(_GADM_TARGETS boundaries gadm_boundaries_static gadm_boundaries)
@@ -137,6 +158,12 @@ add_custom_command(TARGET gadm_boundaries POST_BUILD
         "${CMAKE_SOURCE_DIR}/src/ghs_enrich.h"   "${DIST_DIR}/include/gadm/"
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
         "${CMAKE_SOURCE_DIR}/src/geo_display.h"  "${DIST_DIR}/include/gadm/"
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${CMAKE_SOURCE_DIR}/src/cache_paths.h"  "${DIST_DIR}/include/gadm/"
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${CMAKE_SOURCE_DIR}/src/neighbors.h"    "${DIST_DIR}/include/gadm/"
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        "${CMAKE_SOURCE_DIR}/src/names_search.h" "${DIST_DIR}/include/gadm/"
     COMMAND ${CMAKE_COMMAND} -E copy_if_different
         "${CMAKE_SOURCE_DIR}/src/pip.h"          "${DIST_DIR}/include/gadm/"
     COMMAND ${CMAKE_COMMAND} -E copy_if_different

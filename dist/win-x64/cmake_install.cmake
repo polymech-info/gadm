@@ -39,6 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/httplib-build/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/packages/logger/cmake_install.cmake")
 endif()
 

@@ -93,6 +93,39 @@ build CMakeFiles\gadm_boundaries_static.dir\src\geo_display.cpp.obj: CXX_COMPILE
   TARGET_PDB = gadm_boundaries_static.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\gadm_boundaries_static.dir
 
+build CMakeFiles\gadm_boundaries_static.dir\src\cache_paths.cpp.obj: CXX_COMPILER__gadm_boundaries_static_unscanned_Release C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src\cache_paths.cpp || cmake_object_order_depends_target_gadm_boundaries_static
+  CONFIG = Release
+  DEFINES = -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp
+  INCLUDES = -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-src\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\rapidjson-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include\geos -external:W0
+  OBJECT_DIR = CMakeFiles\gadm_boundaries_static.dir
+  OBJECT_FILE_DIR = CMakeFiles\gadm_boundaries_static.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\gadm_boundaries_static.dir\gadm_boundaries_static.pdb
+  TARGET_PDB = gadm_boundaries_static.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\gadm_boundaries_static.dir
+
+build CMakeFiles\gadm_boundaries_static.dir\src\neighbors.cpp.obj: CXX_COMPILER__gadm_boundaries_static_unscanned_Release C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src\neighbors.cpp || cmake_object_order_depends_target_gadm_boundaries_static
+  CONFIG = Release
+  DEFINES = -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp
+  INCLUDES = -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-src\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\rapidjson-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include\geos -external:W0
+  OBJECT_DIR = CMakeFiles\gadm_boundaries_static.dir
+  OBJECT_FILE_DIR = CMakeFiles\gadm_boundaries_static.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\gadm_boundaries_static.dir\gadm_boundaries_static.pdb
+  TARGET_PDB = gadm_boundaries_static.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\gadm_boundaries_static.dir
+
+build CMakeFiles\gadm_boundaries_static.dir\src\names_search.cpp.obj: CXX_COMPILER__gadm_boundaries_static_unscanned_Release C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src\names_search.cpp || cmake_object_order_depends_target_gadm_boundaries_static
+  CONFIG = Release
+  DEFINES = -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp
+  INCLUDES = -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-src\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\rapidjson-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include\geos -external:W0
+  OBJECT_DIR = CMakeFiles\gadm_boundaries_static.dir
+  OBJECT_FILE_DIR = CMakeFiles\gadm_boundaries_static.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\gadm_boundaries_static.dir\gadm_boundaries_static.pdb
+  TARGET_PDB = gadm_boundaries_static.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\gadm_boundaries_static.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target gadm_boundaries_static
@@ -101,7 +134,7 @@ build CMakeFiles\gadm_boundaries_static.dir\src\geo_display.cpp.obj: CXX_COMPILE
 #############################################
 # Link the static library gadm_boundaries_static.lib
 
-build gadm_boundaries_static.lib: CXX_STATIC_LIBRARY_LINKER__gadm_boundaries_static_Release CMakeFiles\gadm_boundaries_static.dir\src\gpkg_reader.cpp.obj CMakeFiles\gadm_boundaries_static.dir\src\geo_merge.cpp.obj CMakeFiles\gadm_boundaries_static.dir\src\ghs_enrich.cpp.obj CMakeFiles\gadm_boundaries_static.dir\src\geo_display.cpp.obj || _deps\spdlog-build\spdlog.lib packages\json\json.lib packages\logger\logger.lib
+build gadm_boundaries_static.lib: CXX_STATIC_LIBRARY_LINKER__gadm_boundaries_static_Release CMakeFiles\gadm_boundaries_static.dir\src\gpkg_reader.cpp.obj CMakeFiles\gadm_boundaries_static.dir\src\geo_merge.cpp.obj CMakeFiles\gadm_boundaries_static.dir\src\ghs_enrich.cpp.obj CMakeFiles\gadm_boundaries_static.dir\src\geo_display.cpp.obj CMakeFiles\gadm_boundaries_static.dir\src\cache_paths.cpp.obj CMakeFiles\gadm_boundaries_static.dir\src\neighbors.cpp.obj CMakeFiles\gadm_boundaries_static.dir\src\names_search.cpp.obj || _deps\spdlog-build\spdlog.lib packages\json\json.lib packages\logger\logger.lib
   CONFIG = Release
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
   LINK_FLAGS = /machine:x64
@@ -166,6 +199,39 @@ build CMakeFiles\gadm_boundaries.dir\src\geo_display.cpp.obj: CXX_COMPILER__gadm
   TARGET_PDB = gadm_boundaries.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\gadm_boundaries.dir
 
+build CMakeFiles\gadm_boundaries.dir\src\cache_paths.cpp.obj: CXX_COMPILER__gadm_boundaries_unscanned_Release C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src\cache_paths.cpp || cmake_object_order_depends_target_gadm_boundaries
+  CONFIG = Release
+  DEFINES = -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -Dgadm_boundaries_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp
+  INCLUDES = -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-src\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\rapidjson-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include\geos -external:W0
+  OBJECT_DIR = CMakeFiles\gadm_boundaries.dir
+  OBJECT_FILE_DIR = CMakeFiles\gadm_boundaries.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\gadm_boundaries.dir\
+  TARGET_PDB = gadm_boundaries.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\gadm_boundaries.dir
+
+build CMakeFiles\gadm_boundaries.dir\src\neighbors.cpp.obj: CXX_COMPILER__gadm_boundaries_unscanned_Release C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src\neighbors.cpp || cmake_object_order_depends_target_gadm_boundaries
+  CONFIG = Release
+  DEFINES = -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -Dgadm_boundaries_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp
+  INCLUDES = -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-src\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\rapidjson-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include\geos -external:W0
+  OBJECT_DIR = CMakeFiles\gadm_boundaries.dir
+  OBJECT_FILE_DIR = CMakeFiles\gadm_boundaries.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\gadm_boundaries.dir\
+  TARGET_PDB = gadm_boundaries.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\gadm_boundaries.dir
+
+build CMakeFiles\gadm_boundaries.dir\src\names_search.cpp.obj: CXX_COMPILER__gadm_boundaries_unscanned_Release C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src\names_search.cpp || cmake_object_order_depends_target_gadm_boundaries
+  CONFIG = Release
+  DEFINES = -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -Dgadm_boundaries_EXPORTS
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp
+  INCLUDES = -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-src\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\rapidjson-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include\geos -external:W0
+  OBJECT_DIR = CMakeFiles\gadm_boundaries.dir
+  OBJECT_FILE_DIR = CMakeFiles\gadm_boundaries.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\gadm_boundaries.dir\
+  TARGET_PDB = gadm_boundaries.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\gadm_boundaries.dir
+
 
 # =============================================================================
 # Link build statements for SHARED_LIBRARY target gadm_boundaries
@@ -174,13 +240,13 @@ build CMakeFiles\gadm_boundaries.dir\src\geo_display.cpp.obj: CXX_COMPILER__gadm
 #############################################
 # Link the shared library gadm_boundaries.dll
 
-build gadm_boundaries.dll gadm_boundaries.lib: CXX_SHARED_LIBRARY_LINKER__gadm_boundaries_Release CMakeFiles\gadm_boundaries.dir\src\gpkg_reader.cpp.obj CMakeFiles\gadm_boundaries.dir\src\geo_merge.cpp.obj CMakeFiles\gadm_boundaries.dir\src\ghs_enrich.cpp.obj CMakeFiles\gadm_boundaries.dir\src\geo_display.cpp.obj | C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\gdal.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\geos_c.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\proj.lib packages\logger\logger.lib packages\json\json.lib _deps\spdlog-build\spdlog.lib || _deps\spdlog-build\spdlog.lib packages\json\json.lib packages\logger\logger.lib
+build gadm_boundaries.dll gadm_boundaries.lib: CXX_SHARED_LIBRARY_LINKER__gadm_boundaries_Release CMakeFiles\gadm_boundaries.dir\src\gpkg_reader.cpp.obj CMakeFiles\gadm_boundaries.dir\src\geo_merge.cpp.obj CMakeFiles\gadm_boundaries.dir\src\ghs_enrich.cpp.obj CMakeFiles\gadm_boundaries.dir\src\geo_display.cpp.obj CMakeFiles\gadm_boundaries.dir\src\cache_paths.cpp.obj CMakeFiles\gadm_boundaries.dir\src\neighbors.cpp.obj CMakeFiles\gadm_boundaries.dir\src\names_search.cpp.obj | C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\gdal.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\geos_c.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\proj.lib packages\logger\logger.lib packages\json\json.lib _deps\spdlog-build\spdlog.lib || _deps\spdlog-build\spdlog.lib packages\json\json.lib packages\logger\logger.lib
   CONFIG = Release
   LANGUAGE_COMPILE_FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
   LINK_FLAGS = /machine:x64 /INCREMENTAL:NO /DEF:CMakeFiles\gadm_boundaries.dir\.\exports.def
   LINK_LIBRARIES = C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\gdal.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\geos_c.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\proj.lib  packages\logger\logger.lib  packages\json\json.lib  _deps\spdlog-build\spdlog.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\gadm_boundaries.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\.vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/gadm_boundaries.dll --installed-bin-dir=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/bin && cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/gpkg_reader.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/geo_merge.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/ghs_enrich.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/geo_display.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/pip.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/types.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/packages/logger/include/logger/logger.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/packages/json/include/json/json.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/lib && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/gadm_boundaries.dll C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/gadm_boundaries.lib C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/lib/"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\.vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/gadm_boundaries.dll --installed-bin-dir=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/bin && cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/gpkg_reader.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/geo_merge.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/ghs_enrich.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/geo_display.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/cache_paths.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/neighbors.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/names_search.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/pip.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/types.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/packages/logger/include/logger/logger.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/packages/json/include/json/json.h C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/include/gadm/ && cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/lib && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/gadm_boundaries.dll C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/ && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/gadm_boundaries.lib C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/lib/"
   PRE_LINK = "C:\Program Files\CMake\bin\cmake.exe" -E __create_def C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\CMakeFiles\gadm_boundaries.dir\.\exports.def C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\CMakeFiles\gadm_boundaries.dir\.\exports.def.objs
   RESTAT = 1
   TARGET_COMPILE_PDB = CMakeFiles\gadm_boundaries.dir\
@@ -200,9 +266,20 @@ build cmake_object_order_depends_target_boundaries: phony || _deps\cli11-build\s
 
 build CMakeFiles\boundaries.dir\src\main.cpp.obj: CXX_COMPILER__boundaries_unscanned_Release C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src\main.cpp || cmake_object_order_depends_target_boundaries
   CONFIG = Release
-  DEFINES = -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB
+  DEFINES = -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp
-  INCLUDES = -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-src\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\rapidjson-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include\geos -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-src\include -external:W0
+  INCLUDES = -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-src\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\rapidjson-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include\geos -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\httplib-src -external:W0
+  OBJECT_DIR = CMakeFiles\boundaries.dir
+  OBJECT_FILE_DIR = CMakeFiles\boundaries.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\boundaries.dir\
+  TARGET_PDB = boundaries.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\boundaries.dir
+
+build CMakeFiles\boundaries.dir\src\http_serve.cpp.obj: CXX_COMPILER__boundaries_unscanned_Release C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src\http_serve.cpp || cmake_object_order_depends_target_boundaries
+  CONFIG = Release
+  DEFINES = -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp
+  INCLUDES = -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\src -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-src\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\include -IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\rapidjson-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\include\geos -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-src\include -external:IC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\httplib-src -external:W0
   OBJECT_DIR = CMakeFiles\boundaries.dir
   OBJECT_FILE_DIR = CMakeFiles\boundaries.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\boundaries.dir\
@@ -217,11 +294,11 @@ build CMakeFiles\boundaries.dir\src\main.cpp.obj: CXX_COMPILER__boundaries_unsca
 #############################################
 # Link the executable boundaries.exe
 
-build boundaries.exe: CXX_EXECUTABLE_LINKER__boundaries_Release CMakeFiles\boundaries.dir\src\main.cpp.obj | gadm_boundaries_static.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\gdal.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\geos_c.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\proj.lib packages\logger\logger.lib _deps\spdlog-build\spdlog.lib packages\json\json.lib || _deps\cli11-build\src\CLI11 _deps\spdlog-build\spdlog.lib gadm_boundaries_static.lib packages\json\json.lib packages\logger\logger.lib
+build boundaries.exe: CXX_EXECUTABLE_LINKER__boundaries_Release CMakeFiles\boundaries.dir\src\main.cpp.obj CMakeFiles\boundaries.dir\src\http_serve.cpp.obj | gadm_boundaries_static.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\gdal.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\geos_c.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\proj.lib packages\logger\logger.lib _deps\spdlog-build\spdlog.lib packages\json\json.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\zlib.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\libssl.lib C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\libcrypto.lib || _deps\cli11-build\src\CLI11 _deps\spdlog-build\spdlog.lib gadm_boundaries_static.lib packages\json\json.lib packages\logger\logger.lib
   CONFIG = Release
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -MD
   LINK_FLAGS = /machine:x64 /INCREMENTAL:NO /subsystem:console
-  LINK_LIBRARIES = gadm_boundaries_static.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\gdal.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\geos_c.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\proj.lib  packages\logger\logger.lib  _deps\spdlog-build\spdlog.lib  packages\json\json.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  LINK_LIBRARIES = gadm_boundaries_static.lib  ws2_32.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\gdal.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\geos_c.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\proj.lib  packages\logger\logger.lib  _deps\spdlog-build\spdlog.lib  packages\json\json.lib  crypt32.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\zlib.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\libssl.lib  C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\lib\libcrypto.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\boundaries.dir
   POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\.vcpkg\vcpkg.exe z-applocal --target-binary=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/boundaries.exe --installed-bin-dir=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/bin && cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../data/gadm_continent.json C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/gadm_continent.json && cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64 && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/boundaries.exe C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/ && cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64 && cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/share/proj/proj.db C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/../dist/win-x64/proj.db"
   PRE_LINK = cd .
@@ -230,6 +307,30 @@ build boundaries.exe: CXX_EXECUTABLE_LINKER__boundaries_Release CMakeFiles\bound
   TARGET_IMPLIB = boundaries.lib
   TARGET_PDB = boundaries.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\boundaries.dir
+
+
+#############################################
+# Utility command for package
+
+build CMakeFiles\package.util: CUSTOM_COMMAND all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build package: phony CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build package_source: phony CMakeFiles\package_source.util
 
 
 #############################################
@@ -304,6 +405,30 @@ build install\local: phony CMakeFiles\install\local.util
 
 
 #############################################
+# Utility command for package
+
+build _deps\cli11-build\CMakeFiles\package.util: CUSTOM_COMMAND _deps\cli11-build\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps\cli11-build\package: phony _deps\cli11-build\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps\cli11-build\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps\cli11-build\package_source: phony _deps\cli11-build\CMakeFiles\package_source.util
+
+
+#############################################
 # Utility command for test
 
 build _deps\cli11-build\CMakeFiles\test.util: CUSTOM_COMMAND
@@ -372,6 +497,30 @@ build _deps\cli11-build\install\local: phony _deps\cli11-build\CMakeFiles\instal
 # Write statements declared in CMakeLists.txt:
 # C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/cli11-src/CMakeLists.txt
 # =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build _deps\cli11-build\fuzz\CMakeFiles\package.util: CUSTOM_COMMAND _deps\cli11-build\fuzz\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps\cli11-build\fuzz\package: phony _deps\cli11-build\fuzz\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps\cli11-build\fuzz\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps\cli11-build\fuzz\package_source: phony _deps\cli11-build\fuzz\CMakeFiles\package_source.util
 
 
 #############################################
@@ -452,6 +601,30 @@ build _deps\cli11-build\src\CLI11: phony
 
 
 #############################################
+# Utility command for package
+
+build _deps\cli11-build\src\CMakeFiles\package.util: CUSTOM_COMMAND _deps\cli11-build\src\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps\cli11-build\src\package: phony _deps\cli11-build\src\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps\cli11-build\src\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps\cli11-build\src\package_source: phony _deps\cli11-build\src\CMakeFiles\package_source.util
+
+
+#############################################
 # Utility command for test
 
 build _deps\cli11-build\src\CMakeFiles\test.util: CUSTOM_COMMAND
@@ -520,6 +693,30 @@ build _deps\cli11-build\src\install\local: phony _deps\cli11-build\src\CMakeFile
 # Write statements declared in CMakeLists.txt:
 # C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/cli11-src/CMakeLists.txt
 # =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build _deps\cli11-build\single-include\CMakeFiles\package.util: CUSTOM_COMMAND _deps\cli11-build\single-include\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps\cli11-build\single-include\package: phony _deps\cli11-build\single-include\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps\cli11-build\single-include\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps\cli11-build\single-include\package_source: phony _deps\cli11-build\single-include\CMakeFiles\package_source.util
 
 
 #############################################
@@ -592,6 +789,101 @@ build _deps\cli11-build\single-include\install\local: phony _deps\cli11-build\si
 # C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/CMakeLists.txt
 # =============================================================================
 
+
+#############################################
+# Utility command for package
+
+build _deps\httplib-build\CMakeFiles\package.util: CUSTOM_COMMAND _deps\httplib-build\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps\httplib-build\package: phony _deps\httplib-build\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps\httplib-build\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps\httplib-build\package_source: phony _deps\httplib-build\CMakeFiles\package_source.util
+
+
+#############################################
+# Utility command for test
+
+build _deps\httplib-build\CMakeFiles\test.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\httplib-build && "C:\Program Files\CMake\bin\ctest.exe" "
+  DESC = Running tests...
+  pool = console
+  restat = 1
+
+build _deps\httplib-build\test: phony _deps\httplib-build\CMakeFiles\test.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build _deps\httplib-build\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\httplib-build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp -BC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build"
+  DESC = Running CMake cache editor...
+  pool = console
+  restat = 1
+
+build _deps\httplib-build\edit_cache: phony _deps\httplib-build\CMakeFiles\edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build _deps\httplib-build\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\httplib-build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp -BC:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build _deps\httplib-build\rebuild_cache: phony _deps\httplib-build\CMakeFiles\rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build _deps\httplib-build\list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build _deps\httplib-build\CMakeFiles\install.util: CUSTOM_COMMAND _deps\httplib-build\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\httplib-build && "C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build _deps\httplib-build\install: phony _deps\httplib-build\CMakeFiles\install.util
+
+
+#############################################
+# Utility command for install/local
+
+build _deps\httplib-build\CMakeFiles\install\local.util: CUSTOM_COMMAND _deps\httplib-build\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\httplib-build && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build _deps\httplib-build\install\local: phony _deps\httplib-build\CMakeFiles\install\local.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/CMakeLists.txt
+# =============================================================================
+
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target logger
 
@@ -631,6 +923,30 @@ build packages\logger\logger.lib: CXX_STATIC_LIBRARY_LINKER__logger_Release pack
   TARGET_FILE = packages\logger\logger.lib
   TARGET_PDB = packages\logger\logger.pdb
   TARGET_SUPPORT_DIR = packages\logger\CMakeFiles\logger.dir
+
+
+#############################################
+# Utility command for package
+
+build packages\logger\CMakeFiles\package.util: CUSTOM_COMMAND packages\logger\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build packages\logger\package: phony packages\logger\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build packages\logger\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build packages\logger\package_source: phony packages\logger\CMakeFiles\package_source.util
 
 
 #############################################
@@ -811,6 +1127,30 @@ build _deps\spdlog-build\spdlog.lib: CXX_STATIC_LIBRARY_LINKER__spdlog_Release _
 
 
 #############################################
+# Utility command for package
+
+build _deps\spdlog-build\CMakeFiles\package.util: CUSTOM_COMMAND _deps\spdlog-build\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps\spdlog-build\package: phony _deps\spdlog-build\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps\spdlog-build\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps\spdlog-build\package_source: phony _deps\spdlog-build\CMakeFiles\package_source.util
+
+
+#############################################
 # Utility command for test
 
 build _deps\spdlog-build\CMakeFiles\test.util: CUSTOM_COMMAND
@@ -918,6 +1258,30 @@ build packages\json\json.lib: CXX_STATIC_LIBRARY_LINKER__json_Release packages\j
   TARGET_FILE = packages\json\json.lib
   TARGET_PDB = packages\json\json.pdb
   TARGET_SUPPORT_DIR = packages\json\CMakeFiles\json.dir
+
+
+#############################################
+# Utility command for package
+
+build packages\json\CMakeFiles\package.util: CUSTOM_COMMAND packages\json\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build packages\json\package: phony packages\json\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build packages\json\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build packages\json\package_source: phony packages\json\CMakeFiles\package_source.util
 
 
 #############################################
@@ -1245,6 +1609,30 @@ build tests\test_geo_display.exe tests\test_geo_display-b12d07c_tests.cmake | ${
 
 
 #############################################
+# Utility command for package
+
+build tests\CMakeFiles\package.util: CUSTOM_COMMAND tests\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build tests\package: phony tests\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build tests\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build tests\package_source: phony tests\CMakeFiles\package_source.util
+
+
+#############################################
 # Utility command for test
 
 build tests\CMakeFiles\test.util: CUSTOM_COMMAND
@@ -1537,6 +1925,30 @@ build tests\CMakeFiles\ContinuousSubmit | ${cmake_ninja_workdir}tests\CMakeFiles
 # Write statements declared in CMakeLists.txt:
 # C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/tests/CMakeLists.txt
 # =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build _deps\catch2-build\CMakeFiles\package.util: CUSTOM_COMMAND _deps\catch2-build\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps\catch2-build\package: phony _deps\catch2-build\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps\catch2-build\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps\catch2-build\package_source: phony _deps\catch2-build\CMakeFiles\package_source.util
 
 
 #############################################
@@ -2730,6 +3142,30 @@ build _deps\catch2-build\src\Catch2Main.lib: CXX_STATIC_LIBRARY_LINKER__Catch2Wi
 
 
 #############################################
+# Utility command for package
+
+build _deps\catch2-build\src\CMakeFiles\package.util: CUSTOM_COMMAND _deps\catch2-build\src\all
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build _deps\catch2-build\src\package: phony _deps\catch2-build\src\CMakeFiles\package.util
+
+
+#############################################
+# Utility command for package_source
+
+build _deps\catch2-build\src\CMakeFiles\package_source.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build _deps\catch2-build\src\package_source: phony _deps\catch2-build\src\CMakeFiles\package_source.util
+
+
+#############################################
 # Utility command for test
 
 build _deps\catch2-build\src\CMakeFiles\test.util: CUSTOM_COMMAND
@@ -2897,7 +3333,7 @@ build test_pip.exe: phony tests\test_pip.exe
 #############################################
 # Folder: C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build
 
-build all: phony gadm_boundaries_static.lib gadm_boundaries.dll boundaries.exe _deps\cli11-build\all packages\logger\all packages\json\all tests\all
+build all: phony gadm_boundaries_static.lib gadm_boundaries.dll boundaries.exe _deps\cli11-build\all _deps\httplib-build\all packages\logger\all packages\json\all tests\all
 
 # =============================================================================
 
@@ -2944,6 +3380,13 @@ build _deps\cli11-build\src\all: phony _deps\cli11-build\src\CLI11
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/httplib-build
+
+build _deps\httplib-build\all: phony
+
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-build
 
 build _deps\spdlog-build\all: phony _deps\spdlog-build\spdlog.lib
@@ -2976,14 +3419,14 @@ build tests\all: phony tests\test_pip.exe tests\test_geo_display.exe _deps\catch
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-build\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-build\fuzz\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-build\src\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-build\single-include\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\packages\logger\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-build\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\packages\json\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\tests\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\catch2-build\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\catch2-build\src\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\CTestTestfile.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\tests\CTestTestfile.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\catch2-build\CTestTestfile.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\catch2-build\src\CTestTestfile.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeFindDependencyMacro.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeNinjaFindMake.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTest.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckSymbolExists.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindGit.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindOpenMP.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPkgConfig.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindSQLite3.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindTIFF.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCXXLinker.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\.vcpkg\scripts\buildsystems\vcpkg.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\tests\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDALConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDALConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-config-version.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-config.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-config-version.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-config.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\tiff\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake CMakeCache.txt CMakeFiles\4.2.3\CMakeCCompiler.cmake CMakeFiles\4.2.3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3\CMakeRCCompiler.cmake CMakeFiles\4.2.3\CMakeSystem.cmake _deps\catch2-src\CMakeLists.txt _deps\catch2-src\CMake\CatchConfigOptions.cmake _deps\catch2-src\CMake\CatchMiscFunctions.cmake _deps\catch2-src\extras\Catch.cmake _deps\catch2-src\src\CMakeLists.txt _deps\catch2-src\src\catch2\catch_user_config.hpp.in _deps\cli11-src\CMakeLists.txt _deps\cli11-src\cmake\CLI11Warnings.cmake _deps\cli11-src\fuzz\CMakeLists.txt _deps\cli11-src\single-include\CMakeLists.txt _deps\cli11-src\src\CMakeLists.txt _deps\spdlog-src\CMakeLists.txt _deps\spdlog-src\cmake\ide.cmake _deps\spdlog-src\cmake\utils.cmake
+build build.ninja C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-build\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-build\fuzz\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-build\src\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\cli11-build\single-include\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\httplib-build\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\packages\logger\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\spdlog-build\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\packages\json\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\tests\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\catch2-build\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\catch2-build\src\cmake_install.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\CTestTestfile.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\tests\CTestTestfile.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\catch2-build\CTestTestfile.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\build\_deps\catch2-build\src\CTestTestfile.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMinorVersion.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeFindDependencyMacro.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPack.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTest.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckSymbolExists.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindGit.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindOpenMP.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindOpenSSL.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPkgConfig.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindSQLite3.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindTIFF.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\.vcpkg\scripts\buildsystems\vcpkg.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\tests\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDALConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDALConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-config-version.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-config.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-config-version.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-config.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\tiff\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake CMakeCache.txt CMakeFiles\4.2.3\CMakeCCompiler.cmake CMakeFiles\4.2.3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3\CMakeRCCompiler.cmake CMakeFiles\4.2.3\CMakeSystem.cmake _deps\catch2-src\CMakeLists.txt _deps\catch2-src\CMake\CatchConfigOptions.cmake _deps\catch2-src\CMake\CatchMiscFunctions.cmake _deps\catch2-src\extras\Catch.cmake _deps\catch2-src\src\CMakeLists.txt _deps\catch2-src\src\catch2\catch_user_config.hpp.in _deps\cli11-src\CMakeLists.txt _deps\cli11-src\cmake\CLI11Warnings.cmake _deps\cli11-src\fuzz\CMakeLists.txt _deps\cli11-src\single-include\CMakeLists.txt _deps\cli11-src\src\CMakeLists.txt _deps\httplib-src\CMakeLists.txt _deps\httplib-src\cmake\FindBrotli.cmake _deps\httplib-src\cmake\httplibConfig.cmake.in _deps\spdlog-src\CMakeLists.txt _deps\spdlog-src\cmake\ide.cmake _deps\spdlog-src\cmake\utils.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeFindDependencyMacro.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeNinjaFindMake.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTest.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckSymbolExists.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindGit.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindOpenMP.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPkgConfig.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindSQLite3.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindTIFF.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCXXLinker.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\.vcpkg\scripts\buildsystems\vcpkg.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\tests\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDALConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDALConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-config-version.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-config.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-config-version.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-config.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\tiff\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake CMakeCache.txt CMakeFiles\4.2.3\CMakeCCompiler.cmake CMakeFiles\4.2.3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3\CMakeRCCompiler.cmake CMakeFiles\4.2.3\CMakeSystem.cmake _deps\catch2-src\CMakeLists.txt _deps\catch2-src\CMake\CatchConfigOptions.cmake _deps\catch2-src\CMake\CatchMiscFunctions.cmake _deps\catch2-src\extras\Catch.cmake _deps\catch2-src\src\CMakeLists.txt _deps\catch2-src\src\catch2\catch_user_config.hpp.in _deps\cli11-src\CMakeLists.txt _deps\cli11-src\cmake\CLI11Warnings.cmake _deps\cli11-src\fuzz\CMakeLists.txt _deps\cli11-src\single-include\CMakeLists.txt _deps\cli11-src\src\CMakeLists.txt _deps\spdlog-src\CMakeLists.txt _deps\spdlog-src\cmake\ide.cmake _deps\spdlog-src\cmake\utils.cmake: phony
+build C$:\Program$ Files\CMake\share\cmake-4.2\Modules\BasicConfigVersion-SameMinorVersion.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDependentOption.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeFindDependencyMacro.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakePackageConfigHelpers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPack.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTest.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCXXCompilerFlag.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckCXXSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckIncludeFile.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckLibraryExists.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CheckSymbolExists.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\ExternalProject\shared_internal_commands.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FetchContent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FetchContent\CMakeLists.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindGit.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindOpenMP.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindOpenSSL.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPackageHandleStandardArgs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPackageMessage.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindPkgConfig.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindSQLite3.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindTIFF.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindThreads.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\FindZLIB.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\GNUInstallDirs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckCompilerFlag.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckFlagCommonConfig.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CheckSourceCompiles.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\SelectLibraryConfigurations.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\WriteBasicConfigVersionFile.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\.vcpkg\scripts\buildsystems\vcpkg.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\json\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\packages\logger\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\tests\CMakeLists.txt C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\CURLTargets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\curl\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDAL-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDALConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\GDALConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\gdal\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-config-version.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-config.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\geos\geos-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfig.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonConfigVersion.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\nlohmann_json\nlohmann_jsonTargets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-config-version.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-config.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets-debug.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets-release.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\proj\proj4-targets.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\tiff\vcpkg-cmake-wrapper.cmake C$:\Users\zx\Desktop\polymech\pm-pics\packages\gadm\cpp\vcpkg_installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake CMakeCache.txt CMakeFiles\4.2.3\CMakeCCompiler.cmake CMakeFiles\4.2.3\CMakeCXXCompiler.cmake CMakeFiles\4.2.3\CMakeRCCompiler.cmake CMakeFiles\4.2.3\CMakeSystem.cmake _deps\catch2-src\CMakeLists.txt _deps\catch2-src\CMake\CatchConfigOptions.cmake _deps\catch2-src\CMake\CatchMiscFunctions.cmake _deps\catch2-src\extras\Catch.cmake _deps\catch2-src\src\CMakeLists.txt _deps\catch2-src\src\catch2\catch_user_config.hpp.in _deps\cli11-src\CMakeLists.txt _deps\cli11-src\cmake\CLI11Warnings.cmake _deps\cli11-src\fuzz\CMakeLists.txt _deps\cli11-src\single-include\CMakeLists.txt _deps\cli11-src\src\CMakeLists.txt _deps\httplib-src\CMakeLists.txt _deps\httplib-src\cmake\FindBrotli.cmake _deps\httplib-src\cmake\httplibConfig.cmake.in _deps\spdlog-src\CMakeLists.txt _deps\spdlog-src\cmake\ide.cmake _deps\spdlog-src\cmake\utils.cmake: phony
 
 
 #############################################

@@ -14,8 +14,24 @@
 # EXTERNAL cache entries
 ########################
 
+//Build the library as a shared library instead of static. Has
+// no effect if using header-only.
+BUILD_SHARED_LIBS:BOOL=OFF
+
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
+
+//The path to Brotli's include directory.
+Brotli_INCLUDE_DIR:PATH=Brotli_INCLUDE_DIR-NOTFOUND
+
+//Path to a library.
+Brotli_common:FILEPATH=Brotli_common-NOTFOUND
+
+//Path to a library.
+Brotli_decoder:FILEPATH=Brotli_decoder-NOTFOUND
+
+//Path to a library.
+Brotli_encoder:FILEPATH=Brotli_encoder-NOTFOUND
 
 //Read docs/configuration.md for details
 CATCH_CONFIG_ANDROID_LOGWRITE:BOOL=OFF
@@ -469,6 +485,33 @@ COVERAGE_COMMAND:FILEPATH=COVERAGE_COMMAND-NOTFOUND
 //Extra command line flags to pass to the coverage tool
 COVERAGE_EXTRA_FLAGS:STRING=-l
 
+//Enable to build 7-Zip packages
+CPACK_BINARY_7Z:BOOL=OFF
+
+//Enable to build IFW packages
+CPACK_BINARY_IFW:BOOL=OFF
+
+//Enable to build Inno Setup packages
+CPACK_BINARY_INNOSETUP:BOOL=OFF
+
+//Enable to build NSIS packages
+CPACK_BINARY_NSIS:BOOL=ON
+
+//Enable to build NuGet packages
+CPACK_BINARY_NUGET:BOOL=OFF
+
+//Enable to build WiX packages
+CPACK_BINARY_WIX:BOOL=OFF
+
+//Enable to build ZIP packages
+CPACK_BINARY_ZIP:BOOL=OFF
+
+//Enable to build 7-Zip source packages
+CPACK_SOURCE_7Z:BOOL=ON
+
+//Enable to build ZIP source packages
+CPACK_SOURCE_ZIP:BOOL=ON
+
 //How many times to retry timed-out CTest submissions.
 CTEST_SUBMIT_RETRY_COUNT:STRING=3
 
@@ -512,6 +555,10 @@ FETCHCONTENT_SOURCE_DIR_CATCH2:PATH=
 FETCHCONTENT_SOURCE_DIR_CLI11:PATH=
 
 //When not empty, overrides where to find pre-populated content
+// for httplib
+FETCHCONTENT_SOURCE_DIR_HTTPLIB:PATH=
+
+//When not empty, overrides where to find pre-populated content
 // for rapidjson
 FETCHCONTENT_SOURCE_DIR_RAPIDJSON:PATH=
 
@@ -528,6 +575,9 @@ FETCHCONTENT_UPDATES_DISCONNECTED_CATCH2:BOOL=OFF
 //Enables UPDATE_DISCONNECTED behavior just for population of cli11
 FETCHCONTENT_UPDATES_DISCONNECTED_CLI11:BOOL=OFF
 
+//Enables UPDATE_DISCONNECTED behavior just for population of httplib
+FETCHCONTENT_UPDATES_DISCONNECTED_HTTPLIB:BOOL=OFF
+
 //Enables UPDATE_DISCONNECTED behavior just for population of rapidjson
 FETCHCONTENT_UPDATES_DISCONNECTED_RAPIDJSON:BOOL=OFF
 
@@ -543,6 +593,46 @@ GEOS_DIR:PATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_insta
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Program Files/Git/cmd/git.exe
 
+//If ON, uses a Python script to split the header into a compilable
+// header & source file (requires Python v3).
+HTTPLIB_COMPILE:BOOL=OFF
+
+//Enables the installation target
+HTTPLIB_INSTALL:BOOL=ON
+
+//Disable the use of C++ exceptions
+HTTPLIB_NO_EXCEPTIONS:BOOL=OFF
+
+//Requires Brotli to be found & linked, or fails build.
+HTTPLIB_REQUIRE_BROTLI:BOOL=OFF
+
+//Requires OpenSSL to be found & linked, or fails build.
+HTTPLIB_REQUIRE_OPENSSL:BOOL=OFF
+
+//Requires ZLIB to be found & linked, or fails build.
+HTTPLIB_REQUIRE_ZLIB:BOOL=OFF
+
+//Enables testing and builds tests
+HTTPLIB_TEST:BOOL=OFF
+
+//Uses Brotli (if available) to enable Brotli decompression support.
+HTTPLIB_USE_BROTLI_IF_AVAILABLE:BOOL=ON
+
+//Enable feature to load system certs from the Apple Keychain.
+HTTPLIB_USE_CERTS_FROM_MACOSX_KEYCHAIN:BOOL=ON
+
+//Uses OpenSSL (if available) to enable HTTPS support.
+HTTPLIB_USE_OPENSSL_IF_AVAILABLE:BOOL=ON
+
+//Uses ZLIB (if available) to enable Zlib compression support.
+HTTPLIB_USE_ZLIB_IF_AVAILABLE:BOOL=ON
+
+//Path to a library.
+LIB_EAY_DEBUG:FILEPATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/debug/lib/libcrypto.lib
+
+//Path to a library.
+LIB_EAY_RELEASE:FILEPATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/lib/libcrypto.lib
+
 //Command to build the project
 MAKECOMMAND:STRING="C:\Program Files\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 
@@ -551,6 +641,12 @@ MEMORYCHECK_COMMAND:FILEPATH=MEMORYCHECK_COMMAND-NOTFOUND
 
 //File that contains suppressions for the memory checker
 MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
+
+//Path to a file.
+OPENSSL_APPLINK_SOURCE:FILEPATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/include/openssl/applink.c
+
+//Path to a file.
+OPENSSL_INCLUDE_DIR:PATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/include
 
 //CXX compiler flags for OpenMP parallelization
 OpenMP_CXX_FLAGS:STRING=-openmp
@@ -683,6 +779,12 @@ SQLite3_INCLUDE_DIR:PATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/
 //Path to a library.
 SQLite3_LIBRARY:FILEPATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/lib/sqlite3.lib
 
+//Path to a library.
+SSL_EAY_DEBUG:FILEPATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/debug/lib/libssl.lib
+
+//Path to a library.
+SSL_EAY_RELEASE:FILEPATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/lib/libssl.lib
+
 //Path to a file.
 TIFF_INCLUDE_DIR:PATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/include
 
@@ -766,6 +868,15 @@ gadm-boundaries_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 gadm-boundaries_SOURCE_DIR:STATIC=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp
 
+//Value Computed by CMake
+httplib_BINARY_DIR:STATIC=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/httplib-build
+
+//Value Computed by CMake
+httplib_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+httplib_SOURCE_DIR:STATIC=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/httplib-src
+
 //The directory containing a CMake configuration file for nlohmann_json.
 nlohmann_json_DIR:PATH=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/vcpkg_installed/x64-windows/share/nlohmann_json
 
@@ -786,6 +897,89 @@ spdlog_SOURCE_DIR:STATIC=C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Brotli_INCLUDE_DIR
+Brotli_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: Brotli_common
+Brotli_common-ADVANCED:INTERNAL=1
+Brotli_common_CFLAGS:INTERNAL=
+Brotli_common_CFLAGS_I:INTERNAL=
+Brotli_common_CFLAGS_OTHER:INTERNAL=
+Brotli_common_FOUND:INTERNAL=
+Brotli_common_INCLUDEDIR:INTERNAL=
+Brotli_common_LIBDIR:INTERNAL=
+Brotli_common_LIBS:INTERNAL=
+Brotli_common_LIBS_L:INTERNAL=
+Brotli_common_LIBS_OTHER:INTERNAL=
+Brotli_common_LIBS_PATHS:INTERNAL=
+Brotli_common_MODULE_NAME:INTERNAL=
+Brotli_common_PREFIX:INTERNAL=
+Brotli_common_STATIC_CFLAGS:INTERNAL=
+Brotli_common_STATIC_CFLAGS_I:INTERNAL=
+Brotli_common_STATIC_CFLAGS_OTHER:INTERNAL=
+Brotli_common_STATIC_LIBDIR:INTERNAL=
+Brotli_common_STATIC_LIBS:INTERNAL=
+Brotli_common_STATIC_LIBS_L:INTERNAL=
+Brotli_common_STATIC_LIBS_OTHER:INTERNAL=
+Brotli_common_STATIC_LIBS_PATHS:INTERNAL=
+Brotli_common_VERSION:INTERNAL=
+Brotli_common_libbrotlicommon_INCLUDEDIR:INTERNAL=
+Brotli_common_libbrotlicommon_LIBDIR:INTERNAL=
+Brotli_common_libbrotlicommon_PREFIX:INTERNAL=
+Brotli_common_libbrotlicommon_VERSION:INTERNAL=
+//ADVANCED property for variable: Brotli_decoder
+Brotli_decoder-ADVANCED:INTERNAL=1
+Brotli_decoder_CFLAGS:INTERNAL=
+Brotli_decoder_CFLAGS_I:INTERNAL=
+Brotli_decoder_CFLAGS_OTHER:INTERNAL=
+Brotli_decoder_FOUND:INTERNAL=
+Brotli_decoder_INCLUDEDIR:INTERNAL=
+Brotli_decoder_LIBDIR:INTERNAL=
+Brotli_decoder_LIBS:INTERNAL=
+Brotli_decoder_LIBS_L:INTERNAL=
+Brotli_decoder_LIBS_OTHER:INTERNAL=
+Brotli_decoder_LIBS_PATHS:INTERNAL=
+Brotli_decoder_MODULE_NAME:INTERNAL=
+Brotli_decoder_PREFIX:INTERNAL=
+Brotli_decoder_STATIC_CFLAGS:INTERNAL=
+Brotli_decoder_STATIC_CFLAGS_I:INTERNAL=
+Brotli_decoder_STATIC_CFLAGS_OTHER:INTERNAL=
+Brotli_decoder_STATIC_LIBDIR:INTERNAL=
+Brotli_decoder_STATIC_LIBS:INTERNAL=
+Brotli_decoder_STATIC_LIBS_L:INTERNAL=
+Brotli_decoder_STATIC_LIBS_OTHER:INTERNAL=
+Brotli_decoder_STATIC_LIBS_PATHS:INTERNAL=
+Brotli_decoder_VERSION:INTERNAL=
+Brotli_decoder_libbrotlidec_INCLUDEDIR:INTERNAL=
+Brotli_decoder_libbrotlidec_LIBDIR:INTERNAL=
+Brotli_decoder_libbrotlidec_PREFIX:INTERNAL=
+Brotli_decoder_libbrotlidec_VERSION:INTERNAL=
+//ADVANCED property for variable: Brotli_encoder
+Brotli_encoder-ADVANCED:INTERNAL=1
+Brotli_encoder_CFLAGS:INTERNAL=
+Brotli_encoder_CFLAGS_I:INTERNAL=
+Brotli_encoder_CFLAGS_OTHER:INTERNAL=
+Brotli_encoder_FOUND:INTERNAL=
+Brotli_encoder_INCLUDEDIR:INTERNAL=
+Brotli_encoder_LIBDIR:INTERNAL=
+Brotli_encoder_LIBS:INTERNAL=
+Brotli_encoder_LIBS_L:INTERNAL=
+Brotli_encoder_LIBS_OTHER:INTERNAL=
+Brotli_encoder_LIBS_PATHS:INTERNAL=
+Brotli_encoder_MODULE_NAME:INTERNAL=
+Brotli_encoder_PREFIX:INTERNAL=
+Brotli_encoder_STATIC_CFLAGS:INTERNAL=
+Brotli_encoder_STATIC_CFLAGS_I:INTERNAL=
+Brotli_encoder_STATIC_CFLAGS_OTHER:INTERNAL=
+Brotli_encoder_STATIC_LIBDIR:INTERNAL=
+Brotli_encoder_STATIC_LIBS:INTERNAL=
+Brotli_encoder_STATIC_LIBS_L:INTERNAL=
+Brotli_encoder_STATIC_LIBS_OTHER:INTERNAL=
+Brotli_encoder_STATIC_LIBS_PATHS:INTERNAL=
+Brotli_encoder_VERSION:INTERNAL=
+Brotli_encoder_libbrotlienc_INCLUDEDIR:INTERNAL=
+Brotli_encoder_libbrotlienc_LIBDIR:INTERNAL=
+Brotli_encoder_libbrotlienc_PREFIX:INTERNAL=
+Brotli_encoder_libbrotlienc_VERSION:INTERNAL=
 //ADVANCED property for variable: CATCH_CONFIG_ANDROID_LOGWRITE
 CATCH_CONFIG_ANDROID_LOGWRITE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CATCH_CONFIG_BAZEL_SUPPORT
@@ -1020,7 +1214,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
@@ -1072,6 +1266,24 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 COVERAGE_COMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: COVERAGE_EXTRA_FLAGS
 COVERAGE_EXTRA_FLAGS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_BINARY_7Z
+CPACK_BINARY_7Z-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_BINARY_IFW
+CPACK_BINARY_IFW-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_BINARY_INNOSETUP
+CPACK_BINARY_INNOSETUP-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_BINARY_NSIS
+CPACK_BINARY_NSIS-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_BINARY_NUGET
+CPACK_BINARY_NUGET-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_BINARY_WIX
+CPACK_BINARY_WIX-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_BINARY_ZIP
+CPACK_BINARY_ZIP-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_SOURCE_7Z
+CPACK_SOURCE_7Z-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CPACK_SOURCE_ZIP
+CPACK_SOURCE_ZIP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CTEST_SUBMIT_RETRY_COUNT
 CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CTEST_SUBMIT_RETRY_DELAY
@@ -1118,6 +1330,8 @@ MAKECOMMAND-ADVANCED:INTERNAL=1
 MEMORYCHECK_COMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_SUPPRESSIONS_FILE
 MEMORYCHECK_SUPPRESSIONS_FILE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: OPENSSL_INCLUDE_DIR
+OPENSSL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Result of TRY_COMPILE
 OpenMP_COMPILE_RESULT_CXX_openmp:INTERNAL=TRUE
 //Result of TRY_COMPILE
@@ -1206,6 +1420,9 @@ _CATCH_DISCOVER_TESTS_SCRIPT:INTERNAL=C:/Users/zx/Desktop/polymech/pm-pics/packa
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/gadm-boundaries
 __pkg_config_arguments_PC_SQLite3:INTERNAL=QUIET;sqlite3
+__pkg_config_checked_Brotli_common:INTERNAL=1
+__pkg_config_checked_Brotli_decoder:INTERNAL=1
+__pkg_config_checked_Brotli_encoder:INTERNAL=1
 __pkg_config_checked_PC_SQLite3:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_PC_SQLite3_sqlite3
 pkgcfg_lib_PC_SQLite3_sqlite3-ADVANCED:INTERNAL=1

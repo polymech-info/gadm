@@ -49,6 +49,35 @@ cmake --preset vcpkg-linux
 cmake --build build --config Release
 ```
 
+## HTTP serve (geom off Node)
+
+Thin **cpp-httplib** shell linking `gadm_boundaries_static` — file-serves map JSON and small spatial queries. Bind loopback; Node configures via `server/.env` (`GADM_HTTP_URL`, `GADM_HTTP_ENABLED`, timeouts) and streams with Hono `proxy`.
+
+```bash
+# Windows
+npm run boundaries:cpp:serve
+# Linux
+npm run boundaries:cpp:linux:serve
+
+# Stress (llm-server style ramp)
+npm run stress:gadm-http -- --base http://127.0.0.1:3340 --levels 1,5,10,25
+```
+
+| Route | Notes |
+|-------|--------|
+| `GET /health` | liveness |
+| `GET /v1/regions/boundary/{gid}?level=&map=1` | cache file bytes (no Node parse) |
+| `GET /v1/regions/in-viewport?...` | OGR bbox → `{data:[{gid,gadmName,level}]}` |
+| `GET /v1/regions/neighbors?gid=&level=` | file cache `neighbors_v6_*` or GEOS distance compute |
+| `GET /v1/regions/hierarchy?lat=&lon=` | PIP stack L0…Ln `{data:[{level,gid,gadmName}]}` |
+| `GET /v1/regions/search?query=&content_level=&country=` | name/GID metadata rows from gpkg |
+| `GET /v1/regions/names?admin=&content_level=&depth=` | child NAME/GID rows under admin |
+| `GET /cache/...` | static mount of `--cache-dir` |
+
+Gridsearch list/summary REST lives on the **polymech-cli worker** (`--uds` + `--http`), not here:
+`GET /v1/places/gridsearch/summary?userId=` (slim PG list). Node uses `GRIDSEARCH_HTTP_URL` or the co-hosted port (`udsPort+10000`).
+
+Lib consumers: `#include` headers under `dist/*/include/gadm`, link `gadm_boundaries_static` / shared.
 Output: `dist/linux-x64/boundaries` + `proj.db`
 
 > **Note:** First **fresh** vcpkg install takes 10–20 min (GDAL/GEOS/PROJ). With an existing `vcpkg_installed/` tree, `release` configure is seconds.

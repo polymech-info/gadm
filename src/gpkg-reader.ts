@@ -14,6 +14,7 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { resolve, join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { Worker } from 'node:worker_threads';
 import { enrichFeatureWithGHS } from './enrich-ghs.js';
 import * as turf from '@turf/turf';
 import { getNames } from './names.js';
@@ -679,7 +680,7 @@ export interface GadmPointResult {
 
 /**
  * Distinct GID/NAME at `level` whose leaf geometries overlap the given bbox (rtree).
- * Used as a fast candidate set for neighbor detection (esp. L0).
+ * Sync — blocks the event loop (prefer {@link queryUniqueGidsInBboxAsync} on HTTP paths).
  */
 export function queryUniqueGidsInBbox(
     bbox: [number, number, number, number],
@@ -722,6 +723,78 @@ export function queryUniqueGidsInBbox(
         console.error('[gadm] queryUniqueGidsInBbox error:', err);
         return [];
     }
+}
+
+// ─── bbox worker (keeps 2.5GB gpkg sqlite off the HTTP thread) ───────────────
+
+type BboxHit = { gid: string; name: string };
+type BboxPending = {
+    resolve: (hits: BboxHit[]) => void;
+    reject: (err: Error) => void;
+};
+
+let _bboxWorker: Worker | null = null;
+let _bboxMsgId = 0;
+const _bboxPending = new Map<number, BboxPending>();
+
+function getBboxWorker(): Worker | null {
+    if (_bboxWorker) return _bboxWorker;
+    try {
+        const workerPath = resolve(_dirname, 'gpkg-bbox-worker.mjs');
+        if (!existsSync(workerPath)) {
+            console.warn('[gadm] bbox worker missing:', workerPath);
+            return null;
+        }
+        _bboxWorker = new Worker(workerPath);
+        _bboxWorker.on('message', (msg: { id: number; ok: boolean; hits?: BboxHit[]; error?: string }) => {
+            const p = _bboxPending.get(msg.id);
+            if (!p) return;
+            _bboxPending.delete(msg.id);
+            if (msg.ok) p.resolve(msg.hits || []);
+            else p.reject(new Error(msg.error || 'bbox worker error'));
+        });
+        _bboxWorker.on('error', (err) => {
+            console.error('[gadm] bbox worker error:', err);
+            for (const [, p] of _bboxPending) p.reject(err instanceof Error ? err : new Error(String(err)));
+            _bboxPending.clear();
+            _bboxWorker = null;
+        });
+        _bboxWorker.on('exit', (code) => {
+            if (code !== 0) console.warn('[gadm] bbox worker exited', code);
+            _bboxWorker = null;
+        });
+        return _bboxWorker;
+    } catch (e) {
+        console.warn('[gadm] failed to start bbox worker:', e);
+        return null;
+    }
+}
+
+/**
+ * Same as {@link queryUniqueGidsInBbox} but runs in a worker thread so the
+ * HTTP event loop (gridsearch, health, pg) stays responsive while sqlite works.
+ */
+export function queryUniqueGidsInBboxAsync(
+    bbox: [number, number, number, number],
+    level: number,
+): Promise<Array<{ gid: string; name: string }>> {
+    const gpkgPath = findGpkg();
+    if (!gpkgPath) return Promise.resolve([]);
+    if (level < 0 || level > 5) return Promise.resolve([]);
+
+    const worker = getBboxWorker();
+    if (!worker) {
+        // Fallback: sync on main thread (dev without worker file).
+        return new Promise((resolve) => {
+            setImmediate(() => resolve(queryUniqueGidsInBbox(bbox, level)));
+        });
+    }
+
+    const id = ++_bboxMsgId;
+    return new Promise((resolve, reject) => {
+        _bboxPending.set(id, { resolve, reject });
+        worker.postMessage({ id, gpkgPath, bbox, level });
+    });
 }
 
 /**

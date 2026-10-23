@@ -2,3 +2,6 @@ CMakeFiles\gadm_boundaries.dir\src\gpkg_reader.cpp.obj
 CMakeFiles\gadm_boundaries.dir\src\geo_merge.cpp.obj
 CMakeFiles\gadm_boundaries.dir\src\ghs_enrich.cpp.obj
 CMakeFiles\gadm_boundaries.dir\src\geo_display.cpp.obj
+CMakeFiles\gadm_boundaries.dir\src\cache_paths.cpp.obj
+CMakeFiles\gadm_boundaries.dir\src\neighbors.cpp.obj
+CMakeFiles\gadm_boundaries.dir\src\names_search.cpp.obj
