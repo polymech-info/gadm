@@ -1,0 +1,45 @@
+{
+  "sachsen": {
+    "name": "Sachsen",
+    "gid": "DEU.14_1",
+    "children": [
+      "Bautzen",
+      "Chemnitz",
+      "Dresden",
+      "Erzgebirgskreis",
+      "Görlitz",
+      "Leipzig",
+      "Leipzig (Kreisfreie Stadt)",
+      "Meißen",
+      "Mittelsachsen",
+      "Nordsachsen",
+      "Sächsische Schweiz-Osterzgebirge",
+      "Vogtlandkreis",
+      "Zwickau"
+    ]
+  },
+  "dresden": {
+    "name": "Dresden",
+    "gid": "DEU.14.3_1",
+    "level": 2,
+    "totalNodes": 3,
+    "leaves": [
+      {
+        "name": "Dresden",
+        "gid": "DEU.14.3.1.1_1"
+      }
+    ],
+    "children": [
+      {
+        "name": "Dresden",
+        "gid": "DEU.14.3.1_1",
+        "children": [
+          {
+            "name": "Dresden",
+            "gid": "DEU.14.3.1.1_1"
+          }
+        ]
+      }
+    ]
+  }
+}

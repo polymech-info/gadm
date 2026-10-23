@@ -1,0 +1,19 @@
+{
+  "name": "Dresden",
+  "gid": "DEU.14.3_1",
+  "level": 2,
+  "totalNodes": 3,
+  "children": [
+    {
+      "name": "Dresden",
+      "gid": "DEU.14.3.1_1",
+      "childCount": 1,
+      "children": [
+        {
+          "name": "Dresden",
+          "gid": "DEU.14.3.1.1_1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+    "name": "@polymech/gadm",
+    "version": "1.2.5",
+    "description": "Pure TypeScript interface to the GADM v4.1 administrative boundaries database.",
+    "repository": {
+        "type": "git",
+        "url": "https://git.polymech.info/polymech/gadm-ts.git"
+    },
+    "homepage": "https://service.polymech.info/",
+    "main": "dist/index.js",
+    "type": "module",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist/*.js",
+        "dist/*.d.ts",
+        "package.json",
+        "README.md"
+    ],
+    "bin": {
+        "gadm-boundaries": "scripts/boundaries.ts"
+    },
+    "exports": {
+        ".": "./dist/index.js"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "tsc",
+        "configure:cpp": "node cpp/scripts/cmake.mjs --preset release",
+        "build:cpp": "node cpp/scripts/cmake.mjs --preset release && node cpp/scripts/ninja.mjs --preset release --target boundaries",
+        "build:cpp:fast": "node cpp/scripts/ninja.mjs --preset release --target boundaries",
+        "build:cpp:tests": "node cpp/scripts/ninja.mjs --preset release --target test_geo_display",
+        "dev": "tsc -w",
+        "tests": "vitest run",
+        "test:boundaries": "vitest run src/__tests__/boundary.test.ts",
+        "test:fua": "vitest run src/__tests__/fua.test.ts",
+        "test:geotiff": "vitest run src/__tests__/geotiff.test.ts",
+        "test:ghs-pop": "vitest run src/__tests__/ghs-pop.test.ts",
+        "test:enrich": "vitest run src/__tests__/enrich-ghs.test.ts",
+        "test:enricher-precision": "vitest run src/__tests__/enricher-precision.test.ts",
+        "boundaries": "npx tsx scripts/boundaries.ts",
+        "boundaries:cpp": ".\\dist\\win-x64\\boundaries.exe",
+        "boundaries:cpp:all": ".\\dist\\win-x64\\boundaries.exe --country=all",
+        "boundaries:cpp:all:split": ".\\dist\\win-x64\\boundaries.exe --country=all --split-levels=0,1,2,3,4,5 --resolution=2",
+        "boundaries:cpp:all:display": ".\\dist\\win-x64\\boundaries.exe --country=all --display-clean --min-outer-km=5 --resolution=3",
+        "boundaries:cpp:linux": "./dist/linux-x64/boundaries",
+        "boundaries:cpp:linux:all": "./dist/linux-x64/boundaries --country=all",
+        "refresh": "npx tsx scripts/refresh-database.ts",
+        "migrate-cache": "npx tsx scripts/migrate-cache.ts",
+        "smooth-coast-cache": "npx tsx scripts/smooth-coast-cache.ts",
+        "smooth-coast-cache:l01": "npx tsx scripts/smooth-coast-cache.ts --levels=0,1"
+    },
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.6.13",
+        "@types/yargs": "^17.0.35",
+        "better-sqlite3": "^12.8.0",
+        "hyparquet-writer": "^0.13.0",
+        "typescript": "^5.0.0",
+        "vitest": "^4.1.0",
+        "yargs": "^18.0.0"
+    },
+    "dependencies": {
+        "@turf/turf": "7.4.0",
+        "@types/proj4": "2.5.6",
+        "geotiff": "3.0.5",
+        "hyparquet": "^1.25.1",
+        "polygon-clipping": "^0.15.7",
+        "proj4": "2.20.4",
+        "simplify-js": "1.2.4",
+        "zod": "^4.3.6"
+    }
+}

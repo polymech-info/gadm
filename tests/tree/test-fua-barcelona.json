@@ -1,0 +1,20 @@
+[
+  {
+    "eFUA_ID": 4523,
+    "name": "Barcelona",
+    "pop2015": 4609369.609553948,
+    "country": "Spain",
+    "geometryInfo": {
+      "type": "MultiPolygon",
+      "polygonCount": 1,
+      "firstCoord": [
+        187000,
+        4990000
+      ]
+    },
+    "properties": {
+      "UC_num": 2,
+      "FUA_area": 1967
+    }
+  }
+]

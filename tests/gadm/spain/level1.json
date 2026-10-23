@@ -1,0 +1,79 @@
+{
+  "country": "Spain",
+  "level": 1,
+  "count": 18,
+  "regions": [
+    {
+      "NAME_1": "Andalucía",
+      "GID_1": "ESP.1_1"
+    },
+    {
+      "NAME_1": "Aragón",
+      "GID_1": "ESP.2_1"
+    },
+    {
+      "NAME_1": "Cantabria",
+      "GID_1": "ESP.3_1"
+    },
+    {
+      "NAME_1": "Castilla-La Mancha",
+      "GID_1": "ESP.4_1"
+    },
+    {
+      "NAME_1": "Castilla y León",
+      "GID_1": "ESP.5_1"
+    },
+    {
+      "NAME_1": "Cataluña",
+      "GID_1": "ESP.6_1"
+    },
+    {
+      "NAME_1": "Ceuta y Melilla",
+      "GID_1": "ESP.7_1"
+    },
+    {
+      "NAME_1": "Comunidad de Madrid",
+      "GID_1": "ESP.8_1"
+    },
+    {
+      "NAME_1": "Comunidad Foral de Navarra",
+      "GID_1": "ESP.9_1"
+    },
+    {
+      "NAME_1": "Comunidad Valenciana",
+      "GID_1": "ESP.10_1"
+    },
+    {
+      "NAME_1": "Extremadura",
+      "GID_1": "ESP.11_1"
+    },
+    {
+      "NAME_1": "Galicia",
+      "GID_1": "ESP.12_1"
+    },
+    {
+      "NAME_1": "Islas Baleares",
+      "GID_1": "ESP.13_1"
+    },
+    {
+      "NAME_1": "Islas Canarias",
+      "GID_1": "ESP.14_1"
+    },
+    {
+      "NAME_1": "La Rioja",
+      "GID_1": "ESP.15_1"
+    },
+    {
+      "NAME_1": "País Vasco",
+      "GID_1": "ESP.16_1"
+    },
+    {
+      "NAME_1": "Principado de Asturias",
+      "GID_1": "ESP.17_1"
+    },
+    {
+      "NAME_1": "Región de Murcia",
+      "GID_1": "ESP.18_1"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Point clangd to the CMake-generated compile database.
+# Run `cmake --preset vcpkg` (Ninja) first to generate build/compile_commands.json.
+# The vcpkg-win (Visual Studio) generator does NOT produce this file.
+CompileFlags:
+  CompilationDatabase: build

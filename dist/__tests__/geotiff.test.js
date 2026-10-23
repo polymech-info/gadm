@@ -1,0 +1,186 @@
+import { describe, it, expect } from 'vitest';
+import * as geotiff from 'geotiff';
+import { resolve } from 'path';
+import * as path from 'path';
+import { readFileSync, writeFileSync, existsSync } from 'fs';
+const TIFF_PATH = path.join(process.cwd(), 'data/ghs/GHS_BUILT_S_E2030_GLOBE_R2023A_54009_100_V1_0.tif');
+const FUA_JSON_PATH = resolve(__dirname, '../../tests/tree/test-fua-barcelona.json');
+describe('GHS Built-up GeoTIFF', () => {
+    it('reads GeoTIFF metadata', async () => {
+        const tiff = await geotiff.fromFile(TIFF_PATH);
+        const image = await tiff.getImage();
+        const width = image.getWidth();
+        const height = image.getHeight();
+        const tileWidth = image.getTileWidth();
+        const tileHeight = image.getTileHeight();
+        const samplesPerPixel = image.getSamplesPerPixel();
+        const origin = image.getOrigin();
+        const resolution = image.getResolution();
+        const bbox = image.getBoundingBox();
+        console.log(`\n--- GeoTIFF Metadata ---`);
+        console.log(`Dimensions: ${width} x ${height}`);
+        console.log(`Tile Size: ${tileWidth} x ${tileHeight}`);
+        console.log(`Samples per pixel: ${samplesPerPixel}`);
+        console.log(`Origin:`, origin);
+        console.log(`Resolution:`, resolution);
+        console.log(`Bounding Box:`, bbox);
+        expect(width).toBeGreaterThan(0);
+        expect(height).toBeGreaterThan(0);
+    });
+    it('reads built-up data for a specific pixel (center of Barcelona)', async () => {
+        // We will just read a tiny window in the center of the image if JSON isn't available,
+        // or try to read the center of the FUA if available.
+        let xCoord = 0;
+        let yCoord = 0;
+        if (existsSync(FUA_JSON_PATH)) {
+            const data = JSON.parse(readFileSync(FUA_JSON_PATH, 'utf-8'));
+            if (data.length > 0 && data[0].geometryInfo && data[0].geometryInfo.firstCoord) {
+                // Coordinate from Mollweide FUA geometry array
+                // The first coordinate of the first polygon ring
+                xCoord = data[0].geometryInfo.firstCoord[0];
+                yCoord = data[0].geometryInfo.firstCoord[1];
+            }
+        }
+        console.log(`\n--- Querying TIFF at coordinate [${xCoord}, ${yCoord}] ---`);
+        const tiff = await geotiff.fromFile(TIFF_PATH);
+        const image = await tiff.getImage();
+        const origin = image.getOrigin();
+        const resolution = image.getResolution();
+        // Convert map coordinates to pixel coordinates
+        const px = Math.floor((xCoord - origin[0]) / resolution[0]);
+        const py = Math.floor((yCoord - origin[1]) / resolution[1]);
+        console.log(`Pixel coordinates: [${px}, ${py}]`);
+        if (px >= 0 && px < image.getWidth() && py >= 0 && py < image.getHeight()) {
+            // Read a 10x10 window around the pixel
+            const window = [
+                Math.max(0, px - 5),
+                Math.max(0, py - 5),
+                Math.min(image.getWidth(), px + 5),
+                Math.min(image.getHeight(), py + 5)
+            ];
+            const rasterData = await image.readRasters({ window });
+            console.log(`Read a 10x10 window around the pixel. Raster data length: ${rasterData.length}`);
+            // Log some values
+            if (rasterData[0]) {
+                const values = rasterData[0];
+                const validValues = Array.from(values).filter((v) => v !== 65535); // assuming 65535 is nodata
+                if (validValues.length > 0) {
+                    const avg = validValues.reduce((a, b) => a + b, 0) / validValues.length;
+                    const max = Math.max(...validValues);
+                    console.log(`Values in 10x10 window -> Max: ${max}, Avg: ${avg.toFixed(2)}`);
+                    writeFileSync(resolve(__dirname, '../../tests/tree/test-geotiff-barcelona.json'), JSON.stringify({ max, avg, count: validValues.length, allValues: Array.from(values) }, null, 2), 'utf-8');
+                }
+                else {
+                    console.log(`All values in window are NoData (65535).`);
+                }
+            }
+            expect(rasterData).toBeDefined();
+        }
+        else {
+            console.log('Coordinate is out of bounds for this TIFF.');
+        }
+    });
+    it('finds Moia populated center using GeoTIFF Center of Mass', async () => {
+        const proj4 = (await import('proj4')).default;
+        proj4.defs('EPSG:54009', '+proj=moll +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs');
+        const { default: Database } = await import('better-sqlite3');
+        const { parseGpkgGeometry } = await import('../gpkg-reader.js');
+        const { feature, bbox } = await import('@turf/turf');
+        const DEFAULT_GPKG_PATHS = [
+            process.env.GADM_GPKG_PATH,
+            resolve(process.cwd(), 'data/gadm_410.gpkg'),
+            resolve(process.cwd(), 'cache/gadm/gadm_410.gpkg'),
+            resolve(__dirname, '../../data/gadm/gadm_410.gpkg'),
+            resolve(__dirname, '../../../../gadm_410.gpkg')
+        ].filter(Boolean);
+        const GADM_GPKG_PATH = DEFAULT_GPKG_PATHS.find(p => existsSync(p));
+        if (!GADM_GPKG_PATH)
+            throw new Error('GADM database not found');
+        const db = new Database(GADM_GPKG_PATH, { readonly: true });
+        const moiaRow = db.prepare(`
+            SELECT NAME_1, NAME_2, NAME_3, NAME_4, geom 
+            FROM gadm_410 
+            WHERE NAME_0 = 'Spain' 
+              AND (NAME_4 = 'Moià' OR NAME_4 = 'Moia' OR NAME_3 = 'Moià' OR NAME_3 = 'Moia')
+            LIMIT 1
+        `).get();
+        const geometry = parseGpkgGeometry(Buffer.from(moiaRow.geom));
+        // 1. Get the Bounding Box of the municipality in WGS84
+        const f = feature(geometry);
+        const [minLon, minLat, maxLon, maxLat] = bbox(f);
+        // 2. Project bounding box corners to Mollweide
+        const [minX, minY] = proj4('EPSG:4326', 'EPSG:54009', [minLon, minLat]);
+        const [maxX, maxY] = proj4('EPSG:4326', 'EPSG:54009', [maxLon, maxLat]);
+        // Because of projection curve, we should ensure the bounds cover everything.
+        // We will just pad slightly min/max.
+        const mollMinX = Math.min(minX, maxX);
+        const mollMaxX = Math.max(minX, maxX);
+        const mollMinY = Math.min(minY, maxY);
+        const mollMaxY = Math.max(minY, maxY);
+        // 3. Query the TIFF
+        const tiff = await geotiff.fromFile(TIFF_PATH);
+        const image = await tiff.getImage();
+        const origin = image.getOrigin();
+        const resolution = image.getResolution();
+        // 4. Convert bounding box to Pixel Window
+        // resolution[1] is typically negative for Y since Origin is top-left
+        let py1 = Math.floor((mollMinY - origin[1]) / resolution[1]);
+        let py2 = Math.floor((mollMaxY - origin[1]) / resolution[1]);
+        const minPy = Math.max(0, Math.min(py1, py2));
+        const maxPy = Math.min(image.getHeight(), Math.max(py1, py2));
+        const minPx = Math.max(0, Math.floor((mollMinX - origin[0]) / resolution[0]));
+        const maxPx = Math.min(image.getWidth(), Math.ceil((mollMaxX - origin[0]) / resolution[0]));
+        console.log(`\nMoià pixel bounds: X[${minPx} - ${maxPx}], Y[${minPy} - ${maxPy}]`);
+        const widthPx = maxPx - minPx;
+        const heightPx = maxPy - minPy;
+        console.log(`Window size: ${widthPx} x ${heightPx} pixels`);
+        // 5. Read the Raster
+        const rasterData = await image.readRasters({ window: [minPx, minPy, maxPx, maxPy] });
+        if (rasterData[0]) {
+            const values = rasterData[0];
+            // 6. Calculate Center of Mass
+            let totalWeight = 0;
+            let weightedSumX = 0;
+            let weightedSumY = 0;
+            let maxVal = 0;
+            for (let y = 0; y < heightPx; y++) {
+                for (let x = 0; x < widthPx; x++) {
+                    const idx = y * widthPx + x;
+                    const val = values[idx];
+                    if (val !== 65535 && val > 0) { // Valid built-up data
+                        totalWeight += val;
+                        weightedSumX += (minPx + x) * val;
+                        weightedSumY += (minPy + y) * val;
+                        if (val > maxVal)
+                            maxVal = val;
+                    }
+                }
+            }
+            if (totalWeight > 0) {
+                const centerPx = weightedSumX / totalWeight;
+                const centerPy = weightedSumY / totalWeight;
+                // 7. Convert center pixel back to Mollweide and then to WGS84
+                const centerX = origin[0] + (centerPx * resolution[0]);
+                const centerY = origin[1] + (centerPy * resolution[1]);
+                const [centerLon, centerLat] = proj4('EPSG:54009', 'EPSG:4326', [centerX, centerY]);
+                console.log(`\n===========================================`);
+                console.log(`Region: ${moiaRow.NAME_1} > ${moiaRow.NAME_2} > ${moiaRow.NAME_4}`);
+                console.log(`Center of Mass (Pixels): [${centerPx.toFixed(2)}, ${centerPy.toFixed(2)}]`);
+                console.log(`Populated Center Coords (WGS84): [lon ${centerLon.toFixed(4)}, lat ${centerLat.toFixed(4)}]`);
+                console.log(`Max pixel density found: ${maxVal}`);
+                console.log(`===========================================\n`);
+                writeFileSync(resolve(__dirname, '../../tests/tree/test-geotiff-moia-populated-center.json'), JSON.stringify({
+                    geometryCenter: [centerLon, centerLat],
+                    totalWeight,
+                    maxVal,
+                    region: moiaRow.NAME_4
+                }, null, 2), 'utf-8');
+            }
+            else {
+                console.log(`No built-up area found inside the bounding box!`);
+            }
+        }
+        db.close();
+    });
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ2VvdGlmZi50ZXN0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL19fdGVzdHNfXy9nZW90aWZmLnRlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxFQUFFLEVBQUUsTUFBTSxFQUFFLE1BQU0sUUFBUSxDQUFDO0FBQzlDLE9BQU8sS0FBSyxPQUFPLE1BQU0sU0FBUyxDQUFDO0FBQ25DLE9BQU8sRUFBRSxPQUFPLEVBQUUsTUFBTSxNQUFNLENBQUM7QUFDL0IsT0FBTyxLQUFLLElBQUksTUFBTSxNQUFNLENBQUM7QUFDN0IsT0FBTyxFQUFFLFlBQVksRUFBRSxhQUFhLEVBQUUsVUFBVSxFQUFFLE1BQU0sSUFBSSxDQUFDO0FBRTdELE1BQU0sU0FBUyxHQUFHLElBQUksQ0FBQyxJQUFJLENBQUMsT0FBTyxDQUFDLEdBQUcsRUFBRSxFQUFFLDREQUE0RCxDQUFDLENBQUM7QUFDekcsTUFBTSxhQUFhLEdBQUcsT0FBTyxDQUFDLFNBQVMsRUFBRSwwQ0FBMEMsQ0FBQyxDQUFDO0FBRXJGLFFBQVEsQ0FBQyxzQkFBc0IsRUFBRSxHQUFHLEVBQUU7SUFFbEMsRUFBRSxDQUFDLHdCQUF3QixFQUFFLEtBQUssSUFBSSxFQUFFO1FBQ3BDLE1BQU0sSUFBSSxHQUFHLE1BQU0sT0FBTyxDQUFDLFFBQVEsQ0FBQyxTQUFTLENBQUMsQ0FBQztRQUMvQyxNQUFNLEtBQUssR0FBRyxNQUFNLElBQUksQ0FBQyxRQUFRLEVBQUUsQ0FBQztRQUVwQyxNQUFNLEtBQUssR0FBRyxLQUFLLENBQUMsUUFBUSxFQUFFLENBQUM7UUFDL0IsTUFBTSxNQUFNLEdBQUcsS0FBSyxDQUFDLFNBQVMsRUFBRSxDQUFDO1FBQ2pDLE1BQU0sU0FBUyxHQUFHLEtBQUssQ0FBQyxZQUFZLEVBQUUsQ0FBQztRQUN2QyxNQUFNLFVBQVUsR0FBRyxLQUFLLENBQUMsYUFBYSxFQUFFLENBQUM7UUFDekMsTUFBTSxlQUFlLEdBQUcs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

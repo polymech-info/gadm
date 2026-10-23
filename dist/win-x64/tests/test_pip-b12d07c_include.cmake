@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/tests/test_pip-b12d07c_tests.cmake")
+  include("C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/tests/test_pip-b12d07c_tests.cmake")
+else()
+  add_test(test_pip_NOT_BUILT-b12d07c test_pip_NOT_BUILT-b12d07c)
+endif()

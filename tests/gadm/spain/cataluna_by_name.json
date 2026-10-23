@@ -1,0 +1,24 @@
+{
+  "lookupName": "Cataluña",
+  "level": 1,
+  "subRegionLevel": 2,
+  "subRegionCount": 4,
+  "subRegions": [
+    {
+      "NAME_2": "Barcelona",
+      "GID_2": "ESP.6.1_1"
+    },
+    {
+      "NAME_2": "Girona",
+      "GID_2": "ESP.6.2_1"
+    },
+    {
+      "NAME_2": "Lleida",
+      "GID_2": "ESP.6.3_1"
+    },
+    {
+      "NAME_2": "Tarragona",
+      "GID_2": "ESP.6.4_1"
+    }
+  ]
+}

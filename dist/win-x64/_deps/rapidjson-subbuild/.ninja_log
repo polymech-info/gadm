@@ -1,0 +1,21 @@
+# ninja log v7
+2	110	8144420984443175	rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-mkdir	5e205ef6b18633c3
+2	110	8144420984443175	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-mkdir	5e205ef6b18633c3
+111	5619	8144421039545922	rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-download	e7fdbd059c2cd75b
+111	5619	8144421039545922	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-download	e7fdbd059c2cd75b
+5620	7359	8144421039635927	rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-update	ff5e8818aa7cd8f8
+5620	7359	8144421039635927	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-update	ff5e8818aa7cd8f8
+7360	7426	8144421057610203	rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-patch	ed2e91a6a87970a7
+7360	7426	8144421057610203	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-patch	ed2e91a6a87970a7
+7426	7491	8144421058260390	rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-configure	8a088b63aa4899d1
+7426	7491	8144421058260390	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-configure	8a088b63aa4899d1
+7491	7558	8144421058915496	rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-build	721a12e112fe13c2
+7491	7558	8144421058915496	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-build	721a12e112fe13c2
+7558	7632	8144421059665652	rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-install	912318d5525b5008
+7558	7632	8144421059665652	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-install	912318d5525b5008
+7632	7701	8144421060340873	rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-test	ac2f5204faf0e748
+7632	7701	8144421060340873	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-test	ac2f5204faf0e748
+7701	7791	8144421061251010	CMakeFiles/rapidjson-populate-complete	1a77c1f8834577ac
+7701	7791	8144421061251010	rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-done	1a77c1f8834577ac
+7701	7791	8144421061251010	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/CMakeFiles/rapidjson-populate-complete	1a77c1f8834577ac
+7701	7791	8144421061251010	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-done	1a77c1f8834577ac

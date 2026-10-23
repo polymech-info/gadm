@@ -1,0 +1,70 @@
+{
+  "featureCount": 13,
+  "districts": [
+    {
+      "name": "Bautzen",
+      "gid": "DEU.14.1_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Chemnitz",
+      "gid": "DEU.14.2_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Dresden",
+      "gid": "DEU.14.3_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Erzgebirgskreis",
+      "gid": "DEU.14.4_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Görlitz",
+      "gid": "DEU.14.5_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Leipzig (Kreisfreie Stadt)",
+      "gid": "DEU.14.6_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Leipzig",
+      "gid": "DEU.14.7_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Meißen",
+      "gid": "DEU.14.8_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Mittelsachsen",
+      "gid": "DEU.14.9_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Nordsachsen",
+      "gid": "DEU.14.10_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Sächsische Schweiz-Osterzgebirge",
+      "gid": "DEU.14.11_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Vogtlandkreis",
+      "gid": "DEU.14.12_1",
+      "polygonCount": 1
+    },
+    {
+      "name": "Zwickau",
+      "gid": "DEU.14.13_1",
+      "polygonCount": 1
+    }
+  ]
+}

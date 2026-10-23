@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/CMakeFiles/rapidjson-populate"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/CMakeFiles/rapidjson-populate.rule"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/CMakeFiles/rapidjson-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/rapidjson-subbuild/rapidjson-populate-prefix/src/rapidjson-populate-stamp/rapidjson-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"rapidjson-populate"
+		],
+		"name" : "rapidjson-populate"
+	}
+}

@@ -1,0 +1,16 @@
+{
+  "featureCount": 1,
+  "geometryType": "MultiPolygon",
+  "polygonCount": 10,
+  "firstCoord": [
+    0.15922300600004746,
+    40.75063324000013
+  ],
+  "properties": {
+    "NAME_0": "Spain",
+    "GID_0": "ESP",
+    "NAME_1": "Cataluña",
+    "GID_1": "ESP.6_1",
+    "isOuter": true
+  }
+}

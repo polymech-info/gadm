@@ -1,0 +1,3 @@
+C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate.dir
+C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/CMakeFiles/rebuild_cache.dir

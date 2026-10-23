@@ -1,0 +1,21 @@
+# ninja log v7
+2	80	8144420924530798	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	71fc595a80078d33
+2	80	8144420924530798	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-mkdir	71fc595a80078d33
+80	2329	8144420947031493	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	de32bee155b88e56
+80	2329	8144420947031493	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-download	de32bee155b88e56
+2332	3898	8144420947131481	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	78b3fb70adb6c574
+2332	3898	8144420947131481	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-update	78b3fb70adb6c574
+3898	3973	8144420963445685	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	fb8c3960c26fa23b
+3898	3973	8144420963445685	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-patch	fb8c3960c26fa23b
+3973	4050	8144420964215964	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	337c037e89a3158b
+3973	4050	8144420964215964	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-configure	337c037e89a3158b
+4050	4124	8144420964961146	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	2c7d844722478743
+4050	4124	8144420964961146	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-build	2c7d844722478743
+4124	4197	8144420965691298	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	e254ff9dca2c29b6
+4124	4197	8144420965691298	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-install	e254ff9dca2c29b6
+4197	4265	8144420966386476	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	9e90f99b12e69b78
+4197	4265	8144420966386476	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-test	9e90f99b12e69b78
+4266	4356	8144420967286709	CMakeFiles/spdlog-populate-complete	589f5a275822568
+4266	4356	8144420967286709	spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	589f5a275822568
+4266	4356	8144420967286709	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/CMakeFiles/spdlog-populate-complete	589f5a275822568
+4266	4356	8144420967286709	C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-subbuild/spdlog-populate-prefix/src/spdlog-populate-stamp/spdlog-populate-done	589f5a275822568

@@ -1,0 +1,112 @@
+import { describe, it } from 'vitest';
+import * as geotiff from 'geotiff';
+import { resolve } from 'path';
+import * as path from 'path';
+import { existsSync, writeFileSync } from 'fs';
+const POP_TIFF_PATH = path.join(process.cwd(), 'data/ghs/GHS_POP_E2030_GLOBE_R2023A_54009_100_V1_0.tif');
+describe('GHS Population GeoTIFF', () => {
+    it('finds Moia populated center based on real population', async () => {
+        if (!existsSync(POP_TIFF_PATH)) {
+            console.log(`Skipping Test: GHS_POP GeoTIFF not found at ${POP_TIFF_PATH}`);
+            return;
+        }
+        const proj4 = (await import('proj4')).default;
+        proj4.defs('EPSG:54009', '+proj=moll +lon_0=0 +x_0=0 +y_0=0 +datum=WGS84 +units=m +no_defs');
+        const { default: Database } = await import('better-sqlite3');
+        const { parseGpkgGeometry } = await import('../gpkg-reader.js');
+        const { feature, bbox } = await import('@turf/turf');
+        const DEFAULT_GPKG_PATHS = [
+            process.env.GADM_GPKG_PATH,
+            resolve(process.cwd(), 'data/gadm_410.gpkg'),
+            resolve(process.cwd(), 'cache/gadm/gadm_410.gpkg'),
+            resolve(__dirname, '../../data/gadm/gadm_410.gpkg'),
+            resolve(__dirname, '../../../../gadm_410.gpkg')
+        ].filter(Boolean);
+        const GADM_GPKG_PATH = DEFAULT_GPKG_PATHS.find(p => existsSync(p));
+        if (!GADM_GPKG_PATH)
+            throw new Error('GADM database not found');
+        const db = new Database(GADM_GPKG_PATH, { readonly: true });
+        const moiaRow = db.prepare(`
+            SELECT NAME_1, NAME_2, NAME_3, NAME_4, geom 
+            FROM gadm_410 
+            WHERE NAME_0 = 'Spain' 
+              AND (NAME_4 = 'Moià' OR NAME_4 = 'Moia' OR NAME_3 = 'Moià' OR NAME_3 = 'Moia')
+            LIMIT 1
+        `).get();
+        const geometry = parseGpkgGeometry(Buffer.from(moiaRow.geom));
+        // 1. Get the Bounding Box of the municipality in WGS84
+        const f = feature(geometry);
+        const [minLon, minLat, maxLon, maxLat] = bbox(f);
+        // 2. Project bounding box corners to Mollweide
+        const [minX, minY] = proj4('EPSG:4326', 'EPSG:54009', [minLon, minLat]);
+        const [maxX, maxY] = proj4('EPSG:4326', 'EPSG:54009', [maxLon, maxLat]);
+        const mollMinX = Math.min(minX, maxX);
+        const mollMaxX = Math.max(minX, maxX);
+        const mollMinY = Math.min(minY, maxY);
+        const mollMaxY = Math.max(minY, maxY);
+        // 3. Query the TIFF
+        const tiff = await geotiff.fromFile(POP_TIFF_PATH);
+        const image = await tiff.getImage();
+        const origin = image.getOrigin();
+        const resolution = image.getResolution();
+        // 4. Convert bounding box to Pixel Window
+        let py1 = Math.floor((mollMinY - origin[1]) / resolution[1]);
+        let py2 = Math.floor((mollMaxY - origin[1]) / resolution[1]);
+        const minPy = Math.max(0, Math.min(py1, py2));
+        const maxPy = Math.min(image.getHeight(), Math.max(py1, py2));
+        const minPx = Math.max(0, Math.floor((mollMinX - origin[0]) / resolution[0]));
+        const maxPx = Math.min(image.getWidth(), Math.ceil((mollMaxX - origin[0]) / resolution[0]));
+        const widthPx = maxPx - minPx;
+        const heightPx = maxPy - minPy;
+        // 5. Read the Raster
+        const rasterData = await image.readRasters({ window: [minPx, minPy, maxPx, maxPy] });
+        let exactPopulation = 0;
+        if (rasterData[0]) {
+            const values = rasterData[0];
+            // 6. Calculate Center of Mass based on Population
+            let weightedSumX = 0;
+            let weightedSumY = 0;
+            let maxVal = 0;
+            for (let y = 0; y < heightPx; y++) {
+                for (let x = 0; x < widthPx; x++) {
+                    const idx = y * widthPx + x;
+                    const pop = values[idx];
+                    // NoData in the population dataset is typically a specific negative value or 65535 or NaN.
+                    // Let's assume positive floats represent population.
+                    if (pop !== undefined && !isNaN(pop) && pop > 0 && pop !== 65535) {
+                        exactPopulation += pop;
+                        weightedSumX += (minPx + x) * pop;
+                        weightedSumY += (minPy + y) * pop;
+                        if (pop > maxVal)
+                            maxVal = pop;
+                    }
+                }
+            }
+            if (exactPopulation > 0) {
+                const centerPx = weightedSumX / exactPopulation;
+                const centerPy = weightedSumY / exactPopulation;
+                // 7. Convert center pixel back to WGS84
+                const centerX = origin[0] + (centerPx * resolution[0]);
+                const centerY = origin[1] + (centerPy * resolution[1]);
+                const [centerLon, centerLat] = proj4('EPSG:54009', 'EPSG:4326', [centerX, centerY]);
+                console.log(`\n===========================================`);
+                console.log(`Region: ${moiaRow.NAME_1} > ${moiaRow.NAME_2} > ${moiaRow.NAME_4}`);
+                console.log(`Total Exact Population (2030 Estimate): ${Math.round(exactPopulation)}`);
+                console.log(`Max people in a single 100x100m block: ${Math.round(maxVal)}`);
+                console.log(`Populated Center Coords (WGS84): [lon ${centerLon.toFixed(4)}, lat ${centerLat.toFixed(4)}]`);
+                console.log(`===========================================\n`);
+                writeFileSync(resolve(__dirname, '../../tests/tree/test-ghs-pop-moia-populated-center.json'), JSON.stringify({
+                    geometryCenter: [centerLon, centerLat],
+                    population: Math.round(exactPopulation),
+                    maxDensity: Math.round(maxVal),
+                    region: moiaRow.NAME_4
+                }, null, 2), 'utf-8');
+            }
+            else {
+                console.log(`No population found inside the bounding box!`);
+            }
+        }
+        db.close();
+    });
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZ2hzLXBvcC50ZXN0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL19fdGVzdHNfXy9naHMtcG9wLnRlc3QudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsT0FBTyxFQUFFLFFBQVEsRUFBRSxFQUFFLEVBQVUsTUFBTSxRQUFRLENBQUM7QUFDOUMsT0FBTyxLQUFLLE9BQU8sTUFBTSxTQUFTLENBQUM7QUFDbkMsT0FBTyxFQUFFLE9BQU8sRUFBRSxNQUFNLE1BQU0sQ0FBQztBQUMvQixPQUFPLEtBQUssSUFBSSxNQUFNLE1BQU0sQ0FBQztBQUM3QixPQUFPLEVBQUUsVUFBVSxFQUFFLGFBQWEsRUFBRSxNQUFNLElBQUksQ0FBQztBQUUvQyxNQUFNLGFBQWEsR0FBRyxJQUFJLENBQUMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxHQUFHLEVBQUUsRUFBRSx3REFBd0QsQ0FBQyxDQUFDO0FBRXpHLFFBQVEsQ0FBQyx3QkFBd0IsRUFBRSxHQUFHLEVBQUU7SUFDcEMsRUFBRSxDQUFDLHNEQUFzRCxFQUFFLEtBQUssSUFBSSxFQUFFO1FBQ2xFLElBQUksQ0FBQyxVQUFVLENBQUMsYUFBYSxDQUFDLEVBQUUsQ0FBQztZQUM3QixPQUFPLENBQUMsR0FBRyxDQUFDLCtDQUErQyxhQUFhLEVBQUUsQ0FBQyxDQUFDO1lBQzVFLE9BQU87UUFDWCxDQUFDO1FBRUQsTUFBTSxLQUFLLEdBQUcsQ0FBQyxNQUFNLE1BQU0sQ0FBQyxPQUFPLENBQUMsQ0FBQyxDQUFDLE9BQU8sQ0FBQztRQUM5QyxLQUFLLENBQUMsSUFBSSxDQUFDLFlBQVksRUFBRSxrRUFBa0UsQ0FBQyxDQUFDO1FBRTdGLE1BQU0sRUFBRSxPQUFPLEVBQUUsUUFBUSxFQUFFLEdBQUcsTUFBTSxNQUFNLENBQUMsZ0JBQWdCLENBQUMsQ0FBQztRQUM3RCxNQUFNLEVBQUUsaUJBQWlCLEVBQUUsR0FBRyxNQUFNLE1BQU0sQ0FBQyxtQkFBbUIsQ0FBQyxDQUFDO1FBQ2hFLE1BQU0sRUFB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

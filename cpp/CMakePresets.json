@@ -1,0 +1,94 @@
+{
+    "version": 6,
+    "cmakeMinimumRequired": {
+        "major": 3,
+        "minor": 20,
+        "patch": 0
+    },
+    "configurePresets": [
+        {
+            "name": "vcpkg",
+            "displayName": "vcpkg + Ninja (default)",
+            "generator": "Ninja",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_TOOLCHAIN_FILE": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
+                "CMAKE_BUILD_TYPE": "Release",
+                "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+                "VCPKG_TARGET_TRIPLET": "x64-windows",
+                "VCPKG_MANIFEST_INSTALL": "OFF",
+                "VCPKG_INSTALLED_DIR": "${sourceDir}/vcpkg_installed"
+            }
+        },
+        {
+            "name": "release",
+            "inherits": "vcpkg",
+            "displayName": "Release (Ninja + MSVC via scripts; reuse ./vcpkg_installed)",
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Windows"
+            }
+        },
+        {
+            "name": "release-fresh",
+            "inherits": "vcpkg",
+            "displayName": "Release + vcpkg install (slow; GDAL from source)",
+            "cacheVariables": {
+                "VCPKG_MANIFEST_INSTALL": "ON"
+            },
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Windows"
+            }
+        },
+        {
+            "name": "vcpkg-win",
+            "inherits": "vcpkg",
+            "displayName": "vcpkg (Windows Ninja)",
+            "cacheVariables": {
+                "VCPKG_TARGET_TRIPLET": "x64-windows"
+            }
+        },
+        {
+            "name": "vcpkg-linux",
+            "inherits": "vcpkg",
+            "displayName": "vcpkg (Linux)",
+            "cacheVariables": {
+                "VCPKG_TARGET_TRIPLET": "x64-linux"
+            },
+            "condition": {
+                "type": "equals",
+                "lhs": "${hostSystemName}",
+                "rhs": "Linux"
+            }
+        },
+        {
+            "name": "dev",
+            "inherits": "vcpkg",
+            "displayName": "Dev (Debug)",
+            "binaryDir": "${sourceDir}/build/dev",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "VCPKG_TARGET_TRIPLET": "x64-windows"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "release",
+            "configurePreset": "release",
+            "configuration": "Release"
+        },
+        {
+            "name": "vcpkg",
+            "configurePreset": "vcpkg",
+            "configuration": "Release"
+        },
+        {
+            "name": "dev",
+            "configurePreset": "dev"
+        }
+    ]
+}

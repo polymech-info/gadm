@@ -1,0 +1,19 @@
+# ninja log v7
+33	2835	8144421209367228	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj	fc27ed5d7034453c
+40	3000	8144421209437237	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj	c32df7949e9a5ada
+49	3228	8144421209527256	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj	6122813865df5740
+20	3259	8144421209227248	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj	824060950ca19aa9
+26	3343	8144421209297268	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj	5e4e5dabdab58ecc
+2854	4431	8144421237572096	packages/json/CMakeFiles/json.dir/src/json.cpp.obj	14ed2adf8f2979d9
+2845	5647	8144421237483607	packages/logger/CMakeFiles/logger.dir/src/logger.cpp.obj	229a804fd86f3804
+14	6034	8144421209167231	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj	8793f1067e5867f7
+2837	6036	8144421237403613	_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj	277d9b43435a71f2
+3229	7866	8144421241325502	CMakeFiles/gadm_boundaries_static.dir/src/ghs_enrich.cpp.obj	83fae215faaf78e5
+3001	8314	8144421239044765	CMakeFiles/gadm_boundaries_static.dir/src/gpkg_reader.cpp.obj	9e08365f00b4619a
+8314	8422	8144421292173245	_deps/spdlog-build/spdlog.lib	15226ae5fedc031d
+3013	8525	8144421239159914	CMakeFiles/gadm_boundaries_static.dir/src/geo_merge.cpp.obj	ad577430ba12b301
+8526	8604	8144421294293876	packages/logger/logger.lib	f7e2d2ce98f7b9e5
+8604	8673	8144421295069050	packages/json/json.lib	978b13b4992903a3
+8422	12748	8144421293253592	CMakeFiles/gadm_boundaries_static.dir/src/geo_display.cpp.obj	a1a36d6c1e02d104
+12749	12924	8144421336519410	gadm_boundaries_static.lib	ac95eba2ac84bcf8
+8673	17925	8144421295769359	CMakeFiles/boundaries.dir/src/main.cpp.obj	d247568f28d2eac2

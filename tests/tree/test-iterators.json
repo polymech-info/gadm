@@ -1,0 +1,27 @@
+{
+  "dfsCount": 1000,
+  "nodeCount": 1000,
+  "provinces": [
+    {
+      "name": "Barcelona",
+      "gid": "ESP.6.1_1"
+    },
+    {
+      "name": "Girona",
+      "gid": "ESP.6.2_1"
+    },
+    {
+      "name": "Lleida",
+      "gid": "ESP.6.3_1"
+    },
+    {
+      "name": "Tarragona",
+      "gid": "ESP.6.4_1"
+    }
+  ],
+  "barcelona": {
+    "name": "Barcelona",
+    "gid": "ESP.6.1_1",
+    "children": 12
+  }
+}

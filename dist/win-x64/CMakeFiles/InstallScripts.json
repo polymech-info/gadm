@@ -1,0 +1,17 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/cli11-build/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/cli11-build/fuzz/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/cli11-build/src/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/cli11-build/single-include/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/packages/logger/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-build/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/packages/json/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/tests/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/cmake_install.cmake",
+		"C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

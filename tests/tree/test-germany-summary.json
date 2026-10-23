@@ -1,0 +1,88 @@
+{
+  "name": "Germany",
+  "gid": "DEU",
+  "maxLevel": 4,
+  "nodeCount": 16402,
+  "level1": [
+    {
+      "name": "Baden-Württemberg",
+      "gid": "DEU.1_1",
+      "childCount": 45
+    },
+    {
+      "name": "Bayern",
+      "gid": "DEU.2_1",
+      "childCount": 96
+    },
+    {
+      "name": "Berlin",
+      "gid": "DEU.3_1",
+      "childCount": 1
+    },
+    {
+      "name": "Brandenburg",
+      "gid": "DEU.4_1",
+      "childCount": 18
+    },
+    {
+      "name": "Bremen",
+      "gid": "DEU.5_1",
+      "childCount": 2
+    },
+    {
+      "name": "Hamburg",
+      "gid": "DEU.6_1",
+      "childCount": 1
+    },
+    {
+      "name": "Hessen",
+      "gid": "DEU.7_1",
+      "childCount": 26
+    },
+    {
+      "name": "Mecklenburg-Vorpommern",
+      "gid": "DEU.8_1",
+      "childCount": 8
+    },
+    {
+      "name": "Niedersachsen",
+      "gid": "DEU.9_1",
+      "childCount": 46
+    },
+    {
+      "name": "Nordrhein-Westfalen",
+      "gid": "DEU.10_1",
+      "childCount": 53
+    },
+    {
+      "name": "Rheinland-Pfalz",
+      "gid": "DEU.11_1",
+      "childCount": 36
+    },
+    {
+      "name": "Saarland",
+      "gid": "DEU.12_1",
+      "childCount": 6
+    },
+    {
+      "name": "Sachsen",
+      "gid": "DEU.14_1",
+      "childCount": 13
+    },
+    {
+      "name": "Sachsen-Anhalt",
+      "gid": "DEU.13_1",
+      "childCount": 14
+    },
+    {
+      "name": "Schleswig-Holstein",
+      "gid": "DEU.15_1",
+      "childCount": 15
+    },
+    {
+      "name": "Thüringen",
+      "gid": "DEU.16_1",
+      "childCount": 23
+    }
+  ]
+}

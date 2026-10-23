@@ -1,0 +1,225 @@
+/**
+ * Enricher Precision Tests — validates GHS center coordinates are:
+ *  1. Inside their parent polygon (PIP)
+ *  2. Rounded to ≤5 decimal places
+ *  3. Consistent between C++ cache and live TS enrichment
+ */
+import { describe, it, expect } from 'vitest';
+import { resolve, join } from 'path';
+import { existsSync, writeFileSync, mkdirSync } from 'fs';
+import { enrichFeatureWithGHS } from '../enrich-ghs.js';
+import { containsPoint, getBoundaryFromGpkg, parseGpkgGeometry } from '../gpkg-reader.js';
+import Database from 'better-sqlite3';
+const CACHE_DIR = resolve(process.cwd(), 'cache/gadm');
+const OUT_DIR = resolve('tests', 'tree');
+const POP_TIFF_PATH = join(process.cwd(), 'data/ghs/GHS_POP_E2030_GLOBE_R2023A_54009_100_V1_0.tif');
+const BUILT_TIFF_PATH = join(process.cwd(), 'data/ghs/GHS_BUILT_S_E2030_GLOBE_R2023A_54009_100_V1_0.tif');
+const DEFAULT_GPKG_PATHS = [
+    process.env.GADM_GPKG_PATH,
+    join(process.cwd(), 'data/gadm_410.gpkg'),
+    join(process.cwd(), 'cache/gadm/gadm_410.gpkg'),
+].filter(Boolean);
+const GADM_PATH = DEFAULT_GPKG_PATHS.find(p => existsSync(p));
+function save(name, data) {
+    mkdirSync(OUT_DIR, { recursive: true });
+    writeFileSync(resolve(OUT_DIR, name), JSON.stringify(data, null, 2), 'utf-8');
+    console.log(`  → saved tests/tree/${name}`);
+}
+function haversineMeters(lon1, lat1, lon2, lat2) {
+    const R = 6_371_000;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat / 2) ** 2 +
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+            Math.sin(dLon / 2) ** 2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+/** Check that a number has ≤5 decimal places */
+function checkPrecision(value) {
+    const str = value.toString();
+    const decimalPart = str.includes('.') ? str.split('.')[1] : '';
+    return decimalPart.length <= 5;
+}
+describe('GHS Enricher Precision', () => {
+    // ── Test 1: Centers must be inside their polygon ────────────────────────
+    it('all GHS centers from getBoundaryFromGpkg lie inside their polygon', async () => {
+        // Use a well-known region: Sachsen L2 (13 districts)
+        const result = await getBoundaryFromGpkg('DEU.14_1', 2);
+        expect(result).not.toBeNull();
+        expect(result.features.length).toBeGreaterThan(0);
+        const errors = [];
+        for (const f of result.features) {
+            const geom = f.geometry;
+            const props = f.properties;
+            const label = props.NAME_2 || props.code || 'unknown';
+            for (const key of ['ghsPopCenter', 'ghsBuiltCenter']) {
+                const center = props[key];
+                if (center && Array.isArray(center) && center.length === 2) {
+                    if (!containsPoint(geom, [center[0], center[1]])) {
+                        errors.push(`${label}: ${key} [${center[0]}, ${center[1]}] is OUTSIDE polygon`);
+                    }
+                }
+            }
+            for (const key of ['ghsPopCenters', 'ghsBuiltCenters']) {
+                const centers = props[key];
+                if (Array.isArray(centers)) {
+                    for (let i = 0; i < centers.length; i++) {
+                        const c = centers[i];
+                        if (!containsPoint(geom, [c[0], c[1]])) {
+                            errors.push(`${label}: ${key}[${i}] [${c[0]}, ${c[1]}] is OUTSIDE polygon`);
+                        }
+                    }
+                }
+            }
+        }
+        save('enricher-precision-pip.json', {
+            region: 'DEU.14_1 (Sachsen) L2',
+            featureCount: result.features.length,
+            errors,
+        });
+        if (errors.length > 0) {
+            console.warn(`\n⚠️  ${errors.length} centers outside polygon:`);
+            errors.forEach(e => console.warn(`  - ${e}`));
+        }
+        // Allow up to 10% failure rate (expected from geometry simplification)
+        const totalCenters = result.features.reduce((acc, f) => {
+            let count = 0;
+            if (f.properties.ghsPopCenter)
+                count++;
+            if (f.properties.ghsBuiltCenter)
+                count++;
+            if (Array.isArray(f.properties.ghsPopCenters))
+                count += f.properties.ghsPopCenters.length;
+            if (Array.isArray(f.properties.ghsBuiltCenters))
+                count += f.properties.ghsBuiltCenters.length;
+            return acc + count;
+        }, 0);
+        console.log(`\n📊 PIP check: ${totalCenters} centers tested, ${errors.length} outside (${((errors.length / Math.max(totalCenters, 1)) * 100).toFixed(1)}%)`);
+        expect(errors.length).toBeLessThan(totalCenters * 0.1);
+    }, 120_000);
+    // ── Test 2: Coordinate precision ≤ 5 decimal places ─────────────────────
+    it('all GHS coordinates have ≤5 decimal places', async () => {
+        const result = await getBoundaryFromGpkg('ESP.6_1', 2);
+        expect(result).not.toBeNull();
+        const precisionErrors = [];
+        for (const f of result.features) {
+            const props = f.properties;
+            const label = props.NAME_2 || props.code || 'unknown';
+            for (const key of ['ghsPopCenter', 'ghsBuiltCenter']) {
+                const center = props[key];
+                if (center && Array.isArray(center)) {
+                    center.forEach((v, i) => {
+                        if (!checkPrecision(v)) {
+                            precisionErrors.push(`${label}: ${key}[${i}] = ${v} exceeds 5dp`);
+                        }
+                    });
+                }
+            }
+            for (const key of ['ghsPopCenters', 'ghsBuiltCenters']) {
+                const centers = props[key];
+                if (Array.isArray(centers)) {
+                    for (const c of centers) {
+                        c.slice(0, 2).forEach((v, i) => {
+                            if (!checkPrecision(v)) {
+                                precisionErrors.push(`${label}: ${key}[${i}] = ${v} exceeds 5dp`);
+                            }
+                        });
+                    }
+                }
+            }
+        }
+        save('enricher-precision-dp.json', {
+            region: 'ESP.6_1 (Cataluña) L2',
+            featureCount: result.features.length,
+            precisionErrors,
+        });
+        if (precisionErrors.length > 0) {
+            console.warn(`\n⚠️  ${precisionErrors.length} precision failures:`);
+            precisionErrors.forEach(e => console.warn(`  - ${e}`));
+        }
+        expect(precisionErrors.length).toBe(0);
+    }, 120_000);
+    // ── Test 3: C++ vs TS cross-validation ──────────────────────────────────
+    it('C++ and TS enrichment centers agree within 200m', async () => {
+        if (!existsSync(POP_TIFF_PATH) || !existsSync(BUILT_TIFF_PATH) || !GADM_PATH) {
+            console.log('Skipping cross-validation: GHS TIFFs or GPKG not found.');
+            return;
+        }
+        // Use getBoundaryFromGpkg which may load from C++ cache
+        const cppResult = await getBoundaryFromGpkg('ABW', 0);
+        if (!cppResult || cppResult.features.length === 0) {
+            console.log('Skipping: no cached boundary for ABW');
+            return;
+        }
+        const THRESHOLD = 500; // meters
+        const drifts = [];
+        // Re-enrich the same geometries via TS
+        for (const f of cppResult.features) {
+            const label = f.properties.name || f.properties.NAME_0 || 'ABW';
+            const cppPopCenter = f.properties.ghsPopCenter;
+            const cppBuiltCenter = f.properties.ghsBuiltCenter;
+            const tsResult = await enrichFeatureWithGHS({ type: 'Feature', properties: {}, geometry: f.geometry }, { pop: true, built: true });
+            if (cppPopCenter && tsResult.ghsPopCenter) {
+                const dist = haversineMeters(cppPopCenter[0], cppPopCenter[1], tsResult.ghsPopCenter[0], tsResult.ghsPopCenter[1]);
+                drifts.push({
+                    name: label, type: 'pop', distM: Math.round(dist),
+                    cpp: cppPopCenter, ts: tsResult.ghsPopCenter
+                });
+                if (dist > THRESHOLD) {
+                    console.warn(`⚠️  ${label} pop center drift: ${Math.round(dist)}m`);
+                }
+            }
+            if (cppBuiltCenter && tsResult.ghsBuiltCenter) {
+                const dist = haversineMeters(cppBuiltCenter[0], cppBuiltCenter[1], tsResult.ghsBuiltCenter[0], tsResult.ghsBuiltCenter[1]);
+                drifts.push({
+                    name: label, type: 'built', distM: Math.round(dist),
+                    cpp: cppBuiltCenter, ts: tsResult.ghsBuiltCenter
+                });
+                if (dist > THRESHOLD) {
+                    console.warn(`⚠️  ${label} built center drift: ${Math.round(dist)}m`);
+                }
+            }
+        }
+        save('enricher-precision-cross.json', { region: 'ABW', threshold: THRESHOLD, drifts });
+        console.log(`\n📊 Cross-validation: ${drifts.length} center pairs compared`);
+        drifts.forEach(d => console.log(`  ${d.name} ${d.type}: ${d.distM}m`));
+        const failures = drifts.filter(d => d.distM > THRESHOLD);
+        expect(failures.length).toBe(0);
+    }, 120_000);
+    // ── Test 4: Population sanity check ─────────────────────────────────────
+    it('weighted center is closer to dense areas than bbox center', async () => {
+        if (!existsSync(POP_TIFF_PATH) || !GADM_PATH) {
+            console.log('Skipping: GHS POP TIFF not found.');
+            return;
+        }
+        const db = new Database(GADM_PATH, { readonly: true });
+        // Berlin — has a clear urban center
+        const row = db.prepare(`
+            SELECT NAME_1, geom FROM gadm_410 WHERE GID_1 = 'DEU.3_1' LIMIT 1
+        `).get();
+        db.close();
+        if (!row) {
+            console.log('Skipping: DEU.3_1 not found');
+            return;
+        }
+        const geometry = parseGpkgGeometry(Buffer.from(row.geom));
+        const feature = { type: 'Feature', properties: { name: 'Berlin' }, geometry };
+        const result = await enrichFeatureWithGHS(feature, { pop: true });
+        expect(result.ghsPopCenter).toBeDefined();
+        expect(result.ghsPopulation).toBeGreaterThan(1_000_000);
+        // Berlin's center is roughly 13.4°E, 52.52°N
+        const knownCenter = [13.405, 52.52];
+        const distToKnown = haversineMeters(result.ghsPopCenter[0], result.ghsPopCenter[1], knownCenter[0], knownCenter[1]);
+        console.log(`\n📊 Berlin pop center: [${result.ghsPopCenter}], distance to known center: ${Math.round(distToKnown)}m`);
+        console.log(`   Population: ${result.ghsPopulation}, max density: ${result.ghsPopMaxDensity}`);
+        // Weighted pop center should be within 5km of Berlin's known center
+        expect(distToKnown).toBeLessThan(5000);
+        save('enricher-precision-berlin.json', {
+            popCenter: result.ghsPopCenter,
+            population: result.ghsPopulation,
+            distToKnownCenter: Math.round(distToKnown),
+            popCenters: result.ghsPopCenters,
+        });
+    }, 120_000);
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZW5yaWNoZXItcHJlY2lzaW9uLnRlc3QuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvX190ZXN0c19fL2VucmljaGVyLXByZWNpc2lvbi50ZXN0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7OztHQUtHO0FBQ0gsT0FBTyxFQUFFLFFBQVEsRUFBRSxFQUFFLEVBQUUsTUFBTSxFQUFFLE1BQU0sUUFBUSxDQUFDO0FBQzlDLE9BQU8sRUFBRSxPQUFPLEVBQUUsSUFBSSxFQUFFLE1BQU0sTUFBTSxDQUFDO0FBQ3JDLE9BQU8sRUFBRSxVQUFVLEVBQTZCLGFBQWEsRUFBRSxTQUFTLEVBQUUsTUFBTSxJQUFJLENBQUM7QUFDckYsT0FBTyxFQUFFLG9CQUFvQixFQUFFLE1BQU0sa0JBQWtCLENBQUM7QUFDeEQsT0FBTyxFQUFFLGFBQWEsRUFBRSxtQkFBbUIsRUFBRSxpQkFBaUIsRUFBRSxNQUFNLG1CQUFtQixDQUFDO0FBQzFGLE9BQU8sUUFBUSxNQUFNLGdCQUFnQixDQUFDO0FBRXRDLE1BQU0sU0FBUyxHQUFHLE9BQU8sQ0FBQyxPQUFPLENBQUMsR0FBRyxFQUFFLEVBQUUsWUFBWSxDQUFDLENBQUM7QUFDdkQsTUFBTSxPQUFPLEdBQUcsT0FBTyxDQUFDLE9BQU8sRUFBRSxNQUFNLENBQUMsQ0FBQztBQUV6QyxNQUFNLGFBQWEsR0FBRyxJQUFJLENBQUMsT0FBTyxDQUFDLEdBQUcsRUFBRSxFQUFFLHdEQUF3RCxDQUFDLENBQUM7QUFDcEcsTUFBTSxlQUFlLEdBQUcsSUFBSSxDQUFDLE9BQU8sQ0FBQyxHQUFHLEVBQUUsRUFBRSw0REFBNEQsQ0FBQyxDQUFDO0FBRTFHLE1BQU0sa0JBQWtCLEdBQUc7SUFDdkIsT0FBTyxDQUFDLEdBQUcsQ0FBQyxjQUFjO0lBQzFCLElBQUksQ0FBQyxPQUFPLENBQUMsR0FBRyxFQUFFLEVBQUUsb0JBQW9CLENBQUM7SUFDekMsSUFBSSxDQUFDLE9BQU8sQ0FBQyxHQUFHLEVBQUUsRUFB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

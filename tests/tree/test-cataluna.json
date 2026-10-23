@@ -1,0 +1,6049 @@
+{
+  "root": {
+    "name": "Cataluña",
+    "gid": "ESP.6_1",
+    "level": 1,
+    "children": [
+      {
+        "name": "Barcelona",
+        "gid": "ESP.6.1_1",
+        "level": 2,
+        "children": [
+          {
+            "name": "n.a. (162)",
+            "gid": "ESP.6.1.1_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Bagà",
+                "gid": "ESP.6.1.1.1_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (164)",
+            "gid": "ESP.6.1.2_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Montmajor",
+                "gid": "ESP.6.1.2.1_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (29)",
+            "gid": "ESP.6.1.3_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Alella",
+                "gid": "ESP.6.1.3.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Arenys de Mar",
+                "gid": "ESP.6.1.3.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Arenys de Munt",
+                "gid": "ESP.6.1.3.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Argentona",
+                "gid": "ESP.6.1.3.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Badalona",
+                "gid": "ESP.6.1.3.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabrera de Mar",
+                "gid": "ESP.6.1.3.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabrils",
+                "gid": "ESP.6.1.3.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Caldes d'Estrac",
+                "gid": "ESP.6.1.3.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Calella",
+                "gid": "ESP.6.1.3.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Canet de Mar",
+                "gid": "ESP.6.1.3.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Dosrius",
+                "gid": "ESP.6.1.3.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Masnou",
+                "gid": "ESP.6.1.3.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Malgrat de Mar",
+                "gid": "ESP.6.1.3.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mataró",
+                "gid": "ESP.6.1.3.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montgat",
+                "gid": "ESP.6.1.3.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Òrrius",
+                "gid": "ESP.6.1.3.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Palafolls",
+                "gid": "ESP.6.1.3.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pineda de Mar",
+                "gid": "ESP.6.1.3.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Premià de Dalt",
+                "gid": "ESP.6.1.3.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Premià de Mar",
+                "gid": "ESP.6.1.3.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Adrià de Besòs",
+                "gid": "ESP.6.1.3.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Andreu de Llavaneres",
+                "gid": "ESP.6.1.3.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Cebrià de Vallalta",
+                "gid": "ESP.6.1.3.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Iscle de Vallalta",
+                "gid": "ESP.6.1.3.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Pol de Mar",
+                "gid": "ESP.6.1.3.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Vicenç de Montalt",
+                "gid": "ESP.6.1.3.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Coloma de Gramenet",
+                "gid": "ESP.6.1.3.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Susanna",
+                "gid": "ESP.6.1.3.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Teià",
+                "gid": "ESP.6.1.3.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tiana",
+                "gid": "ESP.6.1.3.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tordera",
+                "gid": "ESP.6.1.3.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilassar de Dalt",
+                "gid": "ESP.6.1.3.32_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilassar de Mar",
+                "gid": "ESP.6.1.3.33_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (30)",
+            "gid": "ESP.6.1.4_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Aguilar de Segarra",
+                "gid": "ESP.6.1.4.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Argençola",
+                "gid": "ESP.6.1.4.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellprat",
+                "gid": "ESP.6.1.4.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabrera d'Igualada",
+                "gid": "ESP.6.1.4.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Calaf",
+                "gid": "ESP.6.1.4.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Calonge de Segarra",
+                "gid": "ESP.6.1.4.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Capellades",
+                "gid": "ESP.6.1.4.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Carme",
+                "gid": "ESP.6.1.4.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellfollit de Riubregós",
+                "gid": "ESP.6.1.4.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellolí",
+                "gid": "ESP.6.1.4.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Collbató",
+                "gid": "ESP.6.1.4.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Copons",
+                "gid": "ESP.6.1.4.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Els Hostalets de Pierola",
+                "gid": "ESP.6.1.4.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Els Prats de Rei",
+                "gid": "ESP.6.1.4.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Igualada",
+                "gid": "ESP.6.1.4.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Jorba",
+                "gid": "ESP.6.1.4.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Llacuna",
+                "gid": "ESP.6.1.4.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Pobla de Claramunt",
+                "gid": "ESP.6.1.4.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Torre de Claramunt",
+                "gid": "ESP.6.1.4.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Masquefa",
+                "gid": "ESP.6.1.4.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montmaneu",
+                "gid": "ESP.6.1.4.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Òdena",
+                "gid": "ESP.6.1.4.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Orpí",
+                "gid": "ESP.6.1.4.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Piera",
+                "gid": "ESP.6.1.4.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pujalt",
+                "gid": "ESP.6.1.4.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rubió",
+                "gid": "ESP.6.1.4.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Martí de Tous",
+                "gid": "ESP.6.1.4.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Martí Sesgueioles",
+                "gid": "ESP.6.1.4.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Pere Sallavinera",
+                "gid": "ESP.6.1.4.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Margarida de Montbui",
+                "gid": "ESP.6.1.4.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Maria de Miralles",
+                "gid": "ESP.6.1.4.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallbona d'Anoia",
+                "gid": "ESP.6.1.4.32_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Veciana",
+                "gid": "ESP.6.1.4.33_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova del Camí",
+                "gid": "ESP.6.1.4.34_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (31)",
+            "gid": "ESP.6.1.5_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Bigues i Riells",
+                "gid": "ESP.6.1.5.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Campins",
+                "gid": "ESP.6.1.5.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Canovelles",
+                "gid": "ESP.6.1.5.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cànoves i Samalús",
+                "gid": "ESP.6.1.5.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cardedeu",
+                "gid": "ESP.6.1.5.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fogars de la Selva",
+                "gid": "ESP.6.1.5.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fogars de Montclús",
+                "gid": "ESP.6.1.5.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Granollers",
+                "gid": "ESP.6.1.5.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gualba",
+                "gid": "ESP.6.1.5.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Ametlla del Vallès",
+                "gid": "ESP.6.1.5.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Garriga",
+                "gid": "ESP.6.1.5.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Roca del Vallès",
+                "gid": "ESP.6.1.5.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Franqueses del Vallès",
+                "gid": "ESP.6.1.5.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Lliçà d'Amunt",
+                "gid": "ESP.6.1.5.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Lliçà de Vall",
+                "gid": "ESP.6.1.5.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llinars del Vallès",
+                "gid": "ESP.6.1.5.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Martorelles",
+                "gid": "ESP.6.1.5.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mollet del Vallès",
+                "gid": "ESP.6.1.5.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montmeló",
+                "gid": "ESP.6.1.5.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montornès del Vallès",
+                "gid": "ESP.6.1.5.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montseny",
+                "gid": "ESP.6.1.5.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Parets del Vallès",
+                "gid": "ESP.6.1.5.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Antoni de Vilamajor",
+                "gid": "ESP.6.1.5.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Celoni",
+                "gid": "ESP.6.1.5.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Esteve de Palautordera",
+                "gid": "ESP.6.1.5.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Feliu de Codines",
+                "gid": "ESP.6.1.5.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Fost de Campsentelles",
+                "gid": "ESP.6.1.5.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Pere de Vilamajor",
+                "gid": "ESP.6.1.5.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Eulàlia de Ronçana",
+                "gid": "ESP.6.1.5.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Maria de Martorelles",
+                "gid": "ESP.6.1.5.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Maria de Palautordera",
+                "gid": "ESP.6.1.5.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallgorguina",
+                "gid": "ESP.6.1.5.32_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallromanes",
+                "gid": "ESP.6.1.5.33_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilalba Sasserra",
+                "gid": "ESP.6.1.5.34_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova del Vallès",
+                "gid": "ESP.6.1.5.35_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (32)",
+            "gid": "ESP.6.1.6_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Calders",
+                "gid": "ESP.6.1.6.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellcir",
+                "gid": "ESP.6.1.6.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellterçol",
+                "gid": "ESP.6.1.6.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Collsuspina",
+                "gid": "ESP.6.1.6.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Granera",
+                "gid": "ESP.6.1.6.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Estany",
+                "gid": "ESP.6.1.6.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Moià",
+                "gid": "ESP.6.1.6.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Monistrol de Calders",
+                "gid": "ESP.6.1.6.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Quirze Safaja",
+                "gid": "ESP.6.1.6.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Maria d'Oló",
+                "gid": "ESP.6.1.6.10_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (33)",
+            "gid": "ESP.6.1.7_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Aiguafreda",
+                "gid": "ESP.6.1.7.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alpens",
+                "gid": "ESP.6.1.7.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Balenyà",
+                "gid": "ESP.6.1.7.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Calldetenes",
+                "gid": "ESP.6.1.7.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Centelles",
+                "gid": "ESP.6.1.7.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Brull",
+                "gid": "ESP.6.1.7.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Figaró-Montmany",
+                "gid": "ESP.6.1.7.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Folgueroles",
+                "gid": "ESP.6.1.7.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gurb",
+                "gid": "ESP.6.1.7.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Masies de Roda",
+                "gid": "ESP.6.1.7.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Masies de Voltregà",
+                "gid": "ESP.6.1.7.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Lluçà",
+                "gid": "ESP.6.1.7.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Malla",
+                "gid": "ESP.6.1.7.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Manlleu",
+                "gid": "ESP.6.1.7.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montesquiu",
+                "gid": "ESP.6.1.7.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Muntanyola",
+                "gid": "ESP.6.1.7.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Olost",
+                "gid": "ESP.6.1.7.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Orís",
+                "gid": "ESP.6.1.7.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Oristà",
+                "gid": "ESP.6.1.7.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Perafita",
+                "gid": "ESP.6.1.7.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Prats de Lluçanès",
+                "gid": "ESP.6.1.7.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Roda de Ter",
+                "gid": "ESP.6.1.7.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rupit i Pruit",
+                "gid": "ESP.6.1.7.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Agustí de Lluçanès",
+                "gid": "ESP.6.1.7.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Bartomeu del Grau",
+                "gid": "ESP.6.1.7.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Boi de Lluçanès",
+                "gid": "ESP.6.1.7.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Feliu Sasserra",
+                "gid": "ESP.6.1.7.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Hipòlit de Voltregà",
+                "gid": "ESP.6.1.7.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Julià de Vilatorta",
+                "gid": "ESP.6.1.7.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Martí d'Albars",
+                "gid": "ESP.6.1.7.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Martí de Centelles",
+                "gid": "ESP.6.1.7.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Pere de Torelló",
+                "gid": "ESP.6.1.7.32_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Quirze de Besora",
+                "gid": "ESP.6.1.7.33_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Sadurní d'Osormort",
+                "gid": "ESP.6.1.7.34_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Vicenç de Torelló",
+                "gid": "ESP.6.1.7.35_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Cecília de Voltregà",
+                "gid": "ESP.6.1.7.36_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Eugènia de Berga",
+                "gid": "ESP.6.1.7.37_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Eulàlia de Riuprimer",
+                "gid": "ESP.6.1.7.38_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Maria de Besora",
+                "gid": "ESP.6.1.7.39_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Maria de Corcó",
+                "gid": "ESP.6.1.7.40_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Maria de Merlès",
+                "gid": "ESP.6.1.7.41_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Seva",
+                "gid": "ESP.6.1.7.42_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sobremunt",
+                "gid": "ESP.6.1.7.43_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sora",
+                "gid": "ESP.6.1.7.44_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tagamanent",
+                "gid": "ESP.6.1.7.45_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Taradell",
+                "gid": "ESP.6.1.7.46_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tavèrnoles",
+                "gid": "ESP.6.1.7.47_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tavertet",
+                "gid": "ESP.6.1.7.48_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tona",
+                "gid": "ESP.6.1.7.49_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torelló",
+                "gid": "ESP.6.1.7.50_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vic",
+                "gid": "ESP.6.1.7.51_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova de Sau",
+                "gid": "ESP.6.1.7.52_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (34)",
+            "gid": "ESP.6.1.8_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Avià",
+                "gid": "ESP.6.1.8.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bagà",
+                "gid": "ESP.6.1.8.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Berga",
+                "gid": "ESP.6.1.8.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Borredà",
+                "gid": "ESP.6.1.8.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Capolat",
+                "gid": "ESP.6.1.8.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Casserres",
+                "gid": "ESP.6.1.8.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castell de l'Areny",
+                "gid": "ESP.6.1.8.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellar de n'Hug",
+                "gid": "ESP.6.1.8.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellar del Riu",
+                "gid": "ESP.6.1.8.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cercs",
+                "gid": "ESP.6.1.8.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fígols",
+                "gid": "ESP.6.1.8.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gironella",
+                "gid": "ESP.6.1.8.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gisclareny",
+                "gid": "ESP.6.1.8.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Guardiola de Berguedà",
+                "gid": "ESP.6.1.8.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Espunyola",
+                "gid": "ESP.6.1.8.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Nou de Berguedà",
+                "gid": "ESP.6.1.8.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Pobla de Lillet",
+                "gid": "ESP.6.1.8.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Quar",
+                "gid": "ESP.6.1.8.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montclar",
+                "gid": "ESP.6.1.8.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montmajor",
+                "gid": "ESP.6.1.8.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Olvan",
+                "gid": "ESP.6.1.8.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Puig-reig",
+                "gid": "ESP.6.1.8.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sagàs",
+                "gid": "ESP.6.1.8.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Saldes",
+                "gid": "ESP.6.1.8.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Jaume de Frontanyà",
+                "gid": "ESP.6.1.8.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Julià de Cerdanyola",
+                "gid": "ESP.6.1.8.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallcebre",
+                "gid": "ESP.6.1.8.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilada",
+                "gid": "ESP.6.1.8.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Viver i Serrateix",
+                "gid": "ESP.6.1.8.29_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (35)",
+            "gid": "ESP.6.1.9_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Artés",
+                "gid": "ESP.6.1.9.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Avinyó",
+                "gid": "ESP.6.1.9.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Balsareny",
+                "gid": "ESP.6.1.9.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Callús",
+                "gid": "ESP.6.1.9.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cardona",
+                "gid": "ESP.6.1.9.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellbell i el Vilar",
+                "gid": "ESP.6.1.9.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellfollit del Boix",
+                "gid": "ESP.6.1.9.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellgalí",
+                "gid": "ESP.6.1.9.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellnou de Bages",
+                "gid": "ESP.6.1.9.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Bruc",
+                "gid": "ESP.6.1.9.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Pont de Vilomara i Rocafort",
+                "gid": "ESP.6.1.9.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fonollosa",
+                "gid": "ESP.6.1.9.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gaià",
+                "gid": "ESP.6.1.9.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Manresa",
+                "gid": "ESP.6.1.9.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Marganell",
+                "gid": "ESP.6.1.9.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Monistrol de Montserrat",
+                "gid": "ESP.6.1.9.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mura",
+                "gid": "ESP.6.1.9.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Navarcles",
+                "gid": "ESP.6.1.9.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Navàs",
+                "gid": "ESP.6.1.9.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rajadell",
+                "gid": "ESP.6.1.9.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rellinars",
+                "gid": "ESP.6.1.9.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sallent",
+                "gid": "ESP.6.1.9.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Fruitós de Bages",
+                "gid": "ESP.6.1.9.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Joan de Vilatorrada",
+                "gid": "ESP.6.1.9.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Mateu de Bages",
+                "gid": "ESP.6.1.9.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Salvador de Guardiola",
+                "gid": "ESP.6.1.9.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Vicenç de Castellet",
+                "gid": "ESP.6.1.9.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santpedor",
+                "gid": "ESP.6.1.9.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Súria",
+                "gid": "ESP.6.1.9.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Talamanca",
+                "gid": "ESP.6.1.9.30_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (36)",
+            "gid": "ESP.6.1.10_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Badia del Vallès",
+                "gid": "ESP.6.1.10.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Barberà del Vallès",
+                "gid": "ESP.6.1.10.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Caldes de Montbui",
+                "gid": "ESP.6.1.10.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellar del Vallès",
+                "gid": "ESP.6.1.10.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cerdanyola del Vallès",
+                "gid": "ESP.6.1.10.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gallifa",
+                "gid": "ESP.6.1.10.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Llagosta",
+                "gid": "ESP.6.1.10.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Matadepera",
+                "gid": "ESP.6.1.10.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montcada i Reixac",
+                "gid": "ESP.6.1.10.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Palau-solità i Plegamans",
+                "gid": "ESP.6.1.10.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Polinyà",
+                "gid": "ESP.6.1.10.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ripollet",
+                "gid": "ESP.6.1.10.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rubí",
+                "gid": "ESP.6.1.10.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sabadell",
+                "gid": "ESP.6.1.10.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Cugat del Vallès",
+                "gid": "ESP.6.1.10.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Llorenç Savall",
+                "gid": "ESP.6.1.10.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Quirze del Vallès",
+                "gid": "ESP.6.1.10.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Perpètua de Mogoda",
+                "gid": "ESP.6.1.10.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sentmenat",
+                "gid": "ESP.6.1.10.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Terrassa",
+                "gid": "ESP.6.1.10.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ullastrell",
+                "gid": "ESP.6.1.10.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vacarisses",
+                "gid": "ESP.6.1.10.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Viladecavalls",
+                "gid": "ESP.6.1.10.23_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (37)",
+            "gid": "ESP.6.1.11_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Abrera",
+                "gid": "ESP.6.1.11.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Barcelona",
+                "gid": "ESP.6.1.11.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Begues",
+                "gid": "ESP.6.1.11.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellbisbal",
+                "gid": "ESP.6.1.11.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castelldefels",
+                "gid": "ESP.6.1.11.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellví de Rosanes",
+                "gid": "ESP.6.1.11.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cervelló",
+                "gid": "ESP.6.1.11.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Corbera de Llobregat",
+                "gid": "ESP.6.1.11.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cornellà de Llobregat",
+                "gid": "ESP.6.1.11.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Papio",
+                "gid": "ESP.6.1.11.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Prat de Llobregat",
+                "gid": "ESP.6.1.11.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Esparreguera",
+                "gid": "ESP.6.1.11.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Esplugues de Llobregat",
+                "gid": "ESP.6.1.11.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gavà",
+                "gid": "ESP.6.1.11.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Hospitalet de Llobregat",
+                "gid": "ESP.6.1.11.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Palma de Cervelló",
+                "gid": "ESP.6.1.11.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Martorell",
+                "gid": "ESP.6.1.11.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Molins de Rei",
+                "gid": "ESP.6.1.11.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Olesa de Montserrat",
+                "gid": "ESP.6.1.11.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pallejà",
+                "gid": "ESP.6.1.11.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Andreu de la Barca",
+                "gid": "ESP.6.1.11.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Boi de Llobregat",
+                "gid": "ESP.6.1.11.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Climent de Llobregat",
+                "gid": "ESP.6.1.11.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Feliu de Llobregat",
+                "gid": "ESP.6.1.11.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Joan Despí",
+                "gid": "ESP.6.1.11.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Just Desvern",
+                "gid": "ESP.6.1.11.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Vicenç dels Horts",
+                "gid": "ESP.6.1.11.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Coloma de Cervelló",
+                "gid": "ESP.6.1.11.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torrelles de Llobregat",
+                "gid": "ESP.6.1.11.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallirana",
+                "gid": "ESP.6.1.11.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Viladecans",
+                "gid": "ESP.6.1.11.31_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (38)",
+            "gid": "ESP.6.1.12_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Avinyonet del Penedès",
+                "gid": "ESP.6.1.12.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Canyelles",
+                "gid": "ESP.6.1.12.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellet i la Gornal",
+                "gid": "ESP.6.1.12.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellví de la Marca",
+                "gid": "ESP.6.1.12.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cubelles",
+                "gid": "ESP.6.1.12.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Pla del Penedès",
+                "gid": "ESP.6.1.12.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Font-rubí",
+                "gid": "ESP.6.1.12.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gelida",
+                "gid": "ESP.6.1.12.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Granada",
+                "gid": "ESP.6.1.12.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Cabanyes",
+                "gid": "ESP.6.1.12.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mediona",
+                "gid": "ESP.6.1.12.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Olèrdola",
+                "gid": "ESP.6.1.12.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Olesa de Bonesvalls",
+                "gid": "ESP.6.1.12.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Olivella",
+                "gid": "ESP.6.1.12.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pacs del Penedès",
+                "gid": "ESP.6.1.12.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pontons",
+                "gid": "ESP.6.1.12.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Puigdàlber",
+                "gid": "ESP.6.1.12.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Cugat Sesgarrigues",
+                "gid": "ESP.6.1.12.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Esteve Sesrovires",
+                "gid": "ESP.6.1.12.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Llorenç d'Hortons",
+                "gid": "ESP.6.1.12.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Martí Sarroca",
+                "gid": "ESP.6.1.12.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Pere de Ribes",
+                "gid": "ESP.6.1.12.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Pere de Riudebitlles",
+                "gid": "ESP.6.1.12.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Quintí de Mediona",
+                "gid": "ESP.6.1.12.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Sadurní d'Anoia",
+                "gid": "ESP.6.1.12.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Fe del Penedès",
+                "gid": "ESP.6.1.12.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Margarida i els Monjos",
+                "gid": "ESP.6.1.12.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sitges",
+                "gid": "ESP.6.1.12.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Subirats",
+                "gid": "ESP.6.1.12.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torrelavit",
+                "gid": "ESP.6.1.12.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torrelles de Foix",
+                "gid": "ESP.6.1.12.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilafranca del Penedès",
+                "gid": "ESP.6.1.12.32_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova i la Geltrú",
+                "gid": "ESP.6.1.12.33_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilobí del Penedès",
+                "gid": "ESP.6.1.12.34_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Girona",
+        "gid": "ESP.6.2_1",
+        "level": 2,
+        "children": [
+          {
+            "name": "n.a. (101)",
+            "gid": "ESP.6.2.1_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Alp",
+                "gid": "ESP.6.2.1.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bolvir",
+                "gid": "ESP.6.2.1.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Das",
+                "gid": "ESP.6.2.1.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fontanals de Cerdanya",
+                "gid": "ESP.6.2.1.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ger",
+                "gid": "ESP.6.2.1.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Guils de Cerdanya",
+                "gid": "ESP.6.2.1.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Isòvol",
+                "gid": "ESP.6.2.1.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llívia",
+                "gid": "ESP.6.2.1.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Meranges",
+                "gid": "ESP.6.2.1.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Puigcerdà",
+                "gid": "ESP.6.2.1.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Urús",
+                "gid": "ESP.6.2.1.11_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (102)",
+            "gid": "ESP.6.2.2_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Campdevànol",
+                "gid": "ESP.6.2.2.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Campelles",
+                "gid": "ESP.6.2.2.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Camprodon",
+                "gid": "ESP.6.2.2.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gombrèn",
+                "gid": "ESP.6.2.2.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Llosses",
+                "gid": "ESP.6.2.2.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llanars",
+                "gid": "ESP.6.2.2.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Molló",
+                "gid": "ESP.6.2.2.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ogassa",
+                "gid": "ESP.6.2.2.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pardines",
+                "gid": "ESP.6.2.2.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Planoles",
+                "gid": "ESP.6.2.2.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Queralbs",
+                "gid": "ESP.6.2.2.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ribes de Freser",
+                "gid": "ESP.6.2.2.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ripoll",
+                "gid": "ESP.6.2.2.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Joan de les Abadesses",
+                "gid": "ESP.6.2.2.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Pau de Segúries",
+                "gid": "ESP.6.2.2.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Setcases",
+                "gid": "ESP.6.2.2.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Toses",
+                "gid": "ESP.6.2.2.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallfogona de Ripollès",
+                "gid": "ESP.6.2.2.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vidrà",
+                "gid": "ESP.6.2.2.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilallonga de Ter",
+                "gid": "ESP.6.2.2.20_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (103)",
+            "gid": "ESP.6.2.3_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Argelaguer",
+                "gid": "ESP.6.2.3.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Besalú",
+                "gid": "ESP.6.2.3.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Beuda",
+                "gid": "ESP.6.2.3.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellfollit de la Roca",
+                "gid": "ESP.6.2.3.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Vall d'en Bas",
+                "gid": "ESP.6.2.3.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Vall de Bianya",
+                "gid": "ESP.6.2.3.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Planes d'Hostoles",
+                "gid": "ESP.6.2.3.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Preses",
+                "gid": "ESP.6.2.3.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Maià de Montcal",
+                "gid": "ESP.6.2.3.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mieres",
+                "gid": "ESP.6.2.3.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montagut i Oix",
+                "gid": "ESP.6.2.3.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Olot",
+                "gid": "ESP.6.2.3.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riudaura",
+                "gid": "ESP.6.2.3.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sales de Llierca",
+                "gid": "ESP.6.2.3.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Aniol de Finestres",
+                "gid": "ESP.6.2.3.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Feliu de Pallerols",
+                "gid": "ESP.6.2.3.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Ferriol",
+                "gid": "ESP.6.2.3.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Jaume de Llierca",
+                "gid": "ESP.6.2.3.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Joan les Fonts",
+                "gid": "ESP.6.2.3.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Pau",
+                "gid": "ESP.6.2.3.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tortellà",
+                "gid": "ESP.6.2.3.21_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (104)",
+            "gid": "ESP.6.2.4_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Aiguaviva",
+                "gid": "ESP.6.2.4.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Banyoles",
+                "gid": "ESP.6.2.4.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bescanó",
+                "gid": "ESP.6.2.4.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bordils",
+                "gid": "ESP.6.2.4.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabanelles",
+                "gid": "ESP.6.2.4.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Camós",
+                "gid": "ESP.6.2.4.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Campllong",
+                "gid": "ESP.6.2.4.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Canet d'Adri",
+                "gid": "ESP.6.2.4.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cassà de la Selva",
+                "gid": "ESP.6.2.4.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Celrà",
+                "gid": "ESP.6.2.4.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cervià de Ter",
+                "gid": "ESP.6.2.4.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cornellà del Terri",
+                "gid": "ESP.6.2.4.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Crespià",
+                "gid": "ESP.6.2.4.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Esponellà",
+                "gid": "ESP.6.2.4.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fontcoberta",
+                "gid": "ESP.6.2.4.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fornells de la Selva",
+                "gid": "ESP.6.2.4.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Girona",
+                "gid": "ESP.6.2.4.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Juià",
+                "gid": "ESP.6.2.4.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llagostera",
+                "gid": "ESP.6.2.4.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llambilles",
+                "gid": "ESP.6.2.4.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Madremanya",
+                "gid": "ESP.6.2.4.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Palol de Revardit",
+                "gid": "ESP.6.2.4.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Porqueres",
+                "gid": "ESP.6.2.4.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Quart",
+                "gid": "ESP.6.2.4.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Salt",
+                "gid": "ESP.6.2.4.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Andreu Salou",
+                "gid": "ESP.6.2.4.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Gregori",
+                "gid": "ESP.6.2.4.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Joan de Mollet",
+                "gid": "ESP.6.2.4.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Jordi Desvalls",
+                "gid": "ESP.6.2.4.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Julià de Ramis",
+                "gid": "ESP.6.2.4.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Martí de Llémena",
+                "gid": "ESP.6.2.4.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Martí Vell",
+                "gid": "ESP.6.2.4.32_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Miquel de Campmajor",
+                "gid": "ESP.6.2.4.33_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sarrià de Ter",
+                "gid": "ESP.6.2.4.34_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Serinyà",
+                "gid": "ESP.6.2.4.35_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilablareix",
+                "gid": "ESP.6.2.4.36_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Viladasens",
+                "gid": "ESP.6.2.4.37_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilademuls",
+                "gid": "ESP.6.2.4.38_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (105)",
+            "gid": "ESP.6.2.5_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Agullana",
+                "gid": "ESP.6.2.5.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Albanyà",
+                "gid": "ESP.6.2.5.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Avinyonet de Puigventós",
+                "gid": "ESP.6.2.5.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bàscara",
+                "gid": "ESP.6.2.5.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Biure",
+                "gid": "ESP.6.2.5.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Boadella d'Empordà",
+                "gid": "ESP.6.2.5.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Borrassà",
+                "gid": "ESP.6.2.5.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabanelles",
+                "gid": "ESP.6.2.5.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabanes",
+                "gid": "ESP.6.2.5.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cadaqués",
+                "gid": "ESP.6.2.5.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cantallops",
+                "gid": "ESP.6.2.5.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Capmany",
+                "gid": "ESP.6.2.5.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castelló d'Empúries",
+                "gid": "ESP.6.2.5.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cistella",
+                "gid": "ESP.6.2.5.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Colera",
+                "gid": "ESP.6.2.5.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Darnius",
+                "gid": "ESP.6.2.5.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Far d'Empordà",
+                "gid": "ESP.6.2.5.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Port de la Selva",
+                "gid": "ESP.6.2.5.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Espolla",
+                "gid": "ESP.6.2.5.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Figueres",
+                "gid": "ESP.6.2.5.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fortià",
+                "gid": "ESP.6.2.5.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Garrigàs",
+                "gid": "ESP.6.2.5.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Garriguella",
+                "gid": "ESP.6.2.5.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Armentera",
+                "gid": "ESP.6.2.5.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Escala",
+                "gid": "ESP.6.2.5.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Jonquera",
+                "gid": "ESP.6.2.5.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Selva de Mar",
+                "gid": "ESP.6.2.5.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Vajol",
+                "gid": "ESP.6.2.5.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Lladó",
+                "gid": "ESP.6.2.5.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llançà",
+                "gid": "ESP.6.2.5.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llers",
+                "gid": "ESP.6.2.5.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Maçanet de Cabrenys",
+                "gid": "ESP.6.2.5.32_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Masarac",
+                "gid": "ESP.6.2.5.33_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mollet de Peralada",
+                "gid": "ESP.6.2.5.34_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Navata",
+                "gid": "ESP.6.2.5.35_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ordis",
+                "gid": "ESP.6.2.5.36_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Palau de Santa Eulàlia",
+                "gid": "ESP.6.2.5.38_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Palau-saverdera",
+                "gid": "ESP.6.2.5.37_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pau",
+                "gid": "ESP.6.2.5.39_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pedret i Marzà",
+                "gid": "ESP.6.2.5.40_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Peralada",
+                "gid": "ESP.6.2.5.41_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pont de Molins",
+                "gid": "ESP.6.2.5.42_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pontós",
+                "gid": "ESP.6.2.5.43_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Portbou",
+                "gid": "ESP.6.2.5.44_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rabós",
+                "gid": "ESP.6.2.5.45_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riumors",
+                "gid": "ESP.6.2.5.46_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Roses",
+                "gid": "ESP.6.2.5.47_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Climent Sescebes",
+                "gid": "ESP.6.2.5.48_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Llorenç de la Muga",
+                "gid": "ESP.6.2.5.49_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Miquel de Fluvià",
+                "gid": "ESP.6.2.5.50_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Mori",
+                "gid": "ESP.6.2.5.51_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Pere Pescador",
+                "gid": "ESP.6.2.5.52_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Llogaia d'Àlguema",
+                "gid": "ESP.6.2.5.53_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Saus",
+                "gid": "ESP.6.2.5.54_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Siurana",
+                "gid": "ESP.6.2.5.55_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Terrades",
+                "gid": "ESP.6.2.5.56_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torroella de Fluvià",
+                "gid": "ESP.6.2.5.57_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ventalló",
+                "gid": "ESP.6.2.5.58_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vila-sacra",
+                "gid": "ESP.6.2.5.59_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilabertran",
+                "gid": "ESP.6.2.5.60_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilafant",
+                "gid": "ESP.6.2.5.61_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilajuïga",
+                "gid": "ESP.6.2.5.62_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilamacolum",
+                "gid": "ESP.6.2.5.63_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilamalla",
+                "gid": "ESP.6.2.5.64_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilamaniscle",
+                "gid": "ESP.6.2.5.65_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanant",
+                "gid": "ESP.6.2.5.66_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilaür",
+                "gid": "ESP.6.2.5.67_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (106)",
+            "gid": "ESP.6.2.6_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Amer",
+                "gid": "ESP.6.2.6.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Anglès",
+                "gid": "ESP.6.2.6.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Arbúcies",
+                "gid": "ESP.6.2.6.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Blanes",
+                "gid": "ESP.6.2.6.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Breda",
+                "gid": "ESP.6.2.6.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Brunyola",
+                "gid": "ESP.6.2.6.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Caldes de Malavella",
+                "gid": "ESP.6.2.6.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Espinelves",
+                "gid": "ESP.6.2.6.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Hostalric",
+                "gid": "ESP.6.2.6.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Cellera de Ter",
+                "gid": "ESP.6.2.6.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Lloret de Mar",
+                "gid": "ESP.6.2.6.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Maçanet de la Selva",
+                "gid": "ESP.6.2.6.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Massanes",
+                "gid": "ESP.6.2.6.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Osor",
+                "gid": "ESP.6.2.6.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riells i Viabrea",
+                "gid": "ESP.6.2.6.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riudarenes",
+                "gid": "ESP.6.2.6.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riudellots de la Selva",
+                "gid": "ESP.6.2.6.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Feliu de Buixalleu",
+                "gid": "ESP.6.2.6.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Hilari Sacalm",
+                "gid": "ESP.6.2.6.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Julià del Llor i Bonmatí",
+                "gid": "ESP.6.2.6.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Coloma de Farners",
+                "gid": "ESP.6.2.6.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sils",
+                "gid": "ESP.6.2.6.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Susqueda",
+                "gid": "ESP.6.2.6.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tossa de Mar",
+                "gid": "ESP.6.2.6.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vidreres",
+                "gid": "ESP.6.2.6.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Viladrau",
+                "gid": "ESP.6.2.6.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilobí d'Onyar",
+                "gid": "ESP.6.2.6.27_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (107)",
+            "gid": "ESP.6.2.7_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Albons",
+                "gid": "ESP.6.2.7.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Begur",
+                "gid": "ESP.6.2.7.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellcaire d'Empordà",
+                "gid": "ESP.6.2.7.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Calonge",
+                "gid": "ESP.6.2.7.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castell-Platja d'Aro",
+                "gid": "ESP.6.2.7.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Colomers",
+                "gid": "ESP.6.2.7.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Corçà",
+                "gid": "ESP.6.2.7.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cruïlles, Monells i Sant Sadurní",
+                "gid": "ESP.6.2.7.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Flaçà",
+                "gid": "ESP.6.2.7.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Foixà",
+                "gid": "ESP.6.2.7.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fontanilles",
+                "gid": "ESP.6.2.7.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Forallac",
+                "gid": "ESP.6.2.7.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Garrigoles",
+                "gid": "ESP.6.2.7.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gualta",
+                "gid": "ESP.6.2.7.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Jafre",
+                "gid": "ESP.6.2.7.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Bisbal d'Emporda",
+                "gid": "ESP.6.2.7.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Pera",
+                "gid": "ESP.6.2.7.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Tallada d'Empordà",
+                "gid": "ESP.6.2.7.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mont-ras",
+                "gid": "ESP.6.2.7.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Palafrugell",
+                "gid": "ESP.6.2.7.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Palamós",
+                "gid": "ESP.6.2.7.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Palau-sator",
+                "gid": "ESP.6.2.7.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pals",
+                "gid": "ESP.6.2.7.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Parlavà",
+                "gid": "ESP.6.2.7.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Regencós",
+                "gid": "ESP.6.2.7.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rupià",
+                "gid": "ESP.6.2.7.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Feliu de Guíxols",
+                "gid": "ESP.6.2.7.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Cristina d'Aro",
+                "gid": "ESP.6.2.7.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Serra de Daró",
+                "gid": "ESP.6.2.7.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torrent",
+                "gid": "ESP.6.2.7.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torroella de Montgrí",
+                "gid": "ESP.6.2.7.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ullà",
+                "gid": "ESP.6.2.7.32_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ullastret",
+                "gid": "ESP.6.2.7.33_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ultramort",
+                "gid": "ESP.6.2.7.34_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vall-llobrega",
+                "gid": "ESP.6.2.7.35_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Verges",
+                "gid": "ESP.6.2.7.36_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Viladamat",
+                "gid": "ESP.6.2.7.37_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilopriu",
+                "gid": "ESP.6.2.7.38_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (34)",
+            "gid": "ESP.6.2.8_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Les Llosses",
+                "gid": "ESP.6.2.8.1_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lleida",
+        "gid": "ESP.6.3_1",
+        "level": 2,
+        "children": [
+          {
+            "name": "n.a. (159)",
+            "gid": "ESP.6.3.1_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Arres",
+                "gid": "ESP.6.3.1.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bausen",
+                "gid": "ESP.6.3.1.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bossòst",
+                "gid": "ESP.6.3.1.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Canejan",
+                "gid": "ESP.6.3.1.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Es Bòrdes",
+                "gid": "ESP.6.3.1.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les",
+                "gid": "ESP.6.3.1.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Naut Aran",
+                "gid": "ESP.6.3.1.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vielha e Mijaran",
+                "gid": "ESP.6.3.1.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilamòs",
+                "gid": "ESP.6.3.1.9_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (160)",
+            "gid": "ESP.6.3.2_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Alcanó",
+                "gid": "ESP.6.3.2.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alfés",
+                "gid": "ESP.6.3.2.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Almatret",
+                "gid": "ESP.6.3.2.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Arbeca",
+                "gid": "ESP.6.3.2.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Aspa",
+                "gid": "ESP.6.3.2.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellaguarda",
+                "gid": "ESP.6.3.2.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bovera",
+                "gid": "ESP.6.3.2.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castelldans",
+                "gid": "ESP.6.3.2.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cervià de les Garrigues",
+                "gid": "ESP.6.3.2.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Cogul",
+                "gid": "ESP.6.3.2.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Soleràs",
+                "gid": "ESP.6.3.2.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Vilosell",
+                "gid": "ESP.6.3.2.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Els Omellons",
+                "gid": "ESP.6.3.2.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Els Torms",
+                "gid": "ESP.6.3.2.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fulleda",
+                "gid": "ESP.6.3.2.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Granyena de les Garrigues",
+                "gid": "ESP.6.3.2.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Juncosa",
+                "gid": "ESP.6.3.2.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Albagés",
+                "gid": "ESP.6.3.2.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Albi",
+                "gid": "ESP.6.3.2.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Espluga Calba",
+                "gid": "ESP.6.3.2.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Floresta",
+                "gid": "ESP.6.3.2.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Granadella",
+                "gid": "ESP.6.3.2.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Pobla de Cérvoles",
+                "gid": "ESP.6.3.2.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Borges Blanques",
+                "gid": "ESP.6.3.2.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llardecans",
+                "gid": "ESP.6.3.2.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Maials",
+                "gid": "ESP.6.3.2.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Puiggròs",
+                "gid": "ESP.6.3.2.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sarroca de Lleida",
+                "gid": "ESP.6.3.2.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sunyer",
+                "gid": "ESP.6.3.2.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tarrés",
+                "gid": "ESP.6.3.2.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torrebesses",
+                "gid": "ESP.6.3.2.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vinaixa",
+                "gid": "ESP.6.3.2.32_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (161)",
+            "gid": "ESP.6.3.3_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Alins",
+                "gid": "ESP.6.3.3.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alt Àneu",
+                "gid": "ESP.6.3.3.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Baix Pallars",
+                "gid": "ESP.6.3.3.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Pont de Suert",
+                "gid": "ESP.6.3.3.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Espot",
+                "gid": "ESP.6.3.3.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Esterri d'Àneu",
+                "gid": "ESP.6.3.3.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Esterri de Cardós",
+                "gid": "ESP.6.3.3.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Farrera",
+                "gid": "ESP.6.3.3.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Guingueta d'Àneu",
+                "gid": "ESP.6.3.3.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Mancomunitat dels Quatre Pobl",
+                "gid": "ESP.6.3.3.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Torre de Cabdella",
+                "gid": "ESP.6.3.3.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Vall de Boí",
+                "gid": "ESP.6.3.3.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Lladorre",
+                "gid": "ESP.6.3.3.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llavorsí",
+                "gid": "ESP.6.3.3.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rialp",
+                "gid": "ESP.6.3.3.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sarroca de Bellera",
+                "gid": "ESP.6.3.3.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Senterada",
+                "gid": "ESP.6.3.3.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Soriguera",
+                "gid": "ESP.6.3.3.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sort",
+                "gid": "ESP.6.3.3.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tírvia",
+                "gid": "ESP.6.3.3.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vall de Cardós",
+                "gid": "ESP.6.3.3.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilaller",
+                "gid": "ESP.6.3.3.22_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (162)",
+            "gid": "ESP.6.3.4_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Alàs i Cerc",
+                "gid": "ESP.6.3.4.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Arsèguel",
+                "gid": "ESP.6.3.4.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellver de Cerdanya",
+                "gid": "ESP.6.3.4.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabó",
+                "gid": "ESP.6.3.4.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cava",
+                "gid": "ESP.6.3.4.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Coll de Nargó",
+                "gid": "ESP.6.3.4.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Pont de Bar",
+                "gid": "ESP.6.3.4.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Estamariu",
+                "gid": "ESP.6.3.4.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fígols i Alinyà",
+                "gid": "ESP.6.3.4.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gósol",
+                "gid": "ESP.6.3.4.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Josa i Tuixén",
+                "gid": "ESP.6.3.4.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Seu d'Urgell",
+                "gid": "ESP.6.3.4.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Vansa i Fórnols",
+                "gid": "ESP.6.3.4.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Valls d'Aguilar",
+                "gid": "ESP.6.3.4.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Valls de Valira",
+                "gid": "ESP.6.3.4.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Lles de Cerdanya",
+                "gid": "ESP.6.3.4.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montellà i Martinet",
+                "gid": "ESP.6.3.4.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montferrer i Castellbò",
+                "gid": "ESP.6.3.4.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Organyà",
+                "gid": "ESP.6.3.4.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Prats i Sansor",
+                "gid": "ESP.6.3.4.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Prullans",
+                "gid": "ESP.6.3.4.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ribera d'Urgellet",
+                "gid": "ESP.6.3.4.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riu de Cerdanya",
+                "gid": "ESP.6.3.4.23_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (163)",
+            "gid": "ESP.6.3.5_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Abella de la Conca",
+                "gid": "ESP.6.3.5.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castell de Mur",
+                "gid": "ESP.6.3.5.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Conca de Dalt",
+                "gid": "ESP.6.3.5.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gavet de la Conca",
+                "gid": "ESP.6.3.5.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Isona i Conca Dellà",
+                "gid": "ESP.6.3.5.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Pobla de Segur",
+                "gid": "ESP.6.3.5.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llimiana",
+                "gid": "ESP.6.3.5.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Salàs de Pallars",
+                "gid": "ESP.6.3.5.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Esteve de la Sarga",
+                "gid": "ESP.6.3.5.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Talarn",
+                "gid": "ESP.6.3.5.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tremp",
+                "gid": "ESP.6.3.5.11_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (164)",
+            "gid": "ESP.6.3.6_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Bassella",
+                "gid": "ESP.6.3.6.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellar de la Ribera",
+                "gid": "ESP.6.3.6.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Clariana de Cardener",
+                "gid": "ESP.6.3.6.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Guixers",
+                "gid": "ESP.6.3.6.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Coma i la Pedra",
+                "gid": "ESP.6.3.6.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Molsosa",
+                "gid": "ESP.6.3.6.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Lladurs",
+                "gid": "ESP.6.3.6.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llobera",
+                "gid": "ESP.6.3.6.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Navès",
+                "gid": "ESP.6.3.6.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Odèn",
+                "gid": "ESP.6.3.6.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Oliana",
+                "gid": "ESP.6.3.6.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Olius",
+                "gid": "ESP.6.3.6.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Peramola",
+                "gid": "ESP.6.3.6.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pinell de Solsonès",
+                "gid": "ESP.6.3.6.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pinós",
+                "gid": "ESP.6.3.6.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riner",
+                "gid": "ESP.6.3.6.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Llorenç de Morunys",
+                "gid": "ESP.6.3.6.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Solsona",
+                "gid": "ESP.6.3.6.18_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (165)",
+            "gid": "ESP.6.3.7_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Àger",
+                "gid": "ESP.6.3.7.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Albesa",
+                "gid": "ESP.6.3.7.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Algerri",
+                "gid": "ESP.6.3.7.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alòs de Balaguer",
+                "gid": "ESP.6.3.7.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Artesa de Segre",
+                "gid": "ESP.6.3.7.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Balaguer",
+                "gid": "ESP.6.3.7.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellvís",
+                "gid": "ESP.6.3.7.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabanabona",
+                "gid": "ESP.6.3.7.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Camarasa",
+                "gid": "ESP.6.3.7.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castelló de Farfanya",
+                "gid": "ESP.6.3.7.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cubells",
+                "gid": "ESP.6.3.7.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Foradada",
+                "gid": "ESP.6.3.7.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Isona i Conca Dellà",
+                "gid": "ESP.6.3.7.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ivars de Noguera",
+                "gid": "ESP.6.3.7.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Baronia de Rialb",
+                "gid": "ESP.6.3.7.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Sentiu de Sió",
+                "gid": "ESP.6.3.7.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Avellanes i Santa Linya",
+                "gid": "ESP.6.3.7.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Menàrguens",
+                "gid": "ESP.6.3.7.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montgai",
+                "gid": "ESP.6.3.7.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Oliola",
+                "gid": "ESP.6.3.7.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Os de Balaguer",
+                "gid": "ESP.6.3.7.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ponts",
+                "gid": "ESP.6.3.7.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Térmens",
+                "gid": "ESP.6.3.7.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tiurana",
+                "gid": "ESP.6.3.7.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallfogona de Balaguer",
+                "gid": "ESP.6.3.7.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova de l'Aguda",
+                "gid": "ESP.6.3.7.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova de Meià",
+                "gid": "ESP.6.3.7.27_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (166)",
+            "gid": "ESP.6.3.8_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Agramunt",
+                "gid": "ESP.6.3.8.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Anglesola",
+                "gid": "ESP.6.3.8.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Barbens",
+                "gid": "ESP.6.3.8.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bell-lloc d'Urgell",
+                "gid": "ESP.6.3.8.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellcaire d'Urgell",
+                "gid": "ESP.6.3.8.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellmunt d'Urgell",
+                "gid": "ESP.6.3.8.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellpuig",
+                "gid": "ESP.6.3.8.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellnou de Seana",
+                "gid": "ESP.6.3.8.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellserà",
+                "gid": "ESP.6.3.8.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Alamús",
+                "gid": "ESP.6.3.8.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Palau d'Anglesola",
+                "gid": "ESP.6.3.8.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Poal",
+                "gid": "ESP.6.3.8.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Fondarella",
+                "gid": "ESP.6.3.8.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Golmés",
+                "gid": "ESP.6.3.8.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ivars d'Urgell",
+                "gid": "ESP.6.3.8.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Juneda",
+                "gid": "ESP.6.3.8.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Fuliola",
+                "gid": "ESP.6.3.8.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Linyola",
+                "gid": "ESP.6.3.8.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Miralcamp",
+                "gid": "ESP.6.3.8.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mollerussa",
+                "gid": "ESP.6.3.8.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Penelles",
+                "gid": "ESP.6.3.8.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Preixana",
+                "gid": "ESP.6.3.8.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Preixens",
+                "gid": "ESP.6.3.8.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Puigverd d'Agramunt",
+                "gid": "ESP.6.3.8.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sidamon",
+                "gid": "ESP.6.3.8.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tàrrega",
+                "gid": "ESP.6.3.8.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tornabous",
+                "gid": "ESP.6.3.8.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torregrossa",
+                "gid": "ESP.6.3.8.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vila-sana",
+                "gid": "ESP.6.3.8.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilagrassa",
+                "gid": "ESP.6.3.8.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova de Bellpuig",
+                "gid": "ESP.6.3.8.31_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (167)",
+            "gid": "ESP.6.3.9_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Belianes",
+                "gid": "ESP.6.3.9.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Biosca",
+                "gid": "ESP.6.3.9.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cervera",
+                "gid": "ESP.6.3.9.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ciutadilla",
+                "gid": "ESP.6.3.9.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Els Omells de na Gaia",
+                "gid": "ESP.6.3.9.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Els Plans de Sió",
+                "gid": "ESP.6.3.9.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Estaràs",
+                "gid": "ESP.6.3.9.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Granyanella",
+                "gid": "ESP.6.3.9.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Granyena de Segarra",
+                "gid": "ESP.6.3.9.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Guimerà",
+                "gid": "ESP.6.3.9.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Guissona",
+                "gid": "ESP.6.3.9.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ivorra",
+                "gid": "ESP.6.3.9.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Oluges",
+                "gid": "ESP.6.3.9.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Maldà",
+                "gid": "ESP.6.3.9.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Massoteres",
+                "gid": "ESP.6.3.9.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montoliu de Segarra",
+                "gid": "ESP.6.3.9.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montornès de Segarra",
+                "gid": "ESP.6.3.9.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Nalec",
+                "gid": "ESP.6.3.9.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ossó de Sió",
+                "gid": "ESP.6.3.9.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ribera d'Ondara",
+                "gid": "ESP.6.3.9.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sanaüja",
+                "gid": "ESP.6.3.9.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Guim de Freixenet",
+                "gid": "ESP.6.3.9.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Guim de la Plana",
+                "gid": "ESP.6.3.9.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Martí de Riucorb",
+                "gid": "ESP.6.3.9.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Ramon",
+                "gid": "ESP.6.3.9.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Talavera",
+                "gid": "ESP.6.3.9.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tarroja de Segarra",
+                "gid": "ESP.6.3.9.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torà",
+                "gid": "ESP.6.3.9.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torrefeta i Florejacs",
+                "gid": "ESP.6.3.9.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallbona de les Monges",
+                "gid": "ESP.6.3.9.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Verdú",
+                "gid": "ESP.6.3.9.31_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (168)",
+            "gid": "ESP.6.3.10_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Aitona",
+                "gid": "ESP.6.3.10.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Albatàrrec",
+                "gid": "ESP.6.3.10.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alcarràs",
+                "gid": "ESP.6.3.10.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alcoletge",
+                "gid": "ESP.6.3.10.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alfarràs",
+                "gid": "ESP.6.3.10.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alguaire",
+                "gid": "ESP.6.3.10.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Almacelles",
+                "gid": "ESP.6.3.10.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Almenar",
+                "gid": "ESP.6.3.10.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alpicat",
+                "gid": "ESP.6.3.10.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Artesa de Lleida",
+                "gid": "ESP.6.3.10.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Benavent de Segrià",
+                "gid": "ESP.6.3.10.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Corbins",
+                "gid": "ESP.6.3.10.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Alamús",
+                "gid": "ESP.6.3.10.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gimenells i el Pla de la Font",
+                "gid": "ESP.6.3.10.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Granja d'Escarp",
+                "gid": "ESP.6.3.10.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Portella",
+                "gid": "ESP.6.3.10.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Lleida",
+                "gid": "ESP.6.3.10.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Massalcoreig",
+                "gid": "ESP.6.3.10.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montoliu de Lleida",
+                "gid": "ESP.6.3.10.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Puigverd de Lleida",
+                "gid": "ESP.6.3.10.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rosselló",
+                "gid": "ESP.6.3.10.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Seròs",
+                "gid": "ESP.6.3.10.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Soses",
+                "gid": "ESP.6.3.10.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sudanell",
+                "gid": "ESP.6.3.10.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torre-serona",
+                "gid": "ESP.6.3.10.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torrefarrera",
+                "gid": "ESP.6.3.10.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torrelameu",
+                "gid": "ESP.6.3.10.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torres de Segre",
+                "gid": "ESP.6.3.10.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova de la Barca",
+                "gid": "ESP.6.3.10.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova de Segrià",
+                "gid": "ESP.6.3.10.30_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (30)",
+            "gid": "ESP.6.3.11_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "La Molsosa",
+                "gid": "ESP.6.3.11.1_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (35)",
+            "gid": "ESP.6.3.12_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Pinós",
+                "gid": "ESP.6.3.12.1_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tarragona",
+        "gid": "ESP.6.4_1",
+        "level": 2,
+        "children": [
+          {
+            "name": "n.a. (240)",
+            "gid": "ESP.6.4.1_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Conesa",
+                "gid": "ESP.6.4.1.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Forès",
+                "gid": "ESP.6.4.1.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Piles",
+                "gid": "ESP.6.4.1.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llorac",
+                "gid": "ESP.6.4.1.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Passanant",
+                "gid": "ESP.6.4.1.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pontils",
+                "gid": "ESP.6.4.1.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Querol",
+                "gid": "ESP.6.4.1.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Coloma de Queralt",
+                "gid": "ESP.6.4.1.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Savallà del Comtat",
+                "gid": "ESP.6.4.1.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallfogona de Riucorb",
+                "gid": "ESP.6.4.1.10_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (241)",
+            "gid": "ESP.6.4.2_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Aiguamúrcia",
+                "gid": "ESP.6.4.2.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Albinyana",
+                "gid": "ESP.6.4.2.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Banyeres del Penedès",
+                "gid": "ESP.6.4.2.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellvei",
+                "gid": "ESP.6.4.2.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bonastre",
+                "gid": "ESP.6.4.2.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Calafell",
+                "gid": "ESP.6.4.2.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Creixell",
+                "gid": "ESP.6.4.2.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cunit",
+                "gid": "ESP.6.4.2.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Montmell",
+                "gid": "ESP.6.4.2.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Vendrell",
+                "gid": "ESP.6.4.2.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Arboç",
+                "gid": "ESP.6.4.2.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Bisbal del Penedès",
+                "gid": "ESP.6.4.2.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Llorenç del Penedès",
+                "gid": "ESP.6.4.2.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Roda de Barà",
+                "gid": "ESP.6.4.2.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Jaume dels Domenys",
+                "gid": "ESP.6.4.2.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Oliva",
+                "gid": "ESP.6.4.2.16_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (242)",
+            "gid": "ESP.6.4.3_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Alcover",
+                "gid": "ESP.6.4.3.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alforja",
+                "gid": "ESP.6.4.3.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alió",
+                "gid": "ESP.6.4.3.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Almoster",
+                "gid": "ESP.6.4.3.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Altafulla",
+                "gid": "ESP.6.4.3.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Botarell",
+                "gid": "ESP.6.4.3.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bràfim",
+                "gid": "ESP.6.4.3.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabra del Camp",
+                "gid": "ESP.6.4.3.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cambrils",
+                "gid": "ESP.6.4.3.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Castellvell del Camp",
+                "gid": "ESP.6.4.3.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Colldejou",
+                "gid": "ESP.6.4.3.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Constantí",
+                "gid": "ESP.6.4.3.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Duesaigües",
+                "gid": "ESP.6.4.3.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Catllar",
+                "gid": "ESP.6.4.3.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Milà",
+                "gid": "ESP.6.4.3.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Morell",
+                "gid": "ESP.6.4.3.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Pla de Santa Maria",
+                "gid": "ESP.6.4.3.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Pont d'Armentera",
+                "gid": "ESP.6.4.3.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Rourell",
+                "gid": "ESP.6.4.3.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Els Garidells",
+                "gid": "ESP.6.4.3.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Els Pallaresos",
+                "gid": "ESP.6.4.3.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Figuerola del Camp",
+                "gid": "ESP.6.4.3.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Albiol",
+                "gid": "ESP.6.4.3.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Aleixar",
+                "gid": "ESP.6.4.3.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Argentera",
+                "gid": "ESP.6.4.3.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Masó",
+                "gid": "ESP.6.4.3.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Nou de Gaià",
+                "gid": "ESP.6.4.3.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Pobla de Mafumet",
+                "gid": "ESP.6.4.3.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Pobla de Montornès",
+                "gid": "ESP.6.4.3.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Riba",
+                "gid": "ESP.6.4.3.30_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Riera de Gaià",
+                "gid": "ESP.6.4.3.31_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Secuita",
+                "gid": "ESP.6.4.3.32_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Selva del Camp",
+                "gid": "ESP.6.4.3.33_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Les Borges del Camp",
+                "gid": "ESP.6.4.3.34_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Masllorenç",
+                "gid": "ESP.6.4.3.35_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Maspujols",
+                "gid": "ESP.6.4.3.36_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mont-roig del Camp",
+                "gid": "ESP.6.4.3.37_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montbrió del Camp",
+                "gid": "ESP.6.4.3.38_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montferri",
+                "gid": "ESP.6.4.3.39_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Nulles",
+                "gid": "ESP.6.4.3.40_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Perafort",
+                "gid": "ESP.6.4.3.41_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pratdip",
+                "gid": "ESP.6.4.3.42_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Puigpelat",
+                "gid": "ESP.6.4.3.43_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Renau",
+                "gid": "ESP.6.4.3.44_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Reus",
+                "gid": "ESP.6.4.3.45_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riudecanyes",
+                "gid": "ESP.6.4.3.46_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riudecols",
+                "gid": "ESP.6.4.3.47_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riudoms",
+                "gid": "ESP.6.4.3.48_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rodonyà",
+                "gid": "ESP.6.4.3.49_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Salomó",
+                "gid": "ESP.6.4.3.50_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Salou",
+                "gid": "ESP.6.4.3.51_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tarragona",
+                "gid": "ESP.6.4.3.52_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torredembarra",
+                "gid": "ESP.6.4.3.53_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallmoll",
+                "gid": "ESP.6.4.3.54_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Valls",
+                "gid": "ESP.6.4.3.55_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vandellòs i l'Hospitalet de l'In",
+                "gid": "ESP.6.4.3.56_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vespella de Gaià",
+                "gid": "ESP.6.4.3.57_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vila-rodona",
+                "gid": "ESP.6.4.3.58_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vila-seca",
+                "gid": "ESP.6.4.3.59_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilabella",
+                "gid": "ESP.6.4.3.60_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilallonga del Camp",
+                "gid": "ESP.6.4.3.61_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova d'Escornalbou",
+                "gid": "ESP.6.4.3.62_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilaplana",
+                "gid": "ESP.6.4.3.63_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vinyols i els Arcs",
+                "gid": "ESP.6.4.3.64_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (243)",
+            "gid": "ESP.6.4.4_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Arbolí",
+                "gid": "ESP.6.4.4.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bellmunt del Priorat",
+                "gid": "ESP.6.4.4.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cabacés",
+                "gid": "ESP.6.4.4.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Capafonts",
+                "gid": "ESP.6.4.4.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Capçanes",
+                "gid": "ESP.6.4.4.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Cornudella de Montsant",
+                "gid": "ESP.6.4.4.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Lloar",
+                "gid": "ESP.6.4.4.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Masroig",
+                "gid": "ESP.6.4.4.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Molar",
+                "gid": "ESP.6.4.4.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Els Guiamets",
+                "gid": "ESP.6.4.4.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Falset",
+                "gid": "ESP.6.4.4.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gratallops",
+                "gid": "ESP.6.4.4.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Bisbal de Falset",
+                "gid": "ESP.6.4.4.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Febró",
+                "gid": "ESP.6.4.4.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Figuera",
+                "gid": "ESP.6.4.4.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Morera de Montsant",
+                "gid": "ESP.6.4.4.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Palma d'Ebre",
+                "gid": "ESP.6.4.4.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Torre de Fontaubella",
+                "gid": "ESP.6.4.4.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Vilella Alta",
+                "gid": "ESP.6.4.4.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Vilella Baixa",
+                "gid": "ESP.6.4.4.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Marçà",
+                "gid": "ESP.6.4.4.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Margalef",
+                "gid": "ESP.6.4.4.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mont-ral",
+                "gid": "ESP.6.4.4.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Poboleda",
+                "gid": "ESP.6.4.4.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Porrera",
+                "gid": "ESP.6.4.4.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pradell de la Teixeta",
+                "gid": "ESP.6.4.4.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Prades",
+                "gid": "ESP.6.4.4.27_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Torroja del Priorat",
+                "gid": "ESP.6.4.4.28_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ulldemolins",
+                "gid": "ESP.6.4.4.29_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilanova de Prades",
+                "gid": "ESP.6.4.4.30_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (244)",
+            "gid": "ESP.6.4.5_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Ascó",
+                "gid": "ESP.6.4.5.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Benissanet",
+                "gid": "ESP.6.4.5.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Flix",
+                "gid": "ESP.6.4.5.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Garcia",
+                "gid": "ESP.6.4.5.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ginestar",
+                "gid": "ESP.6.4.5.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Torre de l'Espanyol",
+                "gid": "ESP.6.4.5.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Miravet",
+                "gid": "ESP.6.4.5.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Móra d'Ebre",
+                "gid": "ESP.6.4.5.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Móra la Nova",
+                "gid": "ESP.6.4.5.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Riba-roja d'Ebre",
+                "gid": "ESP.6.4.5.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tivissa",
+                "gid": "ESP.6.4.5.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vinebre",
+                "gid": "ESP.6.4.5.12_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (245)",
+            "gid": "ESP.6.4.6_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Arnes",
+                "gid": "ESP.6.4.6.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Batea",
+                "gid": "ESP.6.4.6.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Bot",
+                "gid": "ESP.6.4.6.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Caseres",
+                "gid": "ESP.6.4.6.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Corbera d'Ebre",
+                "gid": "ESP.6.4.6.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Pinell de Brai",
+                "gid": "ESP.6.4.6.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Gandesa",
+                "gid": "ESP.6.4.6.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Horta de Sant Joan",
+                "gid": "ESP.6.4.6.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Fatarella",
+                "gid": "ESP.6.4.6.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Pobla de Massaluca",
+                "gid": "ESP.6.4.6.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Prat de Comte",
+                "gid": "ESP.6.4.6.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilalba dels Arcs",
+                "gid": "ESP.6.4.6.12_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (246)",
+            "gid": "ESP.6.4.7_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Alcanar",
+                "gid": "ESP.6.4.7.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Aldover",
+                "gid": "ESP.6.4.7.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Alfara de Carles",
+                "gid": "ESP.6.4.7.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Amposta",
+                "gid": "ESP.6.4.7.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Benifallet",
+                "gid": "ESP.6.4.7.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Camarles",
+                "gid": "ESP.6.4.7.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Deltebre",
+                "gid": "ESP.6.4.7.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "El Perelló",
+                "gid": "ESP.6.4.7.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Freginals",
+                "gid": "ESP.6.4.7.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Godall",
+                "gid": "ESP.6.4.7.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Aldea",
+                "gid": "ESP.6.4.7.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Ametlla de Mar",
+                "gid": "ESP.6.4.7.12_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Ampolla",
+                "gid": "ESP.6.4.7.13_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Galera",
+                "gid": "ESP.6.4.7.14_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "La Sénia",
+                "gid": "ESP.6.4.7.15_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Mas de Barberans",
+                "gid": "ESP.6.4.7.16_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Masdenverge",
+                "gid": "ESP.6.4.7.17_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Paüls",
+                "gid": "ESP.6.4.7.18_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rasquera",
+                "gid": "ESP.6.4.7.19_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Roquetes",
+                "gid": "ESP.6.4.7.20_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Carles de la Ràpita",
+                "gid": "ESP.6.4.7.21_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sant Jaume d'Enveja",
+                "gid": "ESP.6.4.7.22_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Santa Bàrbara",
+                "gid": "ESP.6.4.7.23_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tivenys",
+                "gid": "ESP.6.4.7.24_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Tortosa",
+                "gid": "ESP.6.4.7.25_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Ulldecona",
+                "gid": "ESP.6.4.7.26_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Xerta",
+                "gid": "ESP.6.4.7.27_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "n.a. (247)",
+            "gid": "ESP.6.4.8_1",
+            "level": 3,
+            "children": [
+              {
+                "name": "Barberà de la Conca",
+                "gid": "ESP.6.4.8.1_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Blancafort",
+                "gid": "ESP.6.4.8.2_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "L'Espluga de Francolí| Espluga d",
+                "gid": "ESP.6.4.8.3_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Montblanc",
+                "gid": "ESP.6.4.8.4_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Pira",
+                "gid": "ESP.6.4.8.5_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Rocafort de Queralt",
+                "gid": "ESP.6.4.8.6_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Sarral",
+                "gid": "ESP.6.4.8.7_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Senan",
+                "gid": "ESP.6.4.8.8_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Solivella",
+                "gid": "ESP.6.4.8.9_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vallclara",
+                "gid": "ESP.6.4.8.10_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vilaverd",
+                "gid": "ESP.6.4.8.11_1",
+                "level": 4,
+                "children": []
+              },
+              {
+                "name": "Vimbodí",
+                "gid": "ESP.6.4.8.12_1",
+                "level": 4,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "maxLevel": 4,
+  "nodeCount": 1000
+}

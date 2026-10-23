@@ -1,0 +1,758 @@
+[
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp /FoCMakeFiles\\gadm_boundaries_static.dir\\src\\gpkg_reader.cpp.obj /FdCMakeFiles\\gadm_boundaries_static.dir\\gadm_boundaries_static.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src\\gpkg_reader.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/gpkg_reader.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/CMakeFiles/gadm_boundaries_static.dir/src/gpkg_reader.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp /FoCMakeFiles\\gadm_boundaries_static.dir\\src\\geo_merge.cpp.obj /FdCMakeFiles\\gadm_boundaries_static.dir\\gadm_boundaries_static.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src\\geo_merge.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/geo_merge.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/CMakeFiles/gadm_boundaries_static.dir/src/geo_merge.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp /FoCMakeFiles\\gadm_boundaries_static.dir\\src\\ghs_enrich.cpp.obj /FdCMakeFiles\\gadm_boundaries_static.dir\\gadm_boundaries_static.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src\\ghs_enrich.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/ghs_enrich.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/CMakeFiles/gadm_boundaries_static.dir/src/ghs_enrich.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp /FoCMakeFiles\\gadm_boundaries_static.dir\\src\\geo_display.cpp.obj /FdCMakeFiles\\gadm_boundaries_static.dir\\gadm_boundaries_static.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src\\geo_display.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/geo_display.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/CMakeFiles/gadm_boundaries_static.dir/src/geo_display.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -Dgadm_boundaries_EXPORTS -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp /FoCMakeFiles\\gadm_boundaries.dir\\src\\gpkg_reader.cpp.obj /FdCMakeFiles\\gadm_boundaries.dir\\ /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src\\gpkg_reader.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/gpkg_reader.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/CMakeFiles/gadm_boundaries.dir/src/gpkg_reader.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -Dgadm_boundaries_EXPORTS -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp /FoCMakeFiles\\gadm_boundaries.dir\\src\\geo_merge.cpp.obj /FdCMakeFiles\\gadm_boundaries.dir\\ /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src\\geo_merge.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/geo_merge.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/CMakeFiles/gadm_boundaries.dir/src/geo_merge.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -Dgadm_boundaries_EXPORTS -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp /FoCMakeFiles\\gadm_boundaries.dir\\src\\ghs_enrich.cpp.obj /FdCMakeFiles\\gadm_boundaries.dir\\ /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src\\ghs_enrich.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/ghs_enrich.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/CMakeFiles/gadm_boundaries.dir/src/ghs_enrich.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -Dgadm_boundaries_EXPORTS -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp /FoCMakeFiles\\gadm_boundaries.dir\\src\\geo_display.cpp.obj /FdCMakeFiles\\gadm_boundaries.dir\\ /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src\\geo_display.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/geo_display.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/CMakeFiles/gadm_boundaries.dir/src/geo_display.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\cli11-src\\include -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /W4 /permissive- /utf-8 -openmp /FoCMakeFiles\\boundaries.dir\\src\\main.cpp.obj /FdCMakeFiles\\boundaries.dir\\ /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src\\main.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/src/main.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/CMakeFiles/boundaries.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /utf-8 /Fopackages\\logger\\CMakeFiles\\logger.dir\\src\\logger.cpp.obj /Fdpackages\\logger\\CMakeFiles\\logger.dir\\logger.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\src\\logger.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/packages/logger/src/logger.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/packages/logger/CMakeFiles/logger.dir/src/logger.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Zc:__cplusplus /utf-8 /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\spdlog.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\src\\spdlog.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-src/src/spdlog.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/spdlog.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Zc:__cplusplus /utf-8 /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\stdout_sinks.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\src\\stdout_sinks.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-src/src/stdout_sinks.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Zc:__cplusplus /utf-8 /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\color_sinks.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\src\\color_sinks.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-src/src/color_sinks.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/color_sinks.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Zc:__cplusplus /utf-8 /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\file_sinks.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\src\\file_sinks.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-src/src/file_sinks.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/file_sinks.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Zc:__cplusplus /utf-8 /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\async.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\src\\async.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-src/src/async.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/async.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Zc:__cplusplus /utf-8 /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\cfg.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\src\\cfg.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-src/src/cfg.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/cfg.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DSPDLOG_COMPILED_LIB -DSPDLOG_FWRITE_UNLOCKED -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Zc:__cplusplus /utf-8 /Fo_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\src\\bundled_fmtlib_format.cpp.obj /Fd_deps\\spdlog-build\\CMakeFiles\\spdlog.dir\\spdlog.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\src\\bundled_fmtlib_format.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-src/src/bundled_fmtlib_format.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/spdlog-build/CMakeFiles/spdlog.dir/src/bundled_fmtlib_format.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fopackages\\json\\CMakeFiles\\json.dir\\src\\json.cpp.obj /Fdpackages\\json\\CMakeFiles\\json.dir\\json.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\src\\json.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/packages/json/src/json.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/packages/json/CMakeFiles/json.dir/src/json.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fotests\\CMakeFiles\\test_pip.dir\\unit\\test_pip.cpp.obj /Fdtests\\CMakeFiles\\test_pip.dir\\ /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\tests\\unit\\test_pip.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/tests/unit/test_pip.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/tests/CMakeFiles/test_pip.dir/unit/test_pip.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAS_OPENMP=1 -DSPDLOG_COMPILED_LIB -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\src -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\logger\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\spdlog-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\packages\\json\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\rapidjson-src\\include -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include -external:IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\vcpkg_installed\\x64-windows\\include\\geos -external:W0 /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /utf-8 -openmp /Fotests\\CMakeFiles\\test_geo_display.dir\\unit\\test_geo_display.cpp.obj /Fdtests\\CMakeFiles\\test_geo_display.dir\\ /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\tests\\unit\\test_geo_display.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/tests/unit/test_geo_display.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/tests/CMakeFiles/test_geo_display.dir/unit/test_geo_display.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\catch_chronometer.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\catch_chronometer.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/benchmark/catch_chronometer.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\detail\\catch_analyse.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\detail\\catch_analyse.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_analyse.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\detail\\catch_benchmark_function.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\detail\\catch_benchmark_function.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_benchmark_function.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\detail\\catch_run_for_at_least.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\detail\\catch_run_for_at_least.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_run_for_at_least.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\benchmark\\detail\\catch_stats.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\benchmark\\detail\\catch_stats.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\generators\\catch_generator_exception.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\generators\\catch_generator_exception.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/generators/catch_generator_exception.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\generators\\catch_generators.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\generators\\catch_generators.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/generators/catch_generators.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\generators\\catch_generators_random.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\generators\\catch_generators_random.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/generators/catch_generators_random.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_automake.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_automake.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_automake.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_common_base.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_common_base.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_common_base.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_compact.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_compact.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_compact.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_console.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_console.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_console.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_cumulative_base.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_cumulative_base.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_cumulative_base.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_event_listener.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_event_listener.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_event_listener.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_helpers.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_helpers.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_helpers.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_json.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_json.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_json.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_junit.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_junit.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_junit.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_multi.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_multi.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_multi.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_registrars.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_registrars.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_registrars.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_sonarqube.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_sonarqube.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_sonarqube.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_streaming_base.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_streaming_base.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_streaming_base.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_tap.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_tap.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_tap.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_teamcity.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_teamcity.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_teamcity.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\reporters\\catch_reporter_xml.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\reporters\\catch_reporter_xml.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/reporters/catch_reporter_xml.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_capture.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_capture.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_capture.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_config.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_config.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_config.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_exception.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_exception.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_exception.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_generatortracker.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_generatortracker.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_generatortracker.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_registry_hub.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_registry_hub.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_registry_hub.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_reporter.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_reporter.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_reporter_factory.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_reporter_factory.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_reporter_factory.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\interfaces\\catch_interfaces_testcase.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\interfaces\\catch_interfaces_testcase.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/interfaces/catch_interfaces_testcase.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_approx.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_approx.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_approx.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_assertion_result.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_assertion_result.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_assertion_result.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_config.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_config.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_config.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_get_random_seed.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_get_random_seed.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_get_random_seed.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_message.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_message.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_message.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_registry_hub.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_registry_hub.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_registry_hub.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_session.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_session.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_session.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_tag_alias_autoregistrar.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_tag_alias_autoregistrar.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_tag_alias_autoregistrar.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_test_case_info.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_test_case_info.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_test_case_info.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_test_spec.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_test_spec.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_test_spec.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_timer.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_timer.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_timer.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_tostring.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_tostring.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_tostring.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_totals.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_totals.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_totals.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_translate_exception.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_translate_exception.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_translate_exception.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\catch_version.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\catch_version.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/catch_version.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_assertion_handler.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_assertion_handler.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_assertion_handler.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_case_insensitive_comparisons.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_case_insensitive_comparisons.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_case_insensitive_comparisons.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_clara.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_clara.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_clara.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_commandline.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_commandline.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_commandline.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_console_colour.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_console_colour.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_console_colour.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_context.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_context.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_context.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_debug_console.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_debug_console.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_debug_console.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_debugger.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_debugger.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_debugger.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_decomposer.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_decomposer.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_decomposer.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_enforce.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_enforce.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_enforce.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_enum_values_registry.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_enum_values_registry.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_enum_values_registry.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_errno_guard.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_errno_guard.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_errno_guard.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_exception_translator_registry.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_exception_translator_registry.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_exception_translator_registry.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_fatal_condition_handler.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_fatal_condition_handler.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_fatal_condition_handler.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_floating_point_helpers.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_floating_point_helpers.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_floating_point_helpers.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_getenv.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_getenv.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_getenv.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_istream.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_istream.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_istream.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_jsonwriter.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_jsonwriter.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_jsonwriter.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_lazy_expr.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_lazy_expr.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_lazy_expr.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_leak_detector.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_leak_detector.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_leak_detector.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_list.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_list.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_list.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_message_info.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_message_info.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_message_info.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_output_redirect.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_output_redirect.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_output_redirect.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_parse_numbers.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_parse_numbers.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_parse_numbers.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_polyfills.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_polyfills.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_polyfills.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_random_number_generator.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_random_number_generator.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_random_seed_generation.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_random_seed_generation.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_random_seed_generation.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_reporter_registry.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_reporter_registry.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_reporter_registry.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_reporter_spec_parser.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_reporter_spec_parser.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_reporter_spec_parser.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_reusable_string_stream.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_reusable_string_stream.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_reusable_string_stream.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_run_context.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_run_context.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_run_context.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_section.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_section.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_section.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_singletons.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_singletons.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_singletons.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_source_line_info.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_source_line_info.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_source_line_info.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_startup_exception_registry.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_startup_exception_registry.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_startup_exception_registry.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_stdstreams.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_stdstreams.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_stdstreams.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_string_manip.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_string_manip.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_string_manip.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_stringref.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_stringref.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_stringref.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_tag_alias_registry.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_tag_alias_registry.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_tag_alias_registry.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_case_info_hasher.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_case_info_hasher.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_info_hasher.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_case_registry_impl.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_case_registry_impl.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_registry_impl.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_case_tracker.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_case_tracker.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_test_case_tracker.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_failure_exception.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_failure_exception.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_test_failure_exception.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_registry.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_registry.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_test_registry.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_test_spec_parser.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_test_spec_parser.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_test_spec_parser.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_textflow.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_textflow.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_textflow.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_uncaught_exceptions.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_uncaught_exceptions.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_uncaught_exceptions.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_wildcard_pattern.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_wildcard_pattern.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_wildcard_pattern.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\internal\\catch_xmlwriter.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_xmlwriter.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_xmlwriter.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_container_properties.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_container_properties.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_container_properties.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_exception.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_exception.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_exception.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_floating_point.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_floating_point.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_floating_point.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_predicate.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_predicate.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_predicate.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_quantifiers.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_quantifiers.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_quantifiers.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_string.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_string.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_string.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\catch_matchers_templated.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\catch_matchers_templated.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/matchers/catch_matchers_templated.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\catch2\\matchers\\internal\\catch_matchers_impl.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2.dir\\Catch2.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\matchers\\internal\\catch_matchers_impl.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/matchers/internal/catch_matchers_impl.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.obj"
+},
+{
+  "directory": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build",
+  "command": "C:\\PROGRA~1\\MICROS~2\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1451~1.362\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\.. -IC:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-build\\generated-includes /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD /Fo_deps\\catch2-build\\src\\CMakeFiles\\Catch2WithMain.dir\\catch2\\internal\\catch_main.cpp.obj /Fd_deps\\catch2-build\\src\\CMakeFiles\\Catch2WithMain.dir\\Catch2WithMain.pdb /FS -c C:\\Users\\zx\\Desktop\\polymech\\pm-pics\\packages\\gadm\\cpp\\build\\_deps\\catch2-src\\src\\catch2\\internal\\catch_main.cpp",
+  "file": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-src/src/catch2/internal/catch_main.cpp",
+  "output": "C:/Users/zx/Desktop/polymech/pm-pics/packages/gadm/cpp/build/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.obj"
+}
+]

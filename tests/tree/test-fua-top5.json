@@ -1,0 +1,92 @@
+[
+  {
+    "eFUA_ID": 5129,
+    "name": "Tokyo",
+    "pop2015": 36471786.90712099,
+    "country": "Japan",
+    "geometryInfo": {
+      "type": "MultiPolygon",
+      "polygonCount": 24,
+      "firstCoord": [
+        12248000,
+        4367000
+      ]
+    },
+    "properties": {
+      "UC_num": 5,
+      "FUA_area": 11971
+    }
+  },
+  {
+    "eFUA_ID": 7466,
+    "name": "Delhi [New Delhi]",
+    "pop2015": 30076707.751785226,
+    "country": "India",
+    "geometryInfo": {
+      "type": "MultiPolygon",
+      "polygonCount": 1,
+      "firstCoord": [
+        7098000,
+        3549000
+      ]
+    },
+    "properties": {
+      "UC_num": 8,
+      "FUA_area": 5569
+    }
+  },
+  {
+    "eFUA_ID": 4897,
+    "name": "Jakarta",
+    "pop2015": 29753582.446153075,
+    "country": "Indonesia",
+    "geometryInfo": {
+      "type": "MultiPolygon",
+      "polygonCount": 2,
+      "firstCoord": [
+        10643000,
+        -743000
+      ]
+    },
+    "properties": {
+      "UC_num": 1,
+      "FUA_area": 5292
+    }
+  },
+  {
+    "eFUA_ID": 10097,
+    "name": "Shanghai",
+    "pop2015": 26920218.16448322,
+    "country": "China",
+    "geometryInfo": {
+      "type": "MultiPolygon",
+      "polygonCount": 3,
+      "firstCoord": [
+        11057000,
+        3821000
+      ]
+    },
+    "properties": {
+      "UC_num": 7,
+      "FUA_area": 5878
+    }
+  },
+  {
+    "eFUA_ID": 2845,
+    "name": "Quezon City [Manila]",
+    "pop2015": 24958274.419444025,
+    "country": "Philippines",
+    "geometryInfo": {
+      "type": "MultiPolygon",
+      "polygonCount": 1,
+      "firstCoord": [
+        11861000,
+        1863000
+      ]
+    },
+    "properties": {
+      "UC_num": 14,
+      "FUA_area": 4873
+    }
+  }
+]

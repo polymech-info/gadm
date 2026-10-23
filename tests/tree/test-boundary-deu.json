@@ -1,0 +1,14 @@
+{
+  "featureCount": 1,
+  "geometryType": "MultiPolygon",
+  "polygonCount": 90,
+  "firstCoord": [
+    5.86625051600015,
+    51.051204682000105
+  ],
+  "properties": {
+    "NAME_0": "Germany",
+    "GID_0": "DEU",
+    "isOuter": true
+  }
+}
