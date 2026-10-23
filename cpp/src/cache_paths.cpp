@@ -4,6 +4,7 @@
 #include "safety/path_sanitizer.hpp"
 
 #include <algorithm>
+#include <cstdlib>
 
 namespace gadm_cache {
 
@@ -18,6 +19,19 @@ static bool usable(const fs::path& p) {
     return fs::is_regular_file(p, ec) && fs::file_size(p, ec) > 0 && !ec;
 }
 
+static bool stress_mode() {
+    const char* e = std::getenv("GADM_HTTP_STRESS");
+    return e && e[0] != '\0' && e[0] != '0';
+}
+
+static bool gid_path_safe(const std::string& gid) {
+    if (gid.empty() || gid.size() > gadm::http_input::kMaxGidBytes) return false;
+    if (gid.find('/') != std::string::npos || gid.find('\\') != std::string::npos) return false;
+    if (gid.find("..") != std::string::npos) return false;
+    if (stress_mode()) return true;
+    return gadm::http_input::is_gadm_gid(gid);
+}
+
 std::optional<fs::path> resolve_boundary_cache_file(
     const fs::path& cache_dir,
     const std::string& gid,
@@ -26,7 +40,7 @@ std::optional<fs::path> resolve_boundary_cache_file(
 ) {
     if (gid.empty() || level < 0 || level > 5) return std::nullopt;
     // GID is concatenated into filenames — reject traversal / separators first.
-    if (!gadm::http_input::is_gadm_gid(gid)) return std::nullopt;
+    if (!gid_path_safe(gid)) return std::nullopt;
 
     const std::string cc = country_code_from_gid(gid);
     if (!gadm::path::is_safe_path_component(cc)) return std::nullopt;

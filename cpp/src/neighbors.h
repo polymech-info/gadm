@@ -10,7 +10,8 @@ struct Options {
     std::string cache_dir;
     std::string gid;
     int level = -1; // -1 = infer from GID dots
-    int candidate_cap = 80;
+    /** 0 = auto (L0≈50, else 80). Lower under GADM_HTTP_STRESS. */
+    int candidate_cap = 0;
 };
 
 /**

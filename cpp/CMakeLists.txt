@@ -51,6 +51,7 @@ set(GADM_LIB_SOURCES
     src/cache_paths.cpp
     src/neighbors.cpp
     src/names_search.cpp
+    src/pop_heat.cpp
     src/safety/path_sanitizer.cpp
     src/safety/http_input.cpp
 )
@@ -63,6 +64,7 @@ set(GADM_PUBLIC_HEADERS
     src/cache_paths.h
     src/neighbors.h
     src/names_search.h
+    src/pop_heat.h
     src/pip.h
     src/types.h
     src/safety/string_utils.hpp

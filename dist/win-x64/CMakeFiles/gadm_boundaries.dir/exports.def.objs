@@ -5,5 +5,6 @@ CMakeFiles\gadm_boundaries.dir\src\geo_display.cpp.obj
 CMakeFiles\gadm_boundaries.dir\src\cache_paths.cpp.obj
 CMakeFiles\gadm_boundaries.dir\src\neighbors.cpp.obj
 CMakeFiles\gadm_boundaries.dir\src\names_search.cpp.obj
+CMakeFiles\gadm_boundaries.dir\src\pop_heat.cpp.obj
 CMakeFiles\gadm_boundaries.dir\src\safety\path_sanitizer.cpp.obj
 CMakeFiles\gadm_boundaries.dir\src\safety\http_input.cpp.obj

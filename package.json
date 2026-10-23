@@ -50,6 +50,8 @@
         "boundaries:cpp:linux:all": "./dist/linux-x64/boundaries --country=all",
         "boundaries:cpp:linux:serve": "./dist/linux-x64/boundaries serve --host 127.0.0.1 --port 3340 --cache-dir cache/gadm --gpkg data/gadm_410.gpkg",
         "stress:gadm-http": "node scripts/stress-gadm-http.mjs --viewport",
+        "test:pan-boundaries": "node scripts/pan-boundaries.mjs --debug",
+        "test:pan-boundaries:node": "node scripts/pan-boundaries.mjs --via-node --debug",
         "refresh": "npx tsx scripts/refresh-database.ts",
         "migrate-cache": "npx tsx scripts/migrate-cache.ts",
         "smooth-coast-cache": "npx tsx scripts/smooth-coast-cache.ts",
